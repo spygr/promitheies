@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T17:10:37+00:00",
+ "generated": "2026-10-11T17:13:14+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -13,13 +13,12 @@
    "name": "ΚΗΜΔΗΣ",
    "ok": false,
    "count": 0,
-   "error": "UnicodeEncodeError: 'latin-1' codec can't encode characters in position 31-39: ordinal not in range(256)"
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice?page=2"
   },
   {
    "name": "Διαύγεια",
-   "ok": false,
-   "count": 0,
-   "error": "UnicodeEncodeError: 'latin-1' codec can't encode characters in position 31-39: ordinal not in range(256)"
+   "ok": true,
+   "count": 0
   }
  ],
  "notices": []
