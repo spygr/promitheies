@@ -158,6 +158,8 @@ async function load() {
   if (DATA.generated) {
     $("#updated").textContent = "Τελευταία ενημέρωση: " + new Date(DATA.generated).toLocaleString("el-GR") +
       " · " + DATA.notices.length + " προκηρύξεις αποθηκευμένες";
+  } else if (!DATA.generated && $("#updated").textContent === "Φόρτωση…") {
+    $("#updated").textContent = "Η αναζήτηση δεν έχει τρέξει ακόμα. Τρέξε το workflow στο GitHub (Actions → Run workflow).";
   }
   $("#warnings").innerHTML = (DATA.sources || []).filter(s => !s.ok)
     .map(s => `<div class="warn">⚠ Η πηγή «${html(s.name)}» απέτυχε: ${html(s.error || "")}</div>`).join("");
