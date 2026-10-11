@@ -1,6 +1,26 @@
 {
- "generated": null,
- "keywords": ["ΠΕΑ", "ενεργειακ* πιστοποιητικ*", "πιστοποιητικ* ενεργειακ*", "ΥΔΕ", "υπεύθυνη δήλωση ηλεκτρολογ*", "φωτοβολταϊκ*"],
- "sources": [],
+ "generated": "2026-10-11T17:10:37+00:00",
+ "keywords": [
+  "ΠΕΑ",
+  "ενεργειακ* πιστοποιητικ*",
+  "πιστοποιητικ* ενεργειακ*",
+  "ΥΔΕ",
+  "υπεύθυνη δήλωση ηλεκτρολογ*",
+  "φωτοβολταϊκ*"
+ ],
+ "sources": [
+  {
+   "name": "ΚΗΜΔΗΣ",
+   "ok": false,
+   "count": 0,
+   "error": "UnicodeEncodeError: 'latin-1' codec can't encode characters in position 31-39: ordinal not in range(256)"
+  },
+  {
+   "name": "Διαύγεια",
+   "ok": false,
+   "count": 0,
+   "error": "UnicodeEncodeError: 'latin-1' codec can't encode characters in position 31-39: ordinal not in range(256)"
+  }
+ ],
  "notices": []
 }
