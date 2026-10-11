@@ -29,6 +29,16 @@ SESSION.headers.update({
 })
 
 DEBUG = False
+DIAG = {}  # διαγνωστικά ανά πηγή: πόσα αποτελέσματα επέστρεψε το API, δείγμα, νεότερη ημερομηνία
+
+
+def diag(name, n, sample=None, newest=None):
+    d = DIAG.setdefault(name, {"fetched": 0})
+    d["fetched"] += n
+    if sample is not None and "sample" not in d:
+        d["sample"] = json.dumps(sample, ensure_ascii=False)[:700]
+    if newest and newest.isoformat() > d.get("newest", ""):
+        d["newest"] = newest.isoformat()
 
 
 # ---------------------------------------------------------------- κείμενο
@@ -140,17 +150,23 @@ def fetch_kimdis(cfg, terms, since, match):
                 body = {"title": term}
                 body.update(cfg.get("request_extra", {}))
                 r = SESSION.post(f"{base}/{endpoint}", params={"page": page}, json=body, timeout=TIMEOUT)
+                if r.status_code == 404 and page > 0:
+                    break  # δεν υπάρχουν άλλες σελίδες
                 r.raise_for_status()
                 data = r.json()
                 if page == 0:
                     dump_debug(f"kimdis/{endpoint}/{term}", data)
                 items = data.get("content") if isinstance(data, dict) else data
                 if not items:
+                    diag("ΚΗΜΔΗΣ", 0, data)
                     break
+                diag("ΚΗΜΔΗΣ", len(items), items[0])
                 for it in items:
                     title = as_text(pick(it, "title", "subject", "name"))
                     published = parse_date(pick(it, "publishedDate", "publishDate", "submissionDate",
                                                 "dateCreated", "createdDate", "date"))
+                    if published:
+                        diag("ΚΗΜΔΗΣ", 0, None, published)
                     if published and published < since:
                         continue
                     matched = match(title)
@@ -209,6 +225,7 @@ def fetch_diavgeia(cfg, terms, since, today, match):
             if page == 0:
                 dump_debug(f"diavgeia/{term}", data)
             decisions = data.get("decisions", [])
+            diag("Διαύγεια", len(decisions), decisions[0] if decisions else data)
             for d in decisions:
                 subject = as_text(d.get("subject"))
                 matched = match(subject)
@@ -300,10 +317,11 @@ def run():
         try:
             found = fn()
             fresh.extend(found)
-            status.append({"name": name, "ok": True, "count": len(found)})
+            status.append({"name": name, "ok": True, "count": len(found), **DIAG.get(name, {})})
             print(f"{name}: {len(found)} αποτελέσματα")
         except Exception as e:  # μια πηγή που αποτυγχάνει δεν πρέπει να χαλάει τις υπόλοιπες
-            status.append({"name": name, "ok": False, "count": 0, "error": f"{type(e).__name__}: {e}"[:300]})
+            status.append({"name": name, "ok": False, "count": 0, "error": f"{type(e).__name__}: {e}"[:300],
+                           **DIAG.get(name, {})})
             print(f"{name}: ΣΦΑΛΜΑ {e}", file=sys.stderr)
 
     if src.get("kimdis", {}).get("enabled", True):
