@@ -1,0 +1,27 @@
+{
+  "days_back": 3,
+  "retention_days": 120,
+  "kimdis": {
+    "enabled": true,
+    "base_url": "https://cerpp.eprocurement.gov.gr/khmdhs-opendata",
+    "endpoints": ["notice", "auction"],
+    "max_pages": 3,
+    "request_extra": {}
+  },
+  "diavgeia": {
+    "enabled": true,
+    "base_url": "https://diavgeia.gov.gr/opendata",
+    "max_pages": 5,
+    "subject_must_contain_any": [
+      "προκηρυξ*", "διακηρυξ*", "προσκληση*", "διαγωνισμ*",
+      "ενδιαφεροντος", "προσφορ*", "συνοπτικ*"
+    ]
+  },
+  "sites": [
+    {
+      "name": "ΠΑΡΑΔΕΙΓΜΑ - άλλαξε ή διέγραψε (enabled: false)",
+      "url": "https://www.example.gr/diagwnismoi",
+      "enabled": false
+    }
+  ]
+}

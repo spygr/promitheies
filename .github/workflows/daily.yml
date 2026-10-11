@@ -1,0 +1,42 @@
+name: Καθημερινή αναζήτηση προκηρύξεων
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # κάθε μέρα 05:00 UTC (07:00-08:00 ώρα Ελλάδας)
+  workflow_dispatch:       # χειροκίνητο τρέξιμο (και από το κουμπί του site)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Εγκατάσταση εξαρτήσεων
+        run: pip install -r requirements.txt
+
+      - name: Αναζήτηση
+        run: python scraper/scrape.py
+
+      - name: Αποθήκευση αποτελεσμάτων
+        run: |
+          git config user.name "promithies-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "Καμία αλλαγή"
+          else
+            git commit -m "Ενημέρωση προκηρύξεων $(date -u +%Y-%m-%d)"
+            git push
+          fi

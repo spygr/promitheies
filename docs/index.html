@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Προκηρύξεις Radar</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --ink: #1c2330; --muted: #667085; --line: #e3e6ec;
+    --accent: #0b6e4f; --accent-soft: #e2f3ec; --warn: #b54708; --warn-soft: #fef0dc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #11151c; --card: #1a202b; --ink: #e8ebf1; --muted: #98a2b3; --line: #2a3242;
+            --accent: #4fc39a; --accent-soft: #17332a; --warn: #f5a35b; --warn-soft: #3a2a14; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.4rem; margin: 8px 0 2px; }
+  .sub { color: var(--muted); font-size: .9rem; margin-bottom: 14px; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  input[type=text], input[type=password] { flex: 1; min-width: 160px; padding: 10px 12px; font: inherit; color: var(--ink);
+         background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+  button { padding: 10px 14px; font: inherit; border: 0; border-radius: 8px; background: var(--accent); color: #fff; cursor: pointer; }
+  button.ghost { background: transparent; color: var(--accent); border: 1px solid var(--line); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .chip { padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg);
+          font-size: .85rem; cursor: pointer; user-select: none; }
+  .chip.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+  .chip.local::after { content: " ·τοπικό"; color: var(--muted); font-size: .75rem; }
+  .chip .x { margin-left: 6px; color: var(--muted); }
+  label.toggle { display: flex; gap: 6px; align-items: center; font-size: .9rem; color: var(--muted); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
+  .card a.t { color: var(--ink); font-weight: 600; text-decoration: none; }
+  .card a.t:hover { text-decoration: underline; }
+  .meta { color: var(--muted); font-size: .85rem; margin-top: 4px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .badge { font-size: .72rem; padding: 2px 8px; border-radius: 999px; background: var(--accent); color: #fff; margin-right: 6px; vertical-align: 1px; }
+  .src { background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 0 6px; }
+  .hit { color: var(--accent); }
+  .warn { background: var(--warn-soft); color: var(--warn); border-radius: 8px; padding: 8px 12px; font-size: .88rem; margin-bottom: 8px; }
+  .empty { text-align: center; color: var(--muted); padding: 30px 10px; }
+  details summary { cursor: pointer; color: var(--muted); font-size: .9rem; }
+  small.hint { color: var(--muted); display: block; margin-top: 6px; }
+  #msg { margin-top: 8px; font-size: .88rem; color: var(--accent); min-height: 1.2em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Προκηρύξεις Radar</h1>
+  <div class="sub" id="updated">Φόρτωση…</div>
+  <div id="warnings"></div>
+
+  <div class="panel">
+    <form class="row" id="addForm">
+      <input type="text" id="newKw" placeholder="Πρόσθεσε λέξη-κλειδί (π.χ. αντλίες θερμότητας, ΚΕΝΑΚ, φορτιστές*)" autocomplete="off">
+      <button type="submit">Προσθήκη</button>
+    </form>
+    <div id="msg"></div>
+    <div class="chips" id="chips"></div>
+    <small class="hint">Το * στο τέλος λέξης σημαίνει «οτιδήποτε μετά» (φωτοβολταϊκ* βρίσκει φωτοβολταϊκά, φωτοβολταϊκών…). Οι τόνοι και τα κεφαλαία δεν παίζουν ρόλο.</small>
+  </div>
+
+  <div class="panel row">
+    <input type="text" id="q" placeholder="Αναζήτηση μέσα στα αποτελέσματα…">
+    <label class="toggle"><input type="checkbox" id="onlyNew"> Μόνο νέα (τελευταίες 2 μέρες)</label>
+  </div>
+
+  <div id="list"></div>
+
+  <details class="panel">
+    <summary>Ρυθμίσεις μόνιμης αποθήκευσης λέξεων-κλειδιών</summary>
+    <p style="font-size:.9rem">Για να μπαίνει μια νέα λέξη <b>και στην καθημερινή αναζήτηση</b> (όχι μόνο στο φιλτράρισμα εδώ), το site την αποθηκεύει στο GitHub
+      repo σου. Χρειάζεται ένα <b>fine-grained personal access token</b> μόνο για αυτό το repo, με δικαιώματα
+      <i>Contents: Read and write</i> και <i>Actions: Read and write</i>. Το token μένει μόνο στον browser σου.</p>
+    <div class="row">
+      <input type="text" id="repo" placeholder="χρήστης/repo">
+      <input type="password" id="token" placeholder="GitHub token">
+      <button class="ghost" id="saveCfg" type="button">Αποθήκευση</button>
+    </div>
+    <small class="hint">Χωρίς token, οι νέες λέξεις ισχύουν μόνο σε αυτή τη συσκευή και φιλτράρουν τα ήδη συλλεγμένα αποτελέσματα.</small>
+  </details>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const LS = { get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
+             set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+
+const norm = s => (s || "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/ς/g, "σ");
+const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const L = "[\\p{L}\\p{N}]";
+function compile(kw) {
+  const words = norm(kw).trim().split(/\s+/).filter(Boolean);
+  if (!words.length) return null;
+  const parts = words.map(w => w.endsWith("*") ? esc(w.slice(0, -1)) + L + "*" : esc(w));
+  return new RegExp("(?<!" + L + ")" + parts.join("\\s+") + "(?!" + L + ")", "u");
+}
+const html = s => (s || "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+let DATA = { notices: [], keywords: [], sources: [] };
+let localKw = LS.get("localKw", []);
+let active = new Set(LS.get("active", []));
+let cfg = LS.get("cfg", { repo: "", token: "" });
+
+function detectRepo() {
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  const seg = location.pathname.split("/").filter(Boolean)[0];
+  return m && seg ? `${m[1]}/${seg}` : "";
+}
+if (!cfg.repo) cfg.repo = detectRepo();
+$("#repo").value = cfg.repo || ""; $("#token").value = cfg.token || "";
+
+function say(t) { $("#msg").textContent = t; }
+
+function renderChips() {
+  const all = [...DATA.keywords.map(k => ({ k, local: false })),
+               ...localKw.filter(k => !DATA.keywords.includes(k)).map(k => ({ k, local: true }))];
+  $("#chips").innerHTML = all.map(({ k, local }) =>
+    `<span class="chip ${active.has(k) ? "on" : ""} ${local ? "local" : ""}" data-k="${html(k)}">${html(k)}${local ? '<span class="x" data-del="1">✕</span>' : ""}</span>`).join("");
+}
+
+function render() {
+  const q = norm($("#q").value);
+  const onlyNew = $("#onlyNew").checked;
+  const twoDays = Date.now() - 2 * 864e5;
+  const filterKws = [...active];
+  const allLocal = localKw.filter(k => !DATA.keywords.includes(k));
+  const localRx = allLocal.map(k => [k, compile(k)]).filter(x => x[1]);
+
+  const rows = DATA.notices.map(n => {
+    const t = norm(n.title);
+    const extra = localRx.filter(([, rx]) => rx.test(t)).map(([k]) => k);
+    return { ...n, matchedAll: [...new Set([...(n.matched || []), ...extra])] };
+  }).filter(n => {
+    if (filterKws.length && !filterKws.some(k => n.matchedAll.includes(k))) return false;
+    if (onlyNew && new Date(n.first_seen).getTime() < twoDays) return false;
+    if (q && !norm(n.title + " " + (n.org || "")).includes(q)) return false;
+    return true;
+  });
+
+  $("#list").innerHTML = rows.length ? rows.map(n => {
+    const isNew = new Date(n.first_seen).getTime() >= twoDays;
+    const d = n.date ? new Date(n.date).toLocaleDateString("el-GR") : "–";
+    const title = n.url ? `<a class="t" href="${html(n.url)}" target="_blank" rel="noopener">${html(n.title)}</a>` : `<span class="t">${html(n.title)}</span>`;
+    return `<div class="card">${isNew ? '<span class="badge">ΝΕΟ</span>' : ""}${title}
+      <div class="meta"><span class="src">${html(n.source)}</span>${n.org ? `<span>${html(n.org)}</span>` : ""}<span>${d}</span>
+      <span class="hit">${n.matchedAll.map(html).join(" · ")}</span></div></div>`;
+  }).join("") : `<div class="empty">Δεν βρέθηκαν προκηρύξεις με τα τρέχοντα φίλτρα.</div>`;
+}
+
+async function load() {
+  try {
+    const r = await fetch("data/notices.json?" + Date.now());
+    DATA = await r.json();
+  } catch { $("#updated").textContent = "Δεν υπάρχουν ακόμα δεδομένα. Τρέξε πρώτα το workflow στο GitHub."; }
+  if (DATA.generated) {
+    $("#updated").textContent = "Τελευταία ενημέρωση: " + new Date(DATA.generated).toLocaleString("el-GR") +
+      " · " + DATA.notices.length + " προκηρύξεις αποθηκευμένες";
+  }
+  $("#warnings").innerHTML = (DATA.sources || []).filter(s => !s.ok)
+    .map(s => `<div class="warn">⚠ Η πηγή «${html(s.name)}» απέτυχε: ${html(s.error || "")}</div>`).join("");
+  renderChips(); render();
+}
+
+/* ---- GitHub API: μόνιμη προσθήκη λέξης στο keywords.json ---- */
+const enc = s => { const b = new TextEncoder().encode(s); let x = ""; b.forEach(c => x += String.fromCharCode(c)); return btoa(x); };
+const dec = b64 => new TextDecoder().decode(Uint8Array.from(atob(b64.replace(/\n/g, "")), c => c.charCodeAt(0)));
+
+async function gh(path, opts = {}) {
+  const r = await fetch(`https://api.github.com/repos/${cfg.repo}/${path}`, {
+    ...opts, headers: { Accept: "application/vnd.github+json", Authorization: "Bearer " + cfg.token, ...(opts.headers || {}) } });
+  if (!r.ok) throw new Error(`GitHub ${r.status}`);
+  return r.status === 204 ? null : r.json();
+}
+
+async function persistKeyword(kw) {
+  const f = await gh("contents/keywords.json");
+  const obj = JSON.parse(dec(f.content));
+  if (obj.keywords.some(k => norm(k) === norm(kw))) return "υπήρχε ήδη";
+  obj.keywords.push(kw);
+  await gh("contents/keywords.json", { method: "PUT", body: JSON.stringify({
+    message: "Νέα λέξη-κλειδί: " + kw, content: enc(JSON.stringify(obj, null, 2) + "\n"), sha: f.sha }) });
+  await gh("actions/workflows/daily.yml/dispatches", { method: "POST", body: JSON.stringify({ ref: "main" }) });
+  return "ok";
+}
+
+$("#addForm").addEventListener("submit", async e => {
+  e.preventDefault();
+  const kw = $("#newKw").value.trim();
+  if (!kw) return;
+  $("#newKw").value = "";
+  if (cfg.repo && cfg.token) {
+    say("Αποθήκευση στο GitHub…");
+    try {
+      const res = await persistKeyword(kw);
+      if (!DATA.keywords.includes(kw)) DATA.keywords.push(kw);
+      say(res === "ok" ? "Αποθηκεύτηκε. Ξεκίνησε νέα αναζήτηση· ανανέωσε τη σελίδα σε 1–2 λεπτά." : "Η λέξη υπήρχε ήδη.");
+    } catch (err) {
+      say("Δεν αποθηκεύτηκε στο GitHub (" + err.message + "). Προστέθηκε μόνο τοπικά.");
+      if (!localKw.includes(kw)) { localKw.push(kw); LS.set("localKw", localKw); }
+    }
+  } else {
+    if (!localKw.includes(kw)) { localKw.push(kw); LS.set("localKw", localKw); }
+    say("Προστέθηκε τοπικά. Για μόνιμη αποθήκευση στην καθημερινή αναζήτηση, βάλε token στις Ρυθμίσεις.");
+  }
+  active.add(kw); LS.set("active", [...active]);
+  renderChips(); render();
+});
+
+$("#chips").addEventListener("click", e => {
+  const chip = e.target.closest(".chip"); if (!chip) return;
+  const k = chip.dataset.k;
+  if (e.target.dataset.del) { localKw = localKw.filter(x => x !== k); active.delete(k); LS.set("localKw", localKw); }
+  else active.has(k) ? active.delete(k) : active.add(k);
+  LS.set("active", [...active]); renderChips(); render();
+});
+
+$("#saveCfg").addEventListener("click", () => {
+  cfg = { repo: $("#repo").value.trim(), token: $("#token").value.trim() };
+  LS.set("cfg", cfg); say("Οι ρυθμίσεις αποθηκεύτηκαν.");
+});
+$("#q").addEventListener("input", render);
+$("#onlyNew").addEventListener("change", render);
+load();
+</script>
+</body>
+</html>
