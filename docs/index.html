@@ -145,7 +145,7 @@ function render() {
     const d = n.date ? new Date(n.date).toLocaleDateString("el-GR") : "–";
     const title = n.url ? `<a class="t" href="${html(n.url)}" target="_blank" rel="noopener">${html(n.title)}</a>` : `<span class="t">${html(n.title)}</span>`;
     return `<div class="card">${isNew ? '<span class="badge">ΝΕΟ</span>' : ""}${title}
-      <div class="meta"><span class="src">${html(n.source)}</span>${n.org ? `<span>${html(n.org)}</span>` : ""}<span>${d}</span>
+      <div class="meta"><span class="src">${html(n.source)}</span>${n.org ? `<span>${html(n.org)}</span>` : ""}<span>${d}</span>${n.ref ? `<span>${n.source === "ΚΗΜΔΗΣ" ? "ΑΔΑΜ" : "ΑΔΑ"}: ${html(n.ref)}</span>` : ""}
       <span class="hit">${n.matchedAll.map(html).join(" · ")}</span></div></div>`;
   }).join("") : `<div class="empty">Δεν βρέθηκαν προκηρύξεις με τα τρέχοντα φίλτρα.</div>`;
 }
