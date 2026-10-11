@@ -24,7 +24,7 @@ OUT_FILE = ROOT / "docs" / "data" / "notices.json"
 TIMEOUT = 45
 SESSION = requests.Session()
 SESSION.headers.update({
-    "User-Agent": "Mozilla/5.0 (promithies-radar; προσωπική χρήση)",
+    "User-Agent": "Mozilla/5.0 (promithies-radar; personal use)",
     "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
 })
 
