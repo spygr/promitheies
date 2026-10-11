@@ -37,6 +37,8 @@ def diag(name, n, sample=None, newest=None):
     d["fetched"] += n
     if sample is not None and "sample" not in d:
         d["sample"] = json.dumps(sample, ensure_ascii=False)[:700]
+        if isinstance(sample, dict):
+            d["keys"] = list(sample.keys())
     if newest and newest.isoformat() > d.get("newest", ""):
         d["newest"] = newest.isoformat()
 
@@ -150,8 +152,11 @@ def fetch_kimdis(cfg, terms, since, match):
                 body = {"title": term}
                 body.update(cfg.get("request_extra", {}))
                 r = SESSION.post(f"{base}/{endpoint}", params={"page": page}, json=body, timeout=TIMEOUT)
-                if r.status_code == 404 and page > 0:
-                    break  # δεν υπάρχουν άλλες σελίδες
+                if r.status_code == 404:
+                    # το API απαντά 404 όταν δεν υπάρχουν (άλλα) αποτελέσματα
+                    d = DIAG.setdefault("ΚΗΜΔΗΣ", {"fetched": 0})
+                    d["not_found"] = d.get("not_found", 0) + 1
+                    break
                 r.raise_for_status()
                 data = r.json()
                 if page == 0:
@@ -215,6 +220,8 @@ def fetch_diavgeia(cfg, terms, since, today, match):
         for page in range(cfg.get("max_pages", 5)):
             r = SESSION.get(f"{base}/search.json", params={
                 "q": q,
+                "term": term,
+                "subject": term,
                 "from_issue_date": since.isoformat(),
                 "to_issue_date": today.isoformat(),
                 "size": 100,
