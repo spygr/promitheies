@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T17:16:29+00:00",
+ "generated": "2026-10-11T17:20:07+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -11,20 +11,176 @@
  "sources": [
   {
    "name": "ΚΗΜΔΗΣ",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice?page=0",
-   "fetched": 84,
+   "ok": true,
+   "count": 4,
+   "fetched": 464,
    "sample": "{\"title\": \"ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ ΑΠΟΚΑΤΑΣΤΑΣΗΣ ΜΟΝΩΣΗΣ ΟΡΟΦΗΣ ΠΕΑ ΧΑΝΙΩΝ\", \"referenceNumber\": \"26PROC019960689\", \"signedDate\": \"2026-10-09T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-16T14:00:00\", \"submissionDate\": \"2026-10-09T15:24:42.118\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1039.E00997.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"899961650\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmen",
-   "newest": "2026-10-09"
+   "keys": [
+    "title",
+    "referenceNumber",
+    "signedDate",
+    "publishedDate",
+    "finalSubmissionDate",
+    "submissionDate",
+    "lastUpdateDate",
+    "cancelled",
+    "cancellationDate",
+    "cancellationType",
+    "cancellationReason",
+    "cancellationADA",
+    "amendPreviousNotice",
+    "amendedNoticeADAM",
+    "frameworkAgreementNoticeADAM",
+    "protocolNumber",
+    "authorEmail",
+    "aaht",
+    "biddingWebsite",
+    "organizationVatNumber",
+    "greekOrganizationVatNumber",
+    "budget",
+    "commitmentNo",
+    "relatedNoticeADAM",
+    "numberOfSections",
+    "nutsCode",
+    "nutsCity",
+    "nutsPostalCode",
+    "nutsCountry",
+    "assignedContract",
+    "socialContract",
+    "centralGovernmentAuthority",
+    "contractingData",
+    "fundingDetails",
+    "systemicNumbers",
+    "approvedRequests",
+    "contractingAuthorities",
+    "nutsCodes",
+    "organization",
+    "typeOfProcedure",
+    "contractType",
+    "awardProcedure",
+    "centralizedMarkets",
+    "legalContext",
+    "conductingProceedings",
+    "digitalPlatform",
+    "criteriaCode",
+    "classificationOfPublicLawOrganization",
+    "noticeType",
+    "contractingAuthorityActivity",
+    "contractDuration",
+    "contractDurationUnitOfMeasure",
+    "totalCostWithVAT",
+    "totalCostWithoutVAT",
+    "objectDetails",
+    "additionalContractTypes",
+    "mixedContract",
+    "offersValidTime",
+    "offersValidTimeUnitOfMeasure",
+    "maxNumberOfContractors",
+    "optionRight",
+    "optionRightDescription",
+    "abortReason",
+    "auctionRefNo",
+    "amendsNoticeRefNo"
+   ],
+   "newest": "2026-10-09",
+   "not_found": 18
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 0,
-   "fetched": 6000,
-   "sample": "{\"protocolNumber\": \"00441A-2026\", \"subject\": \"20.2283.250 - Πληθυσμιακά χαρακτηριστικά και δράσεις exsitu διατήρησης για το κρισίμως κινδυνεύον (CR) Liquidambar orientalis Mill - Ygramvari\", \"issueDate\": 1791417600000, \"organizationId\": \"55143\", \"signerIds\": [\"130301\"], \"unitIds\": [\"91345\"], \"decisionTypeId\": \"Β.2.2\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afm\": \"997604027\", \"afmType\": \"EL\", \"afmCountry\": \"EL\", \"name\": \"ΕΛ.Γ.Ο - ΔΗΜΗΤΡΑ\"}, \"skipVatReason\": null, \"sponsor\": [{\"sponsorAFMName\": {\"afm\": \"021100595\", \"afmType\": \"EL\", \"afmCountry\": \"EL\", \"name\": \"ΓΕΩΡΓΙΟΣ ΧΡ. ΚΩΝΣΤΑΝΤΙΝΟΥ\"}, \"expenseAmount\": {\"amount\": 72.0, \"currency\": \"EUR\"}, \"kae\": \"04.30.20.64\"}], \"relat"
+   "count": 3,
+   "fetched": 106,
+   "sample": "{\"protocolNumber\": \"Κ.Γ. 33070\", \"subject\": \"Σύναψη σύμβασης δυνάμει άρθρου 32.2γ του N.4412/16 ως ισχύει, με αντικείμενο παροχή\\nυπηρεσιών για την εξαιρετικώς επείγουσα αποκατάσταση της μόνωσης της οροφής του θαλάμου\\nελέγχου (control cab) του νέου κτιρίου πύργου ελέγχου (ΠΕΑ) του Κρατικού Αερολιμένα Χανίων\\n«Δασκαλογιάννης» (ΚΑΧΝΔ) .\", \"issueDate\": 1791504000000, \"organizationId\": \"100025905\", \"signerIds\": [\"100101393\"], \"unitIds\": [\"93155\"], \"decisionTypeId\": \"Α.2\", \"thematicCategoryIds\": [\"48\"], \"extraFieldValues\": {\"fek\": {}, \"kanonistikipraxiaa\": null, \"kanonistikipraxitype\": null, \"co_competent\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\"}, \"privateData\": false, \"ada\": \"ΨΟΛ",
+   "keys": [
+    "protocolNumber",
+    "subject",
+    "issueDate",
+    "organizationId",
+    "signerIds",
+    "unitIds",
+    "decisionTypeId",
+    "thematicCategoryIds",
+    "extraFieldValues",
+    "privateData",
+    "ada",
+    "publishTimestamp",
+    "submissionTimestamp",
+    "versionId",
+    "status",
+    "url",
+    "documentUrl",
+    "documentChecksum",
+    "attachments",
+    "warnings",
+    "correctedVersionId"
+   ]
   }
  ],
- "notices": []
+ "notices": [
+  {
+   "id": "kimdis:notice:26PROC019960689",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ ΑΠΟΚΑΤΑΣΤΑΣΗΣ ΜΟΝΩΣΗΣ ΟΡΟΦΗΣ ΠΕΑ ΧΑΝΙΩΝ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΥΠΟΔΟΜΩΝ ΚΑΙ ΜΕΤΑΦΟΡΩΝ",
+   "date": "2026-10-09",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC019960689",
+   "matched": [
+    "ΠΕΑ"
+   ],
+   "first_seen": "2026-10-11T17:20:07+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC019949338",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΚΥ ΝΕΑΠΟΛΗΣ-Π.Ε.Ε. ΓΙΑ ΕΚΔΟΣΗ ΥΔΕ",
+   "org": "6Η ΔΥΠΕ ΠΕΛΛΟΠΟΝΗΣΟΥ ΙΟΝΙΩΝ, ΗΠΕΙΡΟΥ & ΔΥΤ.ΕΛΛΑΔΑΣ",
+   "date": "2026-10-08",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC019949338",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-11T17:20:07+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC019944941",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Προμήθεια & Εγκατάσταση συστήματος RTU για την παρακολούθηση & έλεγχο Φωτοβολταϊκού πάρκου της ΔΕΥΑΚ",
+   "org": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ &  ΑΠΟΧΕΤΕΥΣΗΣ ΚΙΛΕΛΕΡ",
+   "date": "2026-10-08",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC019944941",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-11T17:20:07+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD019946164",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Αγορά υλικών για τη συντήρηση - επισκευή βάθρων φωτοβολταϊκών στην μ/ν ΚΑΛΟΛΙΜΝΟ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-10-08",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD019946164",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-11T17:20:07+00:00"
+  },
+  {
+   "id": "diavgeia:6ΧΠ6ΟΚΚ3-ΥΙΤ",
+   "source": "Διαύγεια",
+   "title": "Προσκληση υποβολης προσφοράς για την  προμήθεια & Εγκατάσταση συστήματος RTU για την παρακολούθηση & έλεγχο του Φωτοβολταϊκού πάρκου της ΔΕΥΑΚ με το σύστημα επικοινωνίας SCADA του ΔΕΔΔΗΕ",
+   "org": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ &  ΑΠΟΧΕΤΕΥΣΗΣ ΚΙΛΕΛΕΡ",
+   "date": "2026-10-08",
+   "url": "https://diavgeia.gov.gr/doc/6ΧΠ6ΟΚΚ3-ΥΙΤ",
+   "ref": "6ΧΠ6ΟΚΚ3-ΥΙΤ",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-11T17:20:07+00:00"
+  }
+ ]
 }
