@@ -9,6 +9,7 @@ import datetime as dt
 import json
 import re
 import sys
+import time
 import unicodedata
 from pathlib import Path
 from urllib.parse import urljoin
@@ -143,15 +144,33 @@ def dump_debug(name, payload):
 
 # ---------------------------------------------------------------- ΚΗΜΔΗΣ
 
-def fetch_kimdis(cfg, terms, since, match):
-    out = []
+def polite(method, url, delay=1.5, retries=5, **kw):
+    """Αίτημα με μικρή παύση πριν από κάθε κλήση και επανάληψη όταν ο server απαντά 429/5xx."""
+    for attempt_no in range(retries + 1):
+        time.sleep(delay)
+        r = SESSION.request(method, url, **kw)
+        if r.status_code == 429 or r.status_code >= 500:
+            if attempt_no == retries:
+                return r
+            try:
+                wait = float(r.headers.get("Retry-After", ""))
+            except ValueError:
+                wait = 0
+            time.sleep(min(max(wait, 5 * 2 ** attempt_no), 90))
+            continue
+        return r
+    return r
+
+
+def fetch_kimdis(cfg, terms, since, match, out=None):
+    out = [] if out is None else out
     base = cfg["base_url"].rstrip("/")
     for endpoint in cfg.get("endpoints", ["notice"]):
         for term in terms:
             for page in range(cfg.get("max_pages", 3)):
                 body = {"title": term}
                 body.update(cfg.get("request_extra", {}))
-                r = SESSION.post(f"{base}/{endpoint}", params={"page": page}, json=body, timeout=TIMEOUT)
+                r = polite("POST", f"{base}/{endpoint}", params={"page": page}, json=body, timeout=TIMEOUT)
                 if r.status_code == 404:
                     # το API απαντά 404 όταν δεν υπάρχουν (άλλα) αποτελέσματα
                     d = DIAG.setdefault("ΚΗΜΔΗΣ", {"fetched": 0})
@@ -197,8 +216,8 @@ def fetch_kimdis(cfg, terms, since, match):
 
 # ---------------------------------------------------------------- Διαύγεια
 
-def fetch_diavgeia(cfg, terms, since, today, match):
-    out = []
+def fetch_diavgeia(cfg, terms, since, today, match, out=None):
+    out = [] if out is None else out
     base = cfg["base_url"].rstrip("/")
     must = matcher(cfg.get("subject_must_contain_any", []))
     need_filter = bool(cfg.get("subject_must_contain_any"))
@@ -209,7 +228,7 @@ def fetch_diavgeia(cfg, terms, since, today, match):
             return ""
         if uid not in org_cache:
             try:
-                r = SESSION.get(f"{base}/organizations/{uid}.json", timeout=TIMEOUT)
+                r = polite("GET", f"{base}/organizations/{uid}.json", delay=0.3, retries=1, timeout=TIMEOUT)
                 org_cache[uid] = r.json().get("label", uid) if r.ok else uid
             except Exception:
                 org_cache[uid] = uid
@@ -218,7 +237,7 @@ def fetch_diavgeia(cfg, terms, since, today, match):
     for term in terms:
         q = f'"{term}"' if " " in term else term
         for page in range(cfg.get("max_pages", 5)):
-            r = SESSION.get(f"{base}/search.json", params={
+            r = polite("GET", f"{base}/search.json", delay=0.7, params={
                 "q": q,
                 "term": term,
                 "subject": term,
@@ -321,23 +340,25 @@ def run():
     status, fresh = [], []
 
     def attempt(name, fn):
+        partial = []
         try:
-            found = fn()
+            found = fn(partial)
             fresh.extend(found)
             status.append({"name": name, "ok": True, "count": len(found), **DIAG.get(name, {})})
             print(f"{name}: {len(found)} αποτελέσματα")
         except Exception as e:  # μια πηγή που αποτυγχάνει δεν πρέπει να χαλάει τις υπόλοιπες
-            status.append({"name": name, "ok": False, "count": 0, "error": f"{type(e).__name__}: {e}"[:300],
-                           **DIAG.get(name, {})})
-            print(f"{name}: ΣΦΑΛΜΑ {e}", file=sys.stderr)
+            fresh.extend(partial)  # κρατάμε ό,τι είχε βρεθεί πριν το σφάλμα
+            status.append({"name": name, "ok": False, "count": len(partial),
+                           "error": f"{type(e).__name__}: {e}"[:300], **DIAG.get(name, {})})
+            print(f"{name}: ΣΦΑΛΜΑ {e} (κρατήθηκαν {len(partial)})", file=sys.stderr)
 
     if src.get("kimdis", {}).get("enabled", True):
-        attempt("ΚΗΜΔΗΣ", lambda: fetch_kimdis(src["kimdis"], terms, since, match))
+        attempt("ΚΗΜΔΗΣ", lambda o: fetch_kimdis(src["kimdis"], terms, since, match, o))
     if src.get("diavgeia", {}).get("enabled", True):
-        attempt("Διαύγεια", lambda: fetch_diavgeia(src["diavgeia"], terms, since, today, match))
+        attempt("Διαύγεια", lambda o: fetch_diavgeia(src["diavgeia"], terms, since, today, match, o))
     for site in src.get("sites", []):
         if site.get("enabled", True):
-            attempt(site["name"], lambda s=site: fetch_site(s, match))
+            attempt(site["name"], lambda o, s=site: fetch_site(s, match))
 
     new_count = 0
     for n in fresh:
