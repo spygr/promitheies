@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T17:20:07+00:00",
+ "generated": "2026-10-12T07:08:37+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -11,9 +11,10 @@
  "sources": [
   {
    "name": "ΚΗΜΔΗΣ",
-   "ok": true,
-   "count": 4,
-   "fetched": 464,
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice?page=0",
+   "fetched": 199,
    "sample": "{\"title\": \"ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ ΑΠΟΚΑΤΑΣΤΑΣΗΣ ΜΟΝΩΣΗΣ ΟΡΟΦΗΣ ΠΕΑ ΧΑΝΙΩΝ\", \"referenceNumber\": \"26PROC019960689\", \"signedDate\": \"2026-10-09T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-16T14:00:00\", \"submissionDate\": \"2026-10-09T15:24:42.118\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1039.E00997.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"899961650\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmen",
    "keys": [
     "title",
@@ -83,13 +84,13 @@
     "amendsNoticeRefNo"
    ],
    "newest": "2026-10-09",
-   "not_found": 18
+   "not_found": 6
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 3,
-   "fetched": 106,
+   "count": 0,
+   "fetched": 53,
    "sample": "{\"protocolNumber\": \"Κ.Γ. 33070\", \"subject\": \"Σύναψη σύμβασης δυνάμει άρθρου 32.2γ του N.4412/16 ως ισχύει, με αντικείμενο παροχή\\nυπηρεσιών για την εξαιρετικώς επείγουσα αποκατάσταση της μόνωσης της οροφής του θαλάμου\\nελέγχου (control cab) του νέου κτιρίου πύργου ελέγχου (ΠΕΑ) του Κρατικού Αερολιμένα Χανίων\\n«Δασκαλογιάννης» (ΚΑΧΝΔ) .\", \"issueDate\": 1791504000000, \"organizationId\": \"100025905\", \"signerIds\": [\"100101393\"], \"unitIds\": [\"93155\"], \"decisionTypeId\": \"Α.2\", \"thematicCategoryIds\": [\"48\"], \"extraFieldValues\": {\"fek\": {}, \"kanonistikipraxiaa\": null, \"kanonistikipraxitype\": null, \"co_competent\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\"}, \"privateData\": false, \"ada\": \"ΨΟΛ",
    "keys": [
     "protocolNumber",
