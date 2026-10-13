@@ -207,6 +207,11 @@ def fetch_kimdis(cfg, terms, since, match, out=None):
                         continue
                     matched = match(title)
                     if not matched:
+                        if published and published >= since:
+                            # για έλεγχο: πρόσφατοι τίτλοι που επέστρεψε το API αλλά δεν περάσαν το φίλτρο λέξεων
+                            dd = DIAG.setdefault("ΚΗΜΔΗΣ", {"fetched": 0}).setdefault("rejected_recent", [])
+                            if len(dd) < 25 and title[:100] not in dd:
+                                dd.append(title[:100])
                         continue
                     ref = as_text(pick(it, "referenceNumber", "adam", "id", "reference"))
                     link = as_text(pick(it, "documentUrl", "url", "link")) or \
