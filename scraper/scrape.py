@@ -167,7 +167,10 @@ def fetch_kimdis(cfg, terms, since, match, out=None):
     base = cfg["base_url"].rstrip("/")
     for endpoint in cfg.get("endpoints", ["notice"]):
         for term in terms:
-            for page in range(cfg.get("max_pages", 3)):
+            tdiag = DIAG.setdefault("ΚΗΜΔΗΣ", {"fetched": 0}).setdefault("terms", {}).setdefault(
+                f"{endpoint}/{term}", {"pages": 0})
+            max_pages = cfg.get("max_pages", 12)
+            for page in range(max_pages):
                 body = {"title": term}
                 body.update(cfg.get("request_extra", {}))
                 r = polite("POST", f"{base}/{endpoint}", params={"page": page}, json=body, timeout=TIMEOUT)
@@ -185,6 +188,15 @@ def fetch_kimdis(cfg, terms, since, match, out=None):
                     diag("ΚΗΜΔΗΣ", 0, data)
                     break
                 diag("ΚΗΜΔΗΣ", len(items), items[0])
+                tdiag["pages"] = page + 1
+                page_dates = [parse_date(pick(i, "publishedDate", "publishDate", "submissionDate",
+                                              "dateCreated", "createdDate", "date")) for i in items]
+                page_dates = [d for d in page_dates if d]
+                if page_dates:
+                    tdiag.setdefault("first", max(page_dates).isoformat())
+                    tdiag["last"] = min(page_dates).isoformat()
+                if page == max_pages - 1:
+                    tdiag["cap"] = True  # φτάσαμε στο όριο σελίδων· μπορεί να υπάρχουν και άλλα
                 for it in items:
                     title = as_text(pick(it, "title", "subject", "name"))
                     published = parse_date(pick(it, "publishedDate", "publishDate", "submissionDate",
@@ -211,6 +223,8 @@ def fetch_kimdis(cfg, terms, since, match, out=None):
                     })
                 if len(items) < 10:
                     break
+                if page_dates and max(page_dates) < since:
+                    break  # τα αποτελέσματα είναι νεότερα→παλαιότερα· δεν έχει νόημα να συνεχίσουμε
     return out
 
 

@@ -4,8 +4,11 @@
   "kimdis": {
     "enabled": true,
     "base_url": "https://cerpp.eprocurement.gov.gr/khmdhs-opendata",
-    "endpoints": ["notice", "auction"],
-    "max_pages": 3,
+    "endpoints": [
+      "notice",
+      "auction"
+    ],
+    "max_pages": 12,
     "request_extra": {}
   },
   "diavgeia": {
@@ -13,8 +16,13 @@
     "base_url": "https://diavgeia.gov.gr/opendata",
     "max_pages": 5,
     "subject_must_contain_any": [
-      "προκηρυξ*", "διακηρυξ*", "προσκληση*", "διαγωνισμ*",
-      "ενδιαφεροντος", "προσφορ*", "συνοπτικ*"
+      "προκηρυξ*",
+      "διακηρυξ*",
+      "προσκληση*",
+      "διαγωνισμ*",
+      "ενδιαφεροντος",
+      "προσφορ*",
+      "συνοπτικ*"
     ]
   },
   "sites": [
