@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T07:32:42+00:00",
+ "generated": "2026-10-13T07:35:24+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -181,6 +181,10 @@
     "amendsNoticeRefNo"
    ],
    "newest": "2026-10-12",
+   "rejected_recent": [
+    "Υπηρεσίες καταγραφής χώρων πρασίνου, περιφράξεων, χώρων στάθμευσης στις εγκαταστάσεις ΠΕΑΚ ΠΑΤΡΩΝ",
+    "Π/Υ ΕΤΗΣΙΑ ΥΠΗΡΕΣΙΑ ΠΛΗΡΟΥΣ ΤΕΧΝΙΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ ΤΟΥ ΜΕΤΑΤΡΟΠΕΑ ΣΥΧΝΟΤΗΤΑΣ (INVERTER)"
+   ],
    "not_found": 12
   },
   {
@@ -188,7 +192,7 @@
    "ok": true,
    "count": 0,
    "fetched": 40,
-   "sample": "{\"decisions\": [], \"info\": {\"query\": \"subject:\\\"ΠΕΑ\\\" AND q:\\\"ΠΕΑ\\\" AND submissionTimestamp:[DT(2026-10-10T00:00:00+03:00) TO DT(2026-10-13T10:34:29+03:00)] AND issueDate:[DT(2026-10-10T00:00:00+03:00) TO DT(2026-10-13T00:00:00+03:00)] AND status:\\\"Αναρτημένη\\\"\", \"page\": 0, \"size\": 100, \"actualSize\": 0, \"total\": 0, \"order\": \"recent\"}}",
+   "sample": "{\"decisions\": [], \"info\": {\"query\": \"subject:\\\"ΠΕΑ\\\" AND q:\\\"ΠΕΑ\\\" AND submissionTimestamp:[DT(2026-10-10T00:00:00+03:00) TO DT(2026-10-13T10:37:15+03:00)] AND issueDate:[DT(2026-10-10T00:00:00+03:00) TO DT(2026-10-13T00:00:00+03:00)] AND status:\\\"Αναρτημένη\\\"\", \"page\": 0, \"size\": 100, \"actualSize\": 0, \"total\": 0, \"order\": \"recent\"}}",
    "keys": [
     "decisions",
     "info"
