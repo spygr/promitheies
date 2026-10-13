@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T07:24:22+00:00",
+ "generated": "2026-10-13T07:32:42+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -13,7 +13,105 @@
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
    "count": 0,
-   "fetched": 464,
+   "fetched": 351,
+   "terms": {
+    "notice/ΠΕΑ": {
+     "pages": 2,
+     "first": "2026-10-12",
+     "last": "2026-04-16"
+    },
+    "notice/ενεργειακό πιστοποιητικό": {
+     "pages": 0
+    },
+    "notice/ενεργειακά πιστοποιητικά": {
+     "pages": 0
+    },
+    "notice/ενεργειακών πιστοποιητικών": {
+     "pages": 1,
+     "first": "2026-09-11",
+     "last": "2026-09-11"
+    },
+    "notice/πιστοποιητικά ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "notice/πιστοποιητικό ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "notice/ΥΔΕ": {
+     "pages": 1,
+     "first": "2026-10-08",
+     "last": "2026-07-15"
+    },
+    "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "notice/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "notice/φωτοβολταϊκά": {
+     "pages": 1,
+     "first": "2026-08-11",
+     "last": "2026-07-13"
+    },
+    "notice/φωτοβολταϊκό": {
+     "pages": 1,
+     "first": "2026-10-08",
+     "last": "2026-04-27"
+    },
+    "notice/φωτοβολταϊκών": {
+     "pages": 1,
+     "first": "2026-10-05",
+     "last": "2026-04-30"
+    },
+    "auction/ΠΕΑ": {
+     "pages": 2,
+     "first": "2026-10-12",
+     "last": "2026-05-14"
+    },
+    "auction/ενεργειακό πιστοποιητικό": {
+     "pages": 0
+    },
+    "auction/ενεργειακά πιστοποιητικά": {
+     "pages": 0
+    },
+    "auction/ενεργειακών πιστοποιητικών": {
+     "pages": 1,
+     "first": "2026-04-28",
+     "last": "2026-04-28"
+    },
+    "auction/πιστοποιητικά ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "auction/πιστοποιητικό ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "auction/ΥΔΕ": {
+     "pages": 1,
+     "first": "2026-10-09",
+     "last": "2026-06-22"
+    },
+    "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "auction/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "auction/φωτοβολταϊκά": {
+     "pages": 1,
+     "first": "2026-09-01",
+     "last": "2026-07-21"
+    },
+    "auction/φωτοβολταϊκό": {
+     "pages": 1,
+     "first": "2026-10-06",
+     "last": "2026-05-08"
+    },
+    "auction/φωτοβολταϊκών": {
+     "pages": 1,
+     "first": "2026-10-08",
+     "last": "2026-04-23"
+    }
+   },
    "sample": "{\"title\": \"Υπηρεσίες καταγραφής χώρων πρασίνου, περιφράξεων, χώρων στάθμευσης στις εγκαταστάσεις ΠΕΑΚ ΠΑΤΡΩΝ\", \"referenceNumber\": \"26PROC019969328\", \"signedDate\": \"2026-07-28T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-08-10T00:00:00\", \"submissionDate\": \"2026-10-12T14:37:38.198\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1020.E00763.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"099517192\", \"greekOrganizationVat",
    "keys": [
     "title",
@@ -83,14 +181,14 @@
     "amendsNoticeRefNo"
    ],
    "newest": "2026-10-12",
-   "not_found": 18
+   "not_found": 12
   },
   {
    "name": "Διαύγεια",
    "ok": true,
    "count": 0,
    "fetched": 40,
-   "sample": "{\"decisions\": [], \"info\": {\"query\": \"subject:\\\"ΠΕΑ\\\" AND q:\\\"ΠΕΑ\\\" AND submissionTimestamp:[DT(2026-10-10T00:00:00+03:00) TO DT(2026-10-13T10:26:50+03:00)] AND issueDate:[DT(2026-10-10T00:00:00+03:00) TO DT(2026-10-13T00:00:00+03:00)] AND status:\\\"Αναρτημένη\\\"\", \"page\": 0, \"size\": 100, \"actualSize\": 0, \"total\": 0, \"order\": \"recent\"}}",
+   "sample": "{\"decisions\": [], \"info\": {\"query\": \"subject:\\\"ΠΕΑ\\\" AND q:\\\"ΠΕΑ\\\" AND submissionTimestamp:[DT(2026-10-10T00:00:00+03:00) TO DT(2026-10-13T10:34:29+03:00)] AND issueDate:[DT(2026-10-10T00:00:00+03:00) TO DT(2026-10-13T00:00:00+03:00)] AND status:\\\"Αναρτημένη\\\"\", \"page\": 0, \"size\": 100, \"actualSize\": 0, \"total\": 0, \"order\": \"recent\"}}",
    "keys": [
     "decisions",
     "info"
