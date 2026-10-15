@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T12:55:39+00:00",
+ "generated": "2026-10-15T08:36:17+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -13,11 +13,11 @@
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
    "count": 3,
-   "fetched": 353,
+   "fetched": 354,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-10-13",
+     "first": "2026-10-14",
      "last": "2026-04-28"
     },
     "notice/ενεργειακό πιστοποιητικό": {
@@ -112,7 +112,7 @@
      "last": "2026-04-23"
     }
    },
-   "sample": "{\"title\": \"Πρόσκληση Υποβολής Προσφοράς 84/26 της 120ΠΕΑ\", \"referenceNumber\": \"26PROC019978534\", \"signedDate\": \"2026-10-12T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-16T10:00:00\", \"submissionDate\": \"2026-10-13T14:11:39.728\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\": n",
+   "sample": "{\"title\": \"ΧΩΜΑΤΟΥΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ ΕΚΣΚΑΦΩΝ Δ.Ε. ΕΝΙΠΕΑ\", \"referenceNumber\": \"26PROC019985297\", \"signedDate\": \"2026-10-14T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-21T14:00:00\", \"submissionDate\": \"2026-10-14T12:15:57.306\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1007.F00654.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"099137029\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\": null, \"",
    "keys": [
     "title",
     "referenceNumber",
@@ -180,8 +180,9 @@
     "auctionRefNo",
     "amendsNoticeRefNo"
    ],
-   "newest": "2026-10-13",
+   "newest": "2026-10-14",
    "rejected_recent": [
+    "ΧΩΜΑΤΟΥΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ ΕΚΣΚΑΦΩΝ Δ.Ε. ΕΝΙΠΕΑ",
     "Πρόσκληση Υποβολής Προσφοράς 84/26 της 120ΠΕΑ",
     "Υπηρεσίες καταγραφής χώρων πρασίνου, περιφράξεων, χώρων στάθμευσης στις εγκαταστάσεις ΠΕΑΚ ΠΑΤΡΩΝ",
     "ΑΠΟΦΑΣΕΙΣ ΑΝΑΘΕΣΗΣ ΓΙΑ ΤΙΣ ΑΝΑΓΚΕΣ ΕΛΕΓΧΟΥ ΤΩΝ ΑΠΟΦΑΣΕΩΝ ΕΠΕΑ ΚΑΙ ΤΗΝ ΕΠΕΡΧΟΜΕΝΗ ΣΥΜΠΛΗΡΩΣΗ,ΔΙΟΡΘΩΣΗ",
@@ -197,7 +198,7 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 1,
-   "fetched": 101,
+   "fetched": 123,
    "sample": "{\"protocolNumber\": \"Α-1595\", \"subject\": \"Χρηματικό Ενταλμα Πληρωμής Α-1595 για :ΑΜΟΙΒΗ ΓΙΑ ΤΗΝ ΥΠΗΡΕΣΙΑ ΣΥΝΤΑΞΗΣ ΤΕΧΝΙΚΗΣ ΕΚΘΕΣΗΣ ΕΠΑΛΗΘΕΥΣΗΣ ΕΞΟΙΚΟΝΟΜΗΣΗΣ ΕΝΕΡΓΕΙΑΣ ΚΑΙ ΠΕΑ Β ΓΙΑ ΤΑ ΚΤΙΡΙΑ ΤΟΥ 1ου ΛΥΚΕΙΟΥ ΚΑΛΥΒΙΩΝ, ΚΟΙΝΟΤΙΚΟΥ ΚΑΤΑΣΤΗΜΑΤΟΣ Π.ΦΩΚΑΙΑΣ ΚΑΙ ΓΥΜΝΑΣΙΟΥ ΑΝΑΒΥΣΣΟΥ (ΣΥΜΒ.38262/25)\", \"issueDate\": 1791849600000, \"organizationId\": \"6269\", \"signerIds\": [\"100036334\"], \"unitIds\": [\"100036333\"], \"decisionTypeId\": \"Β.2.2\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afm\": \"997727408\", \"afmType\": \"EL\", \"name\": \"ΔΗΜΟΣ ΣΑΡΩΝΙΚΟΥ\"}, \"skipVatReason\": null, \"sponsor\": [{\"sponsorAFMName\": {\"afm\": \"801248590\", \"afmType\": \"EL\", \"name\": \"KEVIS CONSULTING ΙΔΙΩΤΙΚΗ ΚΕΦΑΛΑΙΟΥΧΙΚΗ ΕΤΑΙΡΕΙ",
    "keys": [
     "protocolNumber",
