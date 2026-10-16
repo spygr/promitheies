@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T08:31:10+00:00",
+ "generated": "2026-10-16T12:30:35+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -198,7 +198,7 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 1,
-   "fetched": 122,
+   "fetched": 126,
    "sample": "{\"protocolNumber\": \"21307/2026\", \"subject\": \"ΠΡΟΜΗΘΕΙΑ ΚΑΥΣΙΜΩΝ ΓΙΑ ΤΗΝ ΚΑΛΥΨΗ ΤΩΝ ΑΝΑΓΚΩΝ ΚΙΝΗΣΗΣ ΤΩΝ ΟΧΗΜΑΤΩΝ ΤΟΥ ΔΗΜΟΥ ΡΑΦΗΝΑΣ - ΠΙΚΕΡΜΙΟΥ ΕΤΟΥΣ 2026   (ΠΟΛ.ΥΠ. 38/31-10-2025)\\nΠΕΑ 438/02-02-2026 ΑΦΟΡΑ ΤΡΟΠΟΠΟΙΗΣΗ ΠΟΛΥΕΤΟΥΣ ΔΕΣΜΕΥΣΗΣ 2026\", \"issueDate\": 1791936000000, \"organizationId\": \"6262\", \"signerIds\": [\"100084363\", \"100098547\"], \"unitIds\": [\"100076550\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"162/2026\", \"partialead\": false, \"recalledExpenseDecision\": false, \"amountWithVAT\": {\"currency\": \"EUR\"}, \"amountWithKae\": [], \"relatedPartialADA\": null, \"relatedDecisions\": [], ",
    "keys": [
     "protocolNumber",
