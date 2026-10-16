@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T12:42:05+00:00",
+ "generated": "2026-10-16T08:31:10+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,12 +12,12 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 3,
-   "fetched": 354,
+   "count": 7,
+   "fetched": 388,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-10-14",
+     "first": "2026-10-15",
      "last": "2026-04-28"
     },
     "notice/ενεργειακό πιστοποιητικό": {
@@ -55,7 +55,7 @@
     },
     "notice/φωτοβολταϊκό": {
      "pages": 1,
-     "first": "2026-10-08",
+     "first": "2026-10-15",
      "last": "2026-04-27"
     },
     "notice/φωτοβολταϊκών": {
@@ -86,9 +86,9 @@
      "pages": 0
     },
     "auction/ΥΔΕ": {
-     "pages": 1,
-     "first": "2026-10-09",
-     "last": "2026-06-22"
+     "pages": 2,
+     "first": "2026-10-15",
+     "last": "2026-04-20"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -112,7 +112,7 @@
      "last": "2026-04-23"
     }
    },
-   "sample": "{\"title\": \"ΧΩΜΑΤΟΥΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ ΕΚΣΚΑΦΩΝ Δ.Ε. ΕΝΙΠΕΑ\", \"referenceNumber\": \"26PROC019985297\", \"signedDate\": \"2026-10-14T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-21T14:00:00\", \"submissionDate\": \"2026-10-14T12:15:57.306\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1007.F00654.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"099137029\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\": null, \"",
+   "sample": "{\"title\": \"95120 ΣΥΣΤΗΜΑ ΟΠΤΙΚΟΥ ΤΡΟΚΑΡ ΧΩΡΙΣ ΑΝΑΓΚΗ ΜΕΤΑΤΡΟΠΕΑ ΜΗΚΟΥΣ 100 ΜΜ \", \"referenceNumber\": \"26PROC019996525\", \"signedDate\": \"2026-10-15T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-20T00:00:00\", \"submissionDate\": \"2026-10-15T13:29:28.133\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1015.E00155.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090013225\", \"greekOrganizationVatNumber\": null, \"budget\": null,",
    "keys": [
     "title",
     "referenceNumber",
@@ -180,26 +180,26 @@
     "auctionRefNo",
     "amendsNoticeRefNo"
    ],
-   "newest": "2026-10-14",
+   "newest": "2026-10-15",
    "rejected_recent": [
+    "95120 ΣΥΣΤΗΜΑ ΟΠΤΙΚΟΥ ΤΡΟΚΑΡ ΧΩΡΙΣ ΑΝΑΓΚΗ ΜΕΤΑΤΡΟΠΕΑ ΜΗΚΟΥΣ 100 ΜΜ ",
+    "95119 ΣΥΣΤΗΜΑ ΟΠΤΙΚΟΥ ΤΡΟΚΑΡ ΧΩΡΙΣ ΑΝΑΓΚΗ ΜΕΤΑΤΡΟΠΕΑ ΜΗΚΟΥΣ 100 ΜΜ",
     "ΧΩΜΑΤΟΥΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ ΕΚΣΚΑΦΩΝ Δ.Ε. ΕΝΙΠΕΑ",
     "Πρόσκληση Υποβολής Προσφοράς 84/26 της 120ΠΕΑ",
-    "Υπηρεσίες καταγραφής χώρων πρασίνου, περιφράξεων, χώρων στάθμευσης στις εγκαταστάσεις ΠΕΑΚ ΠΑΤΡΩΝ",
     "ΑΠΟΦΑΣΕΙΣ ΑΝΑΘΕΣΗΣ ΓΙΑ ΤΙΣ ΑΝΑΓΚΕΣ ΕΛΕΓΧΟΥ ΤΩΝ ΑΠΟΦΑΣΕΩΝ ΕΠΕΑ ΚΑΙ ΤΗΝ ΕΠΕΡΧΟΜΕΝΗ ΣΥΜΠΛΗΡΩΣΗ,ΔΙΟΡΘΩΣΗ",
     "Απόφαση Απευθείας Ανάθεσης 74/26 της 120ΠΕΑ",
     "Απόφαση Απευθείας Ανάθεσης 79/26 της 120ΠΕΑ",
     "Απόφαση Απευθείας Ανάθεσης 76/26 της 120ΠΕΑ",
-    "Απόφαση Απευθείας Ανάθεσης 68/26 της 120ΠΕΑ",
-    "Π/Υ ΕΤΗΣΙΑ ΥΠΗΡΕΣΙΑ ΠΛΗΡΟΥΣ ΤΕΧΝΙΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ ΤΟΥ ΜΕΤΑΤΡΟΠΕΑ ΣΥΧΝΟΤΗΤΑΣ (INVERTER)"
+    "Απόφαση Απευθείας Ανάθεσης 68/26 της 120ΠΕΑ"
    ],
-   "not_found": 12
+   "not_found": 13
   },
   {
    "name": "Διαύγεια",
    "ok": true,
    "count": 1,
-   "fetched": 123,
-   "sample": "{\"protocolNumber\": \"Α-1595\", \"subject\": \"Χρηματικό Ενταλμα Πληρωμής Α-1595 για :ΑΜΟΙΒΗ ΓΙΑ ΤΗΝ ΥΠΗΡΕΣΙΑ ΣΥΝΤΑΞΗΣ ΤΕΧΝΙΚΗΣ ΕΚΘΕΣΗΣ ΕΠΑΛΗΘΕΥΣΗΣ ΕΞΟΙΚΟΝΟΜΗΣΗΣ ΕΝΕΡΓΕΙΑΣ ΚΑΙ ΠΕΑ Β ΓΙΑ ΤΑ ΚΤΙΡΙΑ ΤΟΥ 1ου ΛΥΚΕΙΟΥ ΚΑΛΥΒΙΩΝ, ΚΟΙΝΟΤΙΚΟΥ ΚΑΤΑΣΤΗΜΑΤΟΣ Π.ΦΩΚΑΙΑΣ ΚΑΙ ΓΥΜΝΑΣΙΟΥ ΑΝΑΒΥΣΣΟΥ (ΣΥΜΒ.38262/25)\", \"issueDate\": 1791849600000, \"organizationId\": \"6269\", \"signerIds\": [\"100036334\"], \"unitIds\": [\"100036333\"], \"decisionTypeId\": \"Β.2.2\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afm\": \"997727408\", \"afmType\": \"EL\", \"name\": \"ΔΗΜΟΣ ΣΑΡΩΝΙΚΟΥ\"}, \"skipVatReason\": null, \"sponsor\": [{\"sponsorAFMName\": {\"afm\": \"801248590\", \"afmType\": \"EL\", \"name\": \"KEVIS CONSULTING ΙΔΙΩΤΙΚΗ ΚΕΦΑΛΑΙΟΥΧΙΚΗ ΕΤΑΙΡΕΙ",
+   "fetched": 122,
+   "sample": "{\"protocolNumber\": \"21307/2026\", \"subject\": \"ΠΡΟΜΗΘΕΙΑ ΚΑΥΣΙΜΩΝ ΓΙΑ ΤΗΝ ΚΑΛΥΨΗ ΤΩΝ ΑΝΑΓΚΩΝ ΚΙΝΗΣΗΣ ΤΩΝ ΟΧΗΜΑΤΩΝ ΤΟΥ ΔΗΜΟΥ ΡΑΦΗΝΑΣ - ΠΙΚΕΡΜΙΟΥ ΕΤΟΥΣ 2026   (ΠΟΛ.ΥΠ. 38/31-10-2025)\\nΠΕΑ 438/02-02-2026 ΑΦΟΡΑ ΤΡΟΠΟΠΟΙΗΣΗ ΠΟΛΥΕΤΟΥΣ ΔΕΣΜΕΥΣΗΣ 2026\", \"issueDate\": 1791936000000, \"organizationId\": \"6262\", \"signerIds\": [\"100084363\", \"100098547\"], \"unitIds\": [\"100076550\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"162/2026\", \"partialead\": false, \"recalledExpenseDecision\": false, \"amountWithVAT\": {\"currency\": \"EUR\"}, \"amountWithKae\": [], \"relatedPartialADA\": null, \"relatedDecisions\": [], ",
    "keys": [
     "protocolNumber",
     "subject",
@@ -226,6 +226,71 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC019996471",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Προμήθεια & Εγκατάσταση συστήματος RTU για την παρακολούθηση & έλεγχο Φωτοβολταϊκού πάρκου της ΔΕΥΑΚ",
+   "org": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ &  ΑΠΟΧΕΤΕΥΣΗΣ ΚΙΛΕΛΕΡ",
+   "date": "2026-10-15",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC019996471",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-16T08:31:10+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD019998947",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΑΠΟΦΑΣΗ ΑΝΑΘΕΣΗΣ ΕΠΑΝΕΛΕΓΧΟΥ ΕΣΩΤΕΡΙΚΗΣ ΗΛΕΚΤΡΟΛΟΓΙΚΗΣ ΕΓΚΑΤΑΣΤΑΣΗΣ ΚΑΙ ΕΚΔΟΣΗΣ ΝΕΑΣ ΥΔΕ ΛΥΚΟΥΡΓΟΥ 1",
+   "org": "ΗΔΙΚΑ Α.Ε (ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΑΚΥΒΕΡΝΗΣΗ - ΚΟΙΝΩΝΙΚΗ ΑΣΦΑΛΙΣΗ Α.Ε)",
+   "date": "2026-10-15",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD019998947",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-16T08:31:10+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD019997363",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "57630 15.10.2026 Ανάθεση ΥΔΕ Ρόδου",
+   "org": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+   "date": "2026-10-15",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD019997363",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-16T08:31:10+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD019991422",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΑΠΟΦΑΣΗ ΑΝΑΘΕΣΗΣ ΓΙΑ ΕΚΔΟΣΗ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΥΔΕ ΚΑΙ ΚΑΤΑΧΩΡΗΣΗ ΣΤΗ ΔΕΔΔΗΕ, ΓΙΑ ΤΟ ΚΤΙΡΙΟ ΤΗΣ 11ης ΥΦΕ",
+   "org": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΑΑΔΕ",
+   "date": "2026-10-15",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD019991422",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-16T08:31:10+00:00"
+  },
+  {
+   "id": "diavgeia:ΨΑ2Υ46ΜΤΛΒ-Ξ38",
+   "source": "Διαύγεια",
+   "title": "προμήθεια ηλεκτρολογικού  υλικού, ήτοι :Διακόπτης διαρροής 4P 40A 30mA – 42τμχ,Διακόπτης διαρροής 4P 63A 30mA  –1τμχ,Διακόπτης διαρροής 4P 80A 30mΑ – 1τμχ \n Διακόπτης διαρροής 2P 40A 30mA – 5τμχ, προς αντικατάσταση παλαιών λόγω φθοράς -προκειμένου  γίνει εφικτή η έκδοση ΥΔΕ (Υπεύθυνη Δήλωση Εγκαταστάτη)-, όπως αναφέρεται στην υπ’αριθ.8045/8/156-β΄ από 09-10-2026 Πρόσκληση Εκδήλωσης Ενδιαφέροντος , προς κάλυψη σχετικών αναγκών της Διεύθυνσης Αλλοδαπών Αττικής",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΠΡΟΣΤΑΣΙΑΣ ΤΟΥ ΠΟΛΙΤΗ",
+   "date": "2026-10-15",
+   "url": "https://diavgeia.gov.gr/doc/ΨΑ2Υ46ΜΤΛΒ-Ξ38",
+   "ref": "ΨΑ2Υ46ΜΤΛΒ-Ξ38",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-16T08:31:10+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC019976754",
    "source": "ΚΗΜΔΗΣ",
