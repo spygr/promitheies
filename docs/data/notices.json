@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T12:30:35+00:00",
+ "generated": "2026-10-17T08:02:54+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,12 +12,12 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 7,
-   "fetched": 388,
+   "count": 5,
+   "fetched": 389,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-10-15",
+     "first": "2026-10-16",
      "last": "2026-04-28"
     },
     "notice/ενεργειακό πιστοποιητικό": {
@@ -38,9 +38,9 @@
      "pages": 0
     },
     "notice/ΥΔΕ": {
-     "pages": 1,
-     "first": "2026-10-08",
-     "last": "2026-07-15"
+     "pages": 2,
+     "first": "2026-10-16",
+     "last": "2026-05-29"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -64,9 +64,9 @@
      "last": "2026-04-30"
     },
     "auction/ΠΕΑ": {
-     "pages": 2,
+     "pages": 1,
      "first": "2026-10-13",
-     "last": "2026-05-20"
+     "last": "2026-07-28"
     },
     "auction/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -112,7 +112,7 @@
      "last": "2026-04-23"
     }
    },
-   "sample": "{\"title\": \"95120 ΣΥΣΤΗΜΑ ΟΠΤΙΚΟΥ ΤΡΟΚΑΡ ΧΩΡΙΣ ΑΝΑΓΚΗ ΜΕΤΑΤΡΟΠΕΑ ΜΗΚΟΥΣ 100 ΜΜ \", \"referenceNumber\": \"26PROC019996525\", \"signedDate\": \"2026-10-15T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-20T00:00:00\", \"submissionDate\": \"2026-10-15T13:29:28.133\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1015.E00155.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090013225\", \"greekOrganizationVatNumber\": null, \"budget\": null,",
+   "sample": "{\"title\": \"Συνδρομή σε διαδικτυακή βάση νομικών πληροφοριών για Νομική Υπηρεσία ΠΕΑΑ\", \"referenceNumber\": \"26PROC020006385\", \"signedDate\": \"2026-10-16T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-21T14:00:00\", \"submissionDate\": \"2026-10-16T14:09:07.492\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1007.909.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"997875116\", \"greekOrganizationVatNumber\": null, \"budget\": nu",
    "keys": [
     "title",
     "referenceNumber",
@@ -180,17 +180,12 @@
     "auctionRefNo",
     "amendsNoticeRefNo"
    ],
-   "newest": "2026-10-15",
+   "newest": "2026-10-16",
    "rejected_recent": [
+    "Συνδρομή σε διαδικτυακή βάση νομικών πληροφοριών για Νομική Υπηρεσία ΠΕΑΑ",
     "95120 ΣΥΣΤΗΜΑ ΟΠΤΙΚΟΥ ΤΡΟΚΑΡ ΧΩΡΙΣ ΑΝΑΓΚΗ ΜΕΤΑΤΡΟΠΕΑ ΜΗΚΟΥΣ 100 ΜΜ ",
     "95119 ΣΥΣΤΗΜΑ ΟΠΤΙΚΟΥ ΤΡΟΚΑΡ ΧΩΡΙΣ ΑΝΑΓΚΗ ΜΕΤΑΤΡΟΠΕΑ ΜΗΚΟΥΣ 100 ΜΜ",
-    "ΧΩΜΑΤΟΥΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ ΕΚΣΚΑΦΩΝ Δ.Ε. ΕΝΙΠΕΑ",
-    "Πρόσκληση Υποβολής Προσφοράς 84/26 της 120ΠΕΑ",
-    "ΑΠΟΦΑΣΕΙΣ ΑΝΑΘΕΣΗΣ ΓΙΑ ΤΙΣ ΑΝΑΓΚΕΣ ΕΛΕΓΧΟΥ ΤΩΝ ΑΠΟΦΑΣΕΩΝ ΕΠΕΑ ΚΑΙ ΤΗΝ ΕΠΕΡΧΟΜΕΝΗ ΣΥΜΠΛΗΡΩΣΗ,ΔΙΟΡΘΩΣΗ",
-    "Απόφαση Απευθείας Ανάθεσης 74/26 της 120ΠΕΑ",
-    "Απόφαση Απευθείας Ανάθεσης 79/26 της 120ΠΕΑ",
-    "Απόφαση Απευθείας Ανάθεσης 76/26 της 120ΠΕΑ",
-    "Απόφαση Απευθείας Ανάθεσης 68/26 της 120ΠΕΑ"
+    "ΧΩΜΑΤΟΥΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ ΕΚΣΚΑΦΩΝ Δ.Ε. ΕΝΙΠΕΑ"
    ],
    "not_found": 13
   },
@@ -198,8 +193,8 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 1,
-   "fetched": 126,
-   "sample": "{\"protocolNumber\": \"21307/2026\", \"subject\": \"ΠΡΟΜΗΘΕΙΑ ΚΑΥΣΙΜΩΝ ΓΙΑ ΤΗΝ ΚΑΛΥΨΗ ΤΩΝ ΑΝΑΓΚΩΝ ΚΙΝΗΣΗΣ ΤΩΝ ΟΧΗΜΑΤΩΝ ΤΟΥ ΔΗΜΟΥ ΡΑΦΗΝΑΣ - ΠΙΚΕΡΜΙΟΥ ΕΤΟΥΣ 2026   (ΠΟΛ.ΥΠ. 38/31-10-2025)\\nΠΕΑ 438/02-02-2026 ΑΦΟΡΑ ΤΡΟΠΟΠΟΙΗΣΗ ΠΟΛΥΕΤΟΥΣ ΔΕΣΜΕΥΣΗΣ 2026\", \"issueDate\": 1791936000000, \"organizationId\": \"6262\", \"signerIds\": [\"100084363\", \"100098547\"], \"unitIds\": [\"100076550\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"162/2026\", \"partialead\": false, \"recalledExpenseDecision\": false, \"amountWithVAT\": {\"currency\": \"EUR\"}, \"amountWithKae\": [], \"relatedPartialADA\": null, \"relatedDecisions\": [], ",
+   "fetched": 131,
+   "sample": "{\"protocolNumber\": \"000-00/1015\", \"subject\": \"Παροχή υπηρεσιών για τη Μελέτη Ενεργειακής Επιθεώρησης και έκδοσης 1ου Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο Φοιτητικής Εστίας του Πανεπιστημίου Πατρών στο Κουκούλι Πάτρας\", \"issueDate\": 1792108800000, \"organizationId\": \"99206920\", \"signerIds\": [\"100093115\"], \"unitIds\": [\"93686\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"1015\", \"partialead\": false, \"recalledExpenseDecision\": false, \"amountWithVAT\": {\"amount\": 1984.0, \"currency\": \"EUR\"}, \"amountWithKae\": [{\"sponsorAFMName\": {\"afm\": \"090061075\", \"afmType\": \"EL\", \"a",
    "keys": [
     "protocolNumber",
     "subject",
@@ -226,6 +221,19 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020007977",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΠΡΟΣΚΛΗΣΗ Έλεγχος και σύνταξη εντύπου ΥΔΕ για την ηλεκτρολογική εγκατάσταση του τμ. Δασολογίας Καρπε",
+   "org": "ΓΕΩΠΟΝΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+   "date": "2026-10-16",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020007977",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-17T08:02:54+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC019996471",
    "source": "ΚΗΜΔΗΣ",
