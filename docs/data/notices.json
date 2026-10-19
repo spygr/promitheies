@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T12:05:42+00:00",
+ "generated": "2026-10-19T09:19:25+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,8 +12,8 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 5,
-   "fetched": 388,
+   "count": 1,
+   "fetched": 358,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
@@ -86,9 +86,9 @@
      "pages": 0
     },
     "auction/ΥΔΕ": {
-     "pages": 2,
+     "pages": 1,
      "first": "2026-10-15",
-     "last": "2026-04-21"
+     "last": "2026-06-24"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -182,18 +182,16 @@
    ],
    "newest": "2026-10-16",
    "rejected_recent": [
-    "Συνδρομή σε διαδικτυακή βάση νομικών πληροφοριών για Νομική Υπηρεσία ΠΕΑΑ",
-    "95120 ΣΥΣΤΗΜΑ ΟΠΤΙΚΟΥ ΤΡΟΚΑΡ ΧΩΡΙΣ ΑΝΑΓΚΗ ΜΕΤΑΤΡΟΠΕΑ ΜΗΚΟΥΣ 100 ΜΜ ",
-    "95119 ΣΥΣΤΗΜΑ ΟΠΤΙΚΟΥ ΤΡΟΚΑΡ ΧΩΡΙΣ ΑΝΑΓΚΗ ΜΕΤΑΤΡΟΠΕΑ ΜΗΚΟΥΣ 100 ΜΜ"
+    "Συνδρομή σε διαδικτυακή βάση νομικών πληροφοριών για Νομική Υπηρεσία ΠΕΑΑ"
    ],
-   "not_found": 13
+   "not_found": 12
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 1,
-   "fetched": 100,
-   "sample": "{\"protocolNumber\": \"000-00/1015\", \"subject\": \"Παροχή υπηρεσιών για τη Μελέτη Ενεργειακής Επιθεώρησης και έκδοσης 1ου Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο Φοιτητικής Εστίας του Πανεπιστημίου Πατρών στο Κουκούλι Πάτρας\", \"issueDate\": 1792108800000, \"organizationId\": \"99206920\", \"signerIds\": [\"100093115\"], \"unitIds\": [\"93686\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"1015\", \"partialead\": false, \"recalledExpenseDecision\": false, \"amountWithVAT\": {\"amount\": 1984.0, \"currency\": \"EUR\"}, \"amountWithKae\": [{\"sponsorAFMName\": {\"afm\": \"090061075\", \"afmType\": \"EL\", \"a",
+   "count": 0,
+   "fetched": 84,
+   "sample": "{\"protocolNumber\": \"553/2026  ΑΠΟΦ. ΔΕ\", \"subject\": \"Έγκριση 2ης Παράτασης της υπηρεσίας με τίτλο: «ΕΚΔΟΣΗ ΠΙΣΤΟΠΟΙΗΤΙΚΩΝ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ (ΠΕΑ) ΓΙΑ ΚΤΙΡΙΑ ΑΡΜΟΔΙΟΤΗΤΑΣ ΤΟΥ ΔΗΜΟΥ ΠΡΕΒΕΖΑΣ\", \"issueDate\": 1792108800000, \"organizationId\": \"6253\", \"signerIds\": [\"100093014\"], \"unitIds\": [\"92509\"], \"decisionTypeId\": \"2.4.7.1\", \"thematicCategoryIds\": [\"16\"], \"extraFieldValues\": {\"kanonistikipraxitype\": \"Πράξη Οργάνου Διοίκησης ΟΤΑ Α’ και Β’ Βαθμού (και εποπτευόμενων φορέων τους)\", \"kanonistikiPraxiPublishMedium\": \"στην ιστοσελίδα του φορέα\", \"fek\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\", \"co_competent\": null}, \"privateData\": false, \"ada\": \"ΨΒΥΚΩΞΧ-8ΡΗ\", \"publishTimestamp\": 179239",
    "keys": [
     "protocolNumber",
     "subject",
