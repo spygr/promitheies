@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T14:44:40+00:00",
+ "generated": "2026-10-20T08:53:29+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,12 +12,12 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 1,
-   "fetched": 358,
+   "count": 3,
+   "fetched": 360,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-10-16",
+     "first": "2026-10-19",
      "last": "2026-04-28"
     },
     "notice/ενεργειακό πιστοποιητικό": {
@@ -39,7 +39,7 @@
     },
     "notice/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-10-16",
+     "first": "2026-10-19",
      "last": "2026-05-29"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
@@ -55,7 +55,7 @@
     },
     "notice/φωτοβολταϊκό": {
      "pages": 1,
-     "first": "2026-10-15",
+     "first": "2026-10-19",
      "last": "2026-04-27"
     },
     "notice/φωτοβολταϊκών": {
@@ -112,7 +112,7 @@
      "last": "2026-04-23"
     }
    },
-   "sample": "{\"title\": \"Συνδρομή σε διαδικτυακή βάση νομικών πληροφοριών για Νομική Υπηρεσία ΠΕΑΑ\", \"referenceNumber\": \"26PROC020006385\", \"signedDate\": \"2026-10-16T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-21T14:00:00\", \"submissionDate\": \"2026-10-16T14:09:07.492\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1007.909.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"997875116\", \"greekOrganizationVatNumber\": null, \"budget\": nu",
+   "sample": "{\"title\": \"Πρόσκληση για έκδοση Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο του ΑΜΜ\", \"referenceNumber\": \"26PROC020016982\", \"signedDate\": \"2026-10-19T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-26T15:00:00\", \"submissionDate\": \"2026-10-19T14:47:20.808\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1022.0000000000.0064\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090283815\", \"greekOrganizationVatNumber\": ",
    "keys": [
     "title",
     "referenceNumber",
@@ -180,18 +180,15 @@
     "auctionRefNo",
     "amendsNoticeRefNo"
    ],
-   "newest": "2026-10-16",
-   "rejected_recent": [
-    "Συνδρομή σε διαδικτυακή βάση νομικών πληροφοριών για Νομική Υπηρεσία ΠΕΑΑ"
-   ],
-   "not_found": 12
+   "newest": "2026-10-19",
+   "not_found": 13
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 0,
-   "fetched": 84,
-   "sample": "{\"protocolNumber\": \"553/2026  ΑΠΟΦ. ΔΕ\", \"subject\": \"Έγκριση 2ης Παράτασης της υπηρεσίας με τίτλο: «ΕΚΔΟΣΗ ΠΙΣΤΟΠΟΙΗΤΙΚΩΝ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ (ΠΕΑ) ΓΙΑ ΚΤΙΡΙΑ ΑΡΜΟΔΙΟΤΗΤΑΣ ΤΟΥ ΔΗΜΟΥ ΠΡΕΒΕΖΑΣ\", \"issueDate\": 1792108800000, \"organizationId\": \"6253\", \"signerIds\": [\"100093014\"], \"unitIds\": [\"92509\"], \"decisionTypeId\": \"2.4.7.1\", \"thematicCategoryIds\": [\"16\"], \"extraFieldValues\": {\"kanonistikipraxitype\": \"Πράξη Οργάνου Διοίκησης ΟΤΑ Α’ και Β’ Βαθμού (και εποπτευόμενων φορέων τους)\", \"kanonistikiPraxiPublishMedium\": \"στην ιστοσελίδα του φορέα\", \"fek\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\", \"co_competent\": null}, \"privateData\": false, \"ada\": \"ΨΒΥΚΩΞΧ-8ΡΗ\", \"publishTimestamp\": 179239",
+   "count": 7,
+   "fetched": 61,
+   "sample": "{\"protocolNumber\": \"Α/1077\", \"subject\": \"Πληρωμές παραβόλων (ΠΕΑ, e-άδειες ,e-παράβολα ...\", \"issueDate\": 1792368000000, \"organizationId\": \"6003\", \"signerIds\": [\"100081642\"], \"unitIds\": [\"100099627\"], \"decisionTypeId\": \"Β.2.2\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afm\": \"099711740\", \"afmCountry\": \"EL\", \"afmType\": \"EL\", \"enterName\": false, \"name\": \"Δήμος Αγιάς\", \"noVATOrg\": null}, \"skipVatReason\": null, \"sponsor\": [{\"cpv\": null, \"expenseAmount\": {\"amount\": 10.0, \"currency\": \"EUR\"}, \"kae\": \"000.2420989001\", \"sponsorAFMName\": {\"afm\": \"090002260\", \"afmCountry\": \"EL\", \"afmType\": \"EL\", \"enterName\": false, \"name\": \"ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΟΣ\", \"noVATOrg\": null}}], \"related",
    "keys": [
     "protocolNumber",
     "subject",
@@ -218,6 +215,85 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020016982",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Πρόσκληση για έκδοση Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο του ΑΜΜ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΠΟΛΙΤΙΣΜΟΥ",
+   "date": "2026-10-19",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020016982",
+   "matched": [
+    "ΠΕΑ",
+    "πιστοποιητικ* ενεργειακ*"
+   ],
+   "first_seen": "2026-10-20T08:53:29+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020016276",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Δ92/2026 Υπηρεσίες ελέγχου και έκδοσης Υπεύθ. Δήλωσης Εγκαταστάτη (ΥΔΕ) ηλεκτρολογικής εγκατάστασης",
+   "org": "Π.Γ.Ν. «ΑΤΤΙΚΟΝ» - Γ.Ν.Δ.Α. «Η ΑΓΙΑ ΒΑΡΒΑΡΑ» ΟΡΓΑΝΙΚΗ ΜΟΝΑΔΑ ΕΔΡΑΣ Π.Γ.Ν. «ΑΤΤΙΚΟΝ»",
+   "date": "2026-10-19",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020016276",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-20T08:53:29+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020009572",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Προμήθεια φωτοβολταικού συστήματος και ηλιακων πάνελ για το ΚΕΚΑΦΚ \"ΔΕΥΚΑΛΙΩΝ'",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-10-19",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020009572",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-20T08:53:29+00:00"
+  },
+  {
+   "id": "diavgeia:9ΡΩΙ4690ΩΔ-ΙΓΦ",
+   "source": "Διαύγεια",
+   "title": "Δ92/2026 Διακήρυξη Δημόσιου Ανοιχτού Ηλεκτρονικού διαγωνισμού για την παροχή υπηρεσιών ελέγχου και έκδοσης Υπεύθυνης Δήλωσης Εγκαταστάτη (ΥΔΕ) ηλεκτρολογικής εγκατάστασης (CPV: 71314100-3), προϋπολογισμού 180.000,00 € πλέον ΦΠΑ και με κριτήριο κατακύρωσης την πλέον συμφέρουσα από οικονομικής άποψης προσφορά μόνο βάσει τιμής.",
+   "org": "Π.Γ.Ν. «ΑΤΤΙΚΟΝ» - Γ.Ν.Δ.Α. «Η ΑΓΙΑ ΒΑΡΒΑΡΑ» ΟΡΓΑΝΙΚΗ ΜΟΝΑΔΑ ΕΔΡΑΣ Π.Γ.Ν. «ΑΤΤΙΚΟΝ»",
+   "date": "2026-10-19",
+   "url": "https://diavgeia.gov.gr/doc/9ΡΩΙ4690ΩΔ-ΙΓΦ",
+   "ref": "9ΡΩΙ4690ΩΔ-ΙΓΦ",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-20T08:53:29+00:00"
+  },
+  {
+   "id": "diavgeia:9Ο07ΩΕΓ-9ΘΛ",
+   "source": "Διαύγεια",
+   "title": "Έγκριση 2ου πρακτικού επιτροπής διαγωνισμού για την:  Προμήθεια εγκατάσταση, θέση σε λειτουργία φωτοβολταϊκών σταθμών συνολικής ισχύος 5.999,4kWp με εικονικό ενεργειακό συμψηφισμό (virtual net metering) στη θέση Νεραϊδοβούνι του Δήμου Καρπενησίου (μετάθεση καταληκτικής ημερομηνίας υποβολής προσφορών καθώς και το σύνολο των ημερομηνιών της διακήρυξης)",
+   "org": "ΔΗΜΟΣ ΚΑΡΠΕΝΗΣΙΟΥ",
+   "date": "2026-10-19",
+   "url": "https://diavgeia.gov.gr/doc/9Ο07ΩΕΓ-9ΘΛ",
+   "ref": "9Ο07ΩΕΓ-9ΘΛ",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-20T08:53:29+00:00"
+  },
+  {
+   "id": "diavgeia:ΡΜΒ0ΩΕΓ-Α93",
+   "source": "Διαύγεια",
+   "title": "Έγκριση συζήτησης θέματος  κατεπείγουσας συνεδρίασης με τίτλο:   Έγκριση 2ου πρακτικού επιτροπής διαγωνισμού για την:  Προμήθεια εγκατάσταση, θέση σε λειτουργία φωτοβολταϊκών σταθμών συνολικής ισχύος 5.999,4kWp με εικονικό ενεργειακό συμψηφισμό (virtual net metering) στη θέση Νεραϊδοβούνι του Δήμου Καρπενησίου (μετάθεση καταληκτικής ημερομηνίας υποβολής προσφορών καθώς και το σύνολο των ημερομηνιών της διακήρυξης)",
+   "org": "ΔΗΜΟΣ ΚΑΡΠΕΝΗΣΙΟΥ",
+   "date": "2026-10-19",
+   "url": "https://diavgeia.gov.gr/doc/ΡΜΒ0ΩΕΓ-Α93",
+   "ref": "ΡΜΒ0ΩΕΓ-Α93",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-20T08:53:29+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020007977",
    "source": "ΚΗΜΔΗΣ",
