@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T08:53:29+00:00",
+ "generated": "2026-10-20T12:46:46+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -187,8 +187,8 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 7,
-   "fetched": 61,
-   "sample": "{\"protocolNumber\": \"Α/1077\", \"subject\": \"Πληρωμές παραβόλων (ΠΕΑ, e-άδειες ,e-παράβολα ...\", \"issueDate\": 1792368000000, \"organizationId\": \"6003\", \"signerIds\": [\"100081642\"], \"unitIds\": [\"100099627\"], \"decisionTypeId\": \"Β.2.2\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afm\": \"099711740\", \"afmCountry\": \"EL\", \"afmType\": \"EL\", \"enterName\": false, \"name\": \"Δήμος Αγιάς\", \"noVATOrg\": null}, \"skipVatReason\": null, \"sponsor\": [{\"cpv\": null, \"expenseAmount\": {\"amount\": 10.0, \"currency\": \"EUR\"}, \"kae\": \"000.2420989001\", \"sponsorAFMName\": {\"afm\": \"090002260\", \"afmCountry\": \"EL\", \"afmType\": \"EL\", \"enterName\": false, \"name\": \"ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΟΣ\", \"noVATOrg\": null}}], \"related",
+   "fetched": 62,
+   "sample": "{\"protocolNumber\": \"1627\", \"subject\": \"Απόφαση Ανάληψης Υποχρέωσης 1627 για: αποστολής του κ. Δημήτρη Ξυνομηλάκη Αρχιτέκτονα Μηχανικού, Μέλους του ΕΤ_UIA, Προέδρου ΣΑΔΑΣ-ΠΕΑ, και Μέλους του Συμβουλίου της UIA για την Region II (Κεντρική και Ανατολική Ευρώπη και Μέση Ανατολή), στη 185η Συνεδρίαση του Συμβουλίου της Διεθνούς Ένωσης Αρχιτεκτόνων (185th UIA Council Meeting), που θα πραγματοποιηθεί στο Παρίσι (Γαλλία) από 05 έως 06 Νοεμβρίου 2026. Ο κ. Ξυνομηλάκης θα μεταβεί από 04 έως 07 Νοεμβρίου 2026 με δαπάνες του ΤΕΕ για μετάβαση και διαμονή.\", \"issueDate\": 1792443600000, \"organizationId\": \"99201077\", \"signerIds\": [\"100002634\"], \"unitIds\": [\"100057316\"], \"decisionTypeId\": \"Β.1.3\", \"thematicC",
    "keys": [
     "protocolNumber",
     "subject",
