@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T08:53:46+00:00",
+ "generated": "2026-10-21T12:59:22+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,8 +12,8 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 4,
-   "fetched": 359,
+   "count": 2,
+   "fetched": 192,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
@@ -49,24 +49,16 @@
      "pages": 0
     },
     "notice/φωτοβολταϊκά": {
-     "pages": 1,
-     "first": "2026-08-11",
-     "last": "2026-07-13"
+     "pages": 0
     },
     "notice/φωτοβολταϊκό": {
-     "pages": 1,
-     "first": "2026-10-20",
-     "last": "2026-04-27"
+     "pages": 0
     },
     "notice/φωτοβολταϊκών": {
-     "pages": 1,
-     "first": "2026-10-05",
-     "last": "2026-04-30"
+     "pages": 0
     },
     "auction/ΠΕΑ": {
-     "pages": 1,
-     "first": "2026-10-13",
-     "last": "2026-07-28"
+     "pages": 0
     },
     "auction/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -75,9 +67,7 @@
      "pages": 0
     },
     "auction/ενεργειακών πιστοποιητικών": {
-     "pages": 1,
-     "first": "2026-04-28",
-     "last": "2026-04-28"
+     "pages": 0
     },
     "auction/πιστοποιητικά ενεργειακής απόδοσης": {
      "pages": 0
@@ -86,9 +76,7 @@
      "pages": 0
     },
     "auction/ΥΔΕ": {
-     "pages": 1,
-     "first": "2026-10-15",
-     "last": "2026-06-24"
+     "pages": 0
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -97,19 +85,13 @@
      "pages": 0
     },
     "auction/φωτοβολταϊκά": {
-     "pages": 1,
-     "first": "2026-09-01",
-     "last": "2026-07-21"
+     "pages": 0
     },
     "auction/φωτοβολταϊκό": {
-     "pages": 1,
-     "first": "2026-10-06",
-     "last": "2026-05-08"
+     "pages": 0
     },
     "auction/φωτοβολταϊκών": {
-     "pages": 1,
-     "first": "2026-10-08",
-     "last": "2026-05-11"
+     "pages": 0
     }
    },
    "sample": "{\"title\": \"Πρόσκληση για έκδοση Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο του ΑΜΜ\", \"referenceNumber\": \"26PROC020016982\", \"signedDate\": \"2026-10-19T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-26T15:00:00\", \"submissionDate\": \"2026-10-19T14:47:20.808\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1022.0000000000.0064\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090283815\", \"greekOrganizationVatNumber\": ",
@@ -180,17 +162,18 @@
     "auctionRefNo",
     "amendsNoticeRefNo"
    ],
-   "newest": "2026-10-20",
-   "not_found": 13
+   "newest": "2026-10-19",
+   "not_found": 21
   },
   {
    "name": "Διαύγεια",
    "ok": true,
    "count": 10,
-   "fetched": 107,
-   "sample": "{\"protocolNumber\": \"67720\", \"subject\": \"Απόφαση Δέσμευσης: AA=223, Υπόλοιπο=27.370,00, για: \\\"Εκδοση Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο της Πλ.Συντάγματος συμπεριλαμβανομένων των ισογείων καταστημάτων του, καθώς και για το κτίριο επί των οδων Πανεπιστημίου 37 και Κοραή 2 στή\", \"issueDate\": 1792454400000, \"organizationId\": \"15\", \"signerIds\": [\"100095581\"], \"unitIds\": [\"73871\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"223\", \"partialead\": false, \"recalledExpenseDecision\": false, \"amountWithVAT\": {\"amount\": 13640.0, \"currency\": \"EUR\"}, \"amountWithKae\": [{\"sp",
+   "fetched": 108,
+   "sample": "{\"protocolNumber\": \"67720\", \"adam\": null, \"subject\": \"Απόφαση Δέσμευσης: AA=223, Υπόλοιπο=27.370,00, για: \\\"Εκδοση Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο της Πλ.Συντάγματος συμπεριλαμβανομένων των ισογείων καταστημάτων του, καθώς και για το κτίριο επί των οδων Πανεπιστημίου 37 και Κοραή 2 στή\", \"issueDate\": 1792454400000, \"organizationId\": \"15\", \"signerIds\": [\"100095581\"], \"unitIds\": [\"73871\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"223\", \"partialead\": false, \"recalledExpenseDecision\": false, \"amountWithVAT\": {\"amount\": 13640.0, \"currency\": \"EUR\"}, \"amountW",
    "keys": [
     "protocolNumber",
+    "adam",
     "subject",
     "issueDate",
     "organizationId",
