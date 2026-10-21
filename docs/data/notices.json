@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T12:46:46+00:00",
+ "generated": "2026-10-21T08:53:46+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,8 +12,8 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 3,
-   "fetched": 360,
+   "count": 4,
+   "fetched": 359,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
@@ -55,7 +55,7 @@
     },
     "notice/φωτοβολταϊκό": {
      "pages": 1,
-     "first": "2026-10-19",
+     "first": "2026-10-20",
      "last": "2026-04-27"
     },
     "notice/φωτοβολταϊκών": {
@@ -109,7 +109,7 @@
     "auction/φωτοβολταϊκών": {
      "pages": 1,
      "first": "2026-10-08",
-     "last": "2026-04-23"
+     "last": "2026-05-11"
     }
    },
    "sample": "{\"title\": \"Πρόσκληση για έκδοση Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο του ΑΜΜ\", \"referenceNumber\": \"26PROC020016982\", \"signedDate\": \"2026-10-19T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-26T15:00:00\", \"submissionDate\": \"2026-10-19T14:47:20.808\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1022.0000000000.0064\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090283815\", \"greekOrganizationVatNumber\": ",
@@ -180,15 +180,15 @@
     "auctionRefNo",
     "amendsNoticeRefNo"
    ],
-   "newest": "2026-10-19",
+   "newest": "2026-10-20",
    "not_found": 13
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 7,
-   "fetched": 62,
-   "sample": "{\"protocolNumber\": \"1627\", \"subject\": \"Απόφαση Ανάληψης Υποχρέωσης 1627 για: αποστολής του κ. Δημήτρη Ξυνομηλάκη Αρχιτέκτονα Μηχανικού, Μέλους του ΕΤ_UIA, Προέδρου ΣΑΔΑΣ-ΠΕΑ, και Μέλους του Συμβουλίου της UIA για την Region II (Κεντρική και Ανατολική Ευρώπη και Μέση Ανατολή), στη 185η Συνεδρίαση του Συμβουλίου της Διεθνούς Ένωσης Αρχιτεκτόνων (185th UIA Council Meeting), που θα πραγματοποιηθεί στο Παρίσι (Γαλλία) από 05 έως 06 Νοεμβρίου 2026. Ο κ. Ξυνομηλάκης θα μεταβεί από 04 έως 07 Νοεμβρίου 2026 με δαπάνες του ΤΕΕ για μετάβαση και διαμονή.\", \"issueDate\": 1792443600000, \"organizationId\": \"99201077\", \"signerIds\": [\"100002634\"], \"unitIds\": [\"100057316\"], \"decisionTypeId\": \"Β.1.3\", \"thematicC",
+   "count": 10,
+   "fetched": 107,
+   "sample": "{\"protocolNumber\": \"67720\", \"subject\": \"Απόφαση Δέσμευσης: AA=223, Υπόλοιπο=27.370,00, για: \\\"Εκδοση Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο της Πλ.Συντάγματος συμπεριλαμβανομένων των ισογείων καταστημάτων του, καθώς και για το κτίριο επί των οδων Πανεπιστημίου 37 και Κοραή 2 στή\", \"issueDate\": 1792454400000, \"organizationId\": \"15\", \"signerIds\": [\"100095581\"], \"unitIds\": [\"73871\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"223\", \"partialead\": false, \"recalledExpenseDecision\": false, \"amountWithVAT\": {\"amount\": 13640.0, \"currency\": \"EUR\"}, \"amountWithKae\": [{\"sp",
    "keys": [
     "protocolNumber",
     "subject",
@@ -215,6 +215,32 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020019942",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Πρόσκληση για Παροχή υπηρεσίας για  προετοιμασία και σύνταξη των μελετών για  Φωτοβολταϊκό Σταθμό",
+   "org": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+   "date": "2026-10-20",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020019942",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-21T08:53:46+00:00"
+  },
+  {
+   "id": "diavgeia:ΕΠΜΨ4690ΒΦ-8ΒΤ",
+   "source": "Διαύγεια",
+   "title": "Απόφαση Διοικητή για τη επίδοση από δικαστικό επιμελητή της υπ’αριθ. 29000/20.10.2026 ειδική πρόσκληση εκτέλεσης ενεργειών της σύμβασης εκπόνησης της μελέτης με τίτλο “ΑΔΕΙΟΔΟΤΗΣΗ ΦΩΤΟΒΟΛΤΑΪΚΟΥ ΠΑΡΚΟΥ” ",
+   "org": "ΝΟΜ.ΓΕΝ. ΝΟΣΟΚΟΜΕΙΟ ΚΑΛΑΜΑΤΑΣ",
+   "date": "2026-10-20",
+   "url": "https://diavgeia.gov.gr/doc/ΕΠΜΨ4690ΒΦ-8ΒΤ",
+   "ref": "ΕΠΜΨ4690ΒΦ-8ΒΤ",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-21T08:53:46+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020016982",
    "source": "ΚΗΜΔΗΣ",
