@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T12:59:22+00:00",
+ "generated": "2026-10-22T08:56:09+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,12 +12,12 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 2,
-   "fetched": 192,
+   "count": 7,
+   "fetched": 361,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-10-19",
+     "first": "2026-10-21",
      "last": "2026-04-28"
     },
     "notice/ενεργειακό πιστοποιητικό": {
@@ -39,8 +39,8 @@
     },
     "notice/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-10-19",
-     "last": "2026-05-29"
+     "first": "2026-10-21",
+     "last": "2026-06-02"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -49,16 +49,24 @@
      "pages": 0
     },
     "notice/φωτοβολταϊκά": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-08-11",
+     "last": "2026-07-13"
     },
     "notice/φωτοβολταϊκό": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-10-20",
+     "last": "2026-04-27"
     },
     "notice/φωτοβολταϊκών": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-10-21",
+     "last": "2026-04-30"
     },
     "auction/ΠΕΑ": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-10-13",
+     "last": "2026-07-28"
     },
     "auction/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -67,7 +75,9 @@
      "pages": 0
     },
     "auction/ενεργειακών πιστοποιητικών": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-04-28",
+     "last": "2026-04-28"
     },
     "auction/πιστοποιητικά ενεργειακής απόδοσης": {
      "pages": 0
@@ -76,7 +86,9 @@
      "pages": 0
     },
     "auction/ΥΔΕ": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-10-15",
+     "last": "2026-06-24"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -85,16 +97,22 @@
      "pages": 0
     },
     "auction/φωτοβολταϊκά": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-09-01",
+     "last": "2026-07-21"
     },
     "auction/φωτοβολταϊκό": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-10-06",
+     "last": "2026-05-08"
     },
     "auction/φωτοβολταϊκών": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-10-08",
+     "last": "2026-05-11"
     }
    },
-   "sample": "{\"title\": \"Πρόσκληση για έκδοση Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο του ΑΜΜ\", \"referenceNumber\": \"26PROC020016982\", \"signedDate\": \"2026-10-19T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-26T15:00:00\", \"submissionDate\": \"2026-10-19T14:47:20.808\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1022.0000000000.0064\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090283815\", \"greekOrganizationVatNumber\": ",
+   "sample": "{\"title\": \"ΕΚΔΟΣΗ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ (ΠΕΑ)\", \"referenceNumber\": \"26PROC020028305\", \"signedDate\": \"2026-10-21T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-27T15:00:00\", \"submissionDate\": \"2026-10-21T08:40:48.033\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1007.E85204.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090046938\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\": nu",
    "keys": [
     "title",
     "referenceNumber",
@@ -160,17 +178,28 @@
     "optionRightDescription",
     "abortReason",
     "auctionRefNo",
-    "amendsNoticeRefNo"
+    "amendsNoticeRefNo",
+    "ada",
+    "diavgeiaLink",
+    "documentLink",
+    "thematicCategory",
+    "revoked",
+    "revocationReason",
+    "version",
+    "diavgeiaErrorCode",
+    "diavgeiaErrorMessage",
+    "revocationStatus",
+    "exceptions"
    ],
-   "newest": "2026-10-19",
-   "not_found": 21
+   "newest": "2026-10-21",
+   "not_found": 14
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 10,
-   "fetched": 108,
-   "sample": "{\"protocolNumber\": \"67720\", \"adam\": null, \"subject\": \"Απόφαση Δέσμευσης: AA=223, Υπόλοιπο=27.370,00, για: \\\"Εκδοση Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο της Πλ.Συντάγματος συμπεριλαμβανομένων των ισογείων καταστημάτων του, καθώς και για το κτίριο επί των οδων Πανεπιστημίου 37 και Κοραή 2 στή\", \"issueDate\": 1792454400000, \"organizationId\": \"15\", \"signerIds\": [\"100095581\"], \"unitIds\": [\"73871\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"223\", \"partialead\": false, \"recalledExpenseDecision\": false, \"amountWithVAT\": {\"amount\": 13640.0, \"currency\": \"EUR\"}, \"amountW",
+   "count": 13,
+   "fetched": 142,
+   "sample": "{\"protocolNumber\": \"3892\", \"adam\": null, \"subject\": \"Δαπάνες Προμηθειών - Υπηρεσιών - Έργων [Παροχή Τεχνικών & Λοιπών Συναφών Επιστημονικών Υπηρεσιών - Απόφαση Έγκρισης και Παραλαβής της Σύμβασης για την Έκδοση ΠΕΑ, της Πράξης «Ενεργειακή Αναβάθμιση Κτιριακού Συγκροτήματος Μονάδων ΠΑ Καρπάθου»]\", \"issueDate\": 1792540800000, \"organizationId\": \"6\", \"signerIds\": [\"100096151\"], \"unitIds\": [\"88757\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"person\": [], \"awardAmount\": {\"amount\": 2976.0, \"currency\": \"EUR\"}, \"assignmentType\": \"Τεχνικές ή λοιπές συναφείς υπηρεσίες\", \"cpv\": [\"71315400-3\"], \"textRelatedADA\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\",",
    "keys": [
     "protocolNumber",
     "adam",
@@ -198,6 +227,59 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020028305",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΕΚΔΟΣΗ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ (ΠΕΑ)",
+   "org": "ΔΗΜΟΣ ΑΙΓΙΝΑΣ",
+   "date": "2026-10-21",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020028305",
+   "matched": [
+    "ΠΕΑ",
+    "πιστοποιητικ* ενεργειακ*"
+   ],
+   "first_seen": "2026-10-22T08:56:09+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020034966",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΚΥ ΝΕΑΠΟΛΗΣ Π.Ε.Ε. ΓΙΑ ΕΚΔΟΣΗ ΥΔΕ (ΠΡΟΣΘΗΚΗ ΠΡΟΜΗΘΕΥΤΗ)",
+   "org": "6Η ΔΥΠΕ ΠΕΛΛΟΠΟΝΗΣΟΥ ΙΟΝΙΩΝ, ΗΠΕΙΡΟΥ & ΔΥΤ.ΕΛΛΑΔΑΣ",
+   "date": "2026-10-21",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020034966",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-22T08:56:09+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020030329",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΠΡΟΜΗΘΕΙΑ ΠΡΟΣ ΜΠΕΝΙΟΥΔΑΚΗ ΕΥΑΓΓΕΛΟ ΓΙΑ ΤΗΝ ΠΡΟΜΗΘΕΙΑ ΕΞΟΠΛΙΣΜΟΥ ΦΩΤΟΒΟΛΤΑΙΚΩΝ ΣΥΣΤΗΜΑΤΩΝ",
+   "org": "ΜΟΝΟΜΕΤΟΧΙΚΗ  Α.Ε. ΔΗΜΟΥ ΚΙΣΑΜΟΥ",
+   "date": "2026-10-21",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020030329",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-22T08:56:09+00:00"
+  },
+  {
+   "id": "diavgeia:99ΠΩΩΞΛ-ΚΛΕ",
+   "source": "Διαύγεια",
+   "title": "«Συζήτηση και λήψη απόφασης περί ματαίωσης του με αριθμό ηλεκτρονικού συστήματος 345261, ανοικτού ηλεκτρονικού διαγωνισμού άνω των ορίων για την προμήθεια με τίτλο «Προμήθεια ηλεκτροκίνητων οχημάτων για την Διοίκηση, τις Υπηρεσίες Συντήρησης και Καθαριότητας και την Εξυπηρέτηση των Πολιτών του Δήμου Παλαμά - Προμήθεια φορτιστών για τα ηλεκτροκίνητα οχήματα του Δήμου Παλαμά - Προμήθεια Net Metering Υβριδικής Μονάδας Ανεμογεννήτριας και Φωτοβολταϊκού» και αφορά το Τμήμα 5 (Προμήθεια Net Metering Υβριδικής Μονάδας Ανεμογεννήτριας και Φωτοβολταϊκού),",
+   "org": "ΔΗΜΟΣ ΠΑΛΑΜΑ",
+   "date": "2026-10-21",
+   "url": "https://diavgeia.gov.gr/doc/99ΠΩΩΞΛ-ΚΛΕ",
+   "ref": "99ΠΩΩΞΛ-ΚΛΕ",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-22T08:56:09+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020019942",
    "source": "ΚΗΜΔΗΣ",
