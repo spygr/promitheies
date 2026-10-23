@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T13:01:11+00:00",
+ "generated": "2026-10-23T08:51:11+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,12 +12,12 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 7,
-   "fetched": 361,
+   "count": 4,
+   "fetched": 365,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-10-21",
+     "first": "2026-10-22",
      "last": "2026-04-28"
     },
     "notice/ενεργειακό πιστοποιητικό": {
@@ -112,7 +112,7 @@
      "last": "2026-05-11"
     }
    },
-   "sample": "{\"title\": \"ΕΚΔΟΣΗ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ (ΠΕΑ)\", \"referenceNumber\": \"26PROC020028305\", \"signedDate\": \"2026-10-21T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-27T15:00:00\", \"submissionDate\": \"2026-10-21T08:40:48.033\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": null, \"authorEmail\": null, \"aaht\": \"1007.E85204.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090046938\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\": nu",
+   "sample": "{\"title\": \"Δαπάνες Προμηθειών (Πρόσκληση Υποβολής Προσφοράς για Διενέργεια Εργασιών Επισκευής Μετόπης Κτιρίου Μ - 446 της 120ΠΕΑ Υπ΄αρίθμ. 89/26)\", \"referenceNumber\": \"26PROC020044505\", \"signedDate\": \"2026-10-27T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-27T10:00:00\", \"submissionDate\": \"2026-10-22T18:36:24.966\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"13481\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVa",
    "keys": [
     "title",
     "referenceNumber",
@@ -191,15 +191,21 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-10-21",
+   "newest": "2026-10-22",
+   "rejected_recent": [
+    "Δαπάνες Προμηθειών (Πρόσκληση Υποβολής Προσφοράς για Διενέργεια Εργασιών Επισκευής Μετόπης Κτιρίου Μ",
+    "Δαπάνες Προμηθειών (Πρόσκληση Υποβολής Προσφοράς για Διενέργεια Εργασιών Αναδιαμόρφωσης Πτέρυγας Κτι",
+    "Δαπάνες Προμηθειών (Πρόσκληση Υποβολής Προσφοράς για Διενέργεια Εργασιών Υγρομόνωσης Δώματος κτιρίων",
+    "Δαπάνες Προμηθειών (Πρόσκληση Υποβολής Προσφοράς 92/26 για την Προμήθεια Οικοδομικών και Μονωτικών Υ"
+   ],
    "not_found": 14
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 13,
-   "fetched": 160,
-   "sample": "{\"protocolNumber\": \"3892\", \"adam\": null, \"subject\": \"Δαπάνες Προμηθειών - Υπηρεσιών - Έργων [Παροχή Τεχνικών & Λοιπών Συναφών Επιστημονικών Υπηρεσιών - Απόφαση Έγκρισης και Παραλαβής της Σύμβασης για την Έκδοση ΠΕΑ, της Πράξης «Ενεργειακή Αναβάθμιση Κτιριακού Συγκροτήματος Μονάδων ΠΑ Καρπάθου»]\", \"issueDate\": 1792540800000, \"organizationId\": \"6\", \"signerIds\": [\"100096151\"], \"unitIds\": [\"88757\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"person\": [], \"awardAmount\": {\"amount\": 2976.0, \"currency\": \"EUR\"}, \"assignmentType\": \"Τεχνικές ή λοιπές συναφείς υπηρεσίες\", \"cpv\": [\"71315400-3\"], \"textRelatedADA\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\",",
+   "count": 6,
+   "fetched": 142,
+   "sample": "{\"protocolNumber\": \"ΚΓ34810\", \"adam\": null, \"subject\": \"ΠΡΟΜΗΘΕΙΑ ΘΥΡΟΤΗΛΕΟΡΑΣΗΣ 8΄΄ΚΑΙ ΗΛΕΚΤΡΟΚΛΕΙΔΑΡΙΑΣ ΘΥΡΑΣ ΠΕΑ\", \"issueDate\": 1792702800000, \"organizationId\": \"100025905\", \"signerIds\": [\"100101393\"], \"unitIds\": [\"76646\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"44\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"050768990\", \"afmCountry\": \"EL\", \"name\": \"ΙΩΑΝΝΗΣ ΝΟΜΙΚΑΡΙΟΣ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 3962.91, \"currency\": \"EUR\"}, \"assignmentType\": \"Προμήθειες\", \"cpv\": [\"31681000-3\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020047930\", \"decisionDocumentHash\": \"59fd38a28604261ad897f41eb44f725d3de57a63f32f3dfcfa77e482fc",
    "keys": [
     "protocolNumber",
     "adam",
