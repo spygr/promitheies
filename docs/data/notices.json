@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T08:51:11+00:00",
+ "generated": "2026-10-23T12:40:22+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -204,8 +204,8 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 6,
-   "fetched": 142,
-   "sample": "{\"protocolNumber\": \"ΚΓ34810\", \"adam\": null, \"subject\": \"ΠΡΟΜΗΘΕΙΑ ΘΥΡΟΤΗΛΕΟΡΑΣΗΣ 8΄΄ΚΑΙ ΗΛΕΚΤΡΟΚΛΕΙΔΑΡΙΑΣ ΘΥΡΑΣ ΠΕΑ\", \"issueDate\": 1792702800000, \"organizationId\": \"100025905\", \"signerIds\": [\"100101393\"], \"unitIds\": [\"76646\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"44\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"050768990\", \"afmCountry\": \"EL\", \"name\": \"ΙΩΑΝΝΗΣ ΝΟΜΙΚΑΡΙΟΣ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 3962.91, \"currency\": \"EUR\"}, \"assignmentType\": \"Προμήθειες\", \"cpv\": [\"31681000-3\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020047930\", \"decisionDocumentHash\": \"59fd38a28604261ad897f41eb44f725d3de57a63f32f3dfcfa77e482fc",
+   "fetched": 153,
+   "sample": "{\"protocolNumber\": \"ΚΓ34810\", \"adam\": null, \"subject\": \"ΠΡΟΜΗΘΕΙΑ ΘΥΡΟΤΗΛΕΟΡΑΣΗΣ 8΄΄ΚΑΙ ΗΛΕΚΤΡΟΚΛΕΙΔΑΡΙΑΣ ΠΕΑ\", \"issueDate\": 1792702800000, \"organizationId\": \"100025905\", \"signerIds\": [\"100101393\"], \"unitIds\": [\"76646\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"44\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"050768990\", \"afmCountry\": \"EL\", \"name\": \"ΙΩΑΝΝΗΣ ΝΟΜΙΚΑΡΙΟΣ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 3962.91, \"currency\": \"EUR\"}, \"assignmentType\": \"Προμήθειες\", \"cpv\": [\"31681000-3\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020047464\", \"decisionDocumentHash\": \"59fd38a28604261ad897f41eb44f725d3de57a63f32f3dfcfa77e482fc0e0199",
    "keys": [
     "protocolNumber",
     "adam",
