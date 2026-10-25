@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T12:03:35+00:00",
+ "generated": "2026-10-25T08:44:13+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,8 +12,8 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 8,
-   "fetched": 447,
+   "count": 5,
+   "fetched": 445,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
@@ -56,7 +56,7 @@
     "notice/φωτοβολταϊκό": {
      "pages": 1,
      "first": "2026-10-20",
-     "last": "2026-04-27"
+     "last": "2026-04-28"
     },
     "notice/φωτοβολταϊκών": {
      "pages": 1,
@@ -88,7 +88,7 @@
     "auction/ΥΔΕ": {
      "pages": 2,
      "first": "2026-10-23",
-     "last": "2026-04-27"
+     "last": "2026-04-29"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -204,8 +204,8 @@
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 3,
-   "fetched": 154,
+   "count": 0,
+   "fetched": 114,
    "sample": "{\"protocolNumber\": \"ΚΓ34810\", \"adam\": null, \"subject\": \"ΠΡΟΜΗΘΕΙΑ ΘΥΡΟΤΗΛΕΟΡΑΣΗΣ 8΄΄ΚΑΙ ΗΛΕΚΤΡΟΚΛΕΙΔΑΡΙΑΣ ΠΕΑ\", \"issueDate\": 1792702800000, \"organizationId\": \"100025905\", \"signerIds\": [\"100101393\"], \"unitIds\": [\"76646\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"44\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"050768990\", \"afmCountry\": \"EL\", \"name\": \"ΙΩΑΝΝΗΣ ΝΟΜΙΚΑΡΙΟΣ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 3962.91, \"currency\": \"EUR\"}, \"assignmentType\": \"Προμήθειες\", \"cpv\": [\"31681000-3\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020047464\", \"decisionDocumentHash\": \"59fd38a28604261ad897f41eb44f725d3de57a63f32f3dfcfa77e482fc0e0199",
    "keys": [
     "protocolNumber",
