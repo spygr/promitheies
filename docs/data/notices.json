@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T09:21:47+00:00",
+ "generated": "2026-10-27T13:19:31+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -201,8 +201,8 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 3,
-   "fetched": 45,
-   "sample": "{\"decisions\": [], \"info\": {\"query\": \"subject:\\\"ΠΕΑ\\\" AND q:\\\"ΠΕΑ\\\" AND submissionTimestamp:[DT(2026-10-24T00:00:00+03:00) TO DT(2026-10-27T11:24:40+02:00)] AND issueDate:[DT(2026-10-24T00:00:00+03:00) TO DT(2026-10-27T00:00:00+02:00)] AND status:\\\"Αναρτημένη\\\"\", \"page\": 0, \"size\": 100, \"actualSize\": 0, \"total\": 0, \"order\": \"recent\"}}",
+   "fetched": 47,
+   "sample": "{\"decisions\": [], \"info\": {\"query\": \"subject:\\\"ΠΕΑ\\\" AND q:\\\"ΠΕΑ\\\" AND submissionTimestamp:[DT(2026-10-24T00:00:00+03:00) TO DT(2026-10-27T15:22:36+02:00)] AND issueDate:[DT(2026-10-24T00:00:00+03:00) TO DT(2026-10-27T00:00:00+02:00)] AND status:\\\"Αναρτημένη\\\"\", \"page\": 0, \"size\": 100, \"actualSize\": 0, \"total\": 0, \"order\": \"recent\"}}",
    "keys": [
     "decisions",
     "info"
