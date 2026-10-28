@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T13:19:31+00:00",
+ "generated": "2026-10-28T10:02:00+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,13 +12,13 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 2,
+   "count": 5,
    "fetched": 438,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-10-26",
-     "last": "2026-04-30"
+     "first": "2026-10-27",
+     "last": "2026-05-04"
     },
     "notice/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -39,7 +39,7 @@
     },
     "notice/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-10-26",
+     "first": "2026-10-27",
      "last": "2026-06-05"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
@@ -61,12 +61,12 @@
     "notice/φωτοβολταϊκών": {
      "pages": 1,
      "first": "2026-10-23",
-     "last": "2026-04-30"
+     "last": "2026-05-07"
     },
     "auction/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-10-26",
-     "last": "2026-06-03"
+     "first": "2026-10-27",
+     "last": "2026-06-04"
     },
     "auction/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -85,7 +85,7 @@
     },
     "auction/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-10-26",
+     "first": "2026-10-27",
      "last": "2026-05-04"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
@@ -110,7 +110,7 @@
      "last": "2026-05-11"
     }
    },
-   "sample": "{\"title\": \"Ανάθεση υπηρεσιών ενεργειακών επιθεωρήσεων και έκδοση ΠΕΑ\", \"referenceNumber\": \"26PROC020058486\", \"signedDate\": \"2026-10-26T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-06T13:00:00\", \"submissionDate\": \"2026-10-26T09:49:30.488\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"139666\", \"authorEmail\": null, \"aaht\": \"1007.E83701.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"997992450\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"comm",
+   "sample": "{\"title\": \"94η Πρόσκληση Υποβολής Προσφοράς της 120 ΠΕΑ\", \"referenceNumber\": \"26PROC020073567\", \"signedDate\": \"2026-10-27T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-02T10:00:00\", \"submissionDate\": \"2026-10-27T13:41:15.115\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"13722\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\":",
    "keys": [
     "title",
     "referenceNumber",
@@ -189,10 +189,11 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-10-26",
+   "newest": "2026-10-27",
    "not_found": 13,
    "rejected_recent": [
     "ΠΡΟΣΚΛΗΣΗ ΥΠΟΒΟΛΗΣ ΠΡΟΣΦΟΡΑΣ ΜΕ ΤΙΤΛΟ:Συμβουλευτική υποστήριξη για την αδειοδότηση απομάκρυνσης υφισ",
+    "Καταγραφή χώρων στάθμευσης και περιφράξεων στις εγκαταστάσεις του ΤΟΦΑΛΟΣ ΠΕΑΚ ΠΑΤΡΩΝ",
     "ΧΩΜΑΤΟΥΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ ΕΚΣΚΑΦΩΝ Δ.Ε. ΕΝΙΠΕΑ",
     "Συνδρομή της Διεύθυνσης Διαχείρισης Μητροπολιτικών Υποδομών για περιοχές ΠΕΑΑ 13.10.2026 (ΚΑΚΟΚΑΙΡΙΑ"
    ]
@@ -200,9 +201,9 @@
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 3,
-   "fetched": 47,
-   "sample": "{\"decisions\": [], \"info\": {\"query\": \"subject:\\\"ΠΕΑ\\\" AND q:\\\"ΠΕΑ\\\" AND submissionTimestamp:[DT(2026-10-24T00:00:00+03:00) TO DT(2026-10-27T15:22:36+02:00)] AND issueDate:[DT(2026-10-24T00:00:00+03:00) TO DT(2026-10-27T00:00:00+02:00)] AND status:\\\"Αναρτημένη\\\"\", \"page\": 0, \"size\": 100, \"actualSize\": 0, \"total\": 0, \"order\": \"recent\"}}",
+   "count": 6,
+   "fetched": 91,
+   "sample": "{\"decisions\": [], \"info\": {\"query\": \"subject:\\\"ΠΕΑ\\\" AND q:\\\"ΠΕΑ\\\" AND submissionTimestamp:[DT(2026-10-25T00:00:00+03:00) TO DT(2026-10-28T12:04:55+02:00)] AND issueDate:[DT(2026-10-25T00:00:00+03:00) TO DT(2026-10-28T00:00:00+02:00)] AND status:\\\"Αναρτημένη\\\"\", \"page\": 0, \"size\": 100, \"actualSize\": 0, \"total\": 0, \"order\": \"recent\"}}",
    "keys": [
     "decisions",
     "info"
@@ -210,6 +211,58 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020073567",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "94η Πρόσκληση Υποβολής Προσφοράς της 120 ΠΕΑ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-10-27",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020073567",
+   "matched": [
+    "ΠΕΑ"
+   ],
+   "first_seen": "2026-10-28T10:02:00+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020070238",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΔΙΑΓΩΝΙΣΜΟΣ ΥΔΕ",
+   "org": "6Η ΔΥΠΕ ΠΕΛΛΟΠΟΝΗΣΟΥ ΙΟΝΙΩΝ, ΗΠΕΙΡΟΥ & ΔΥΤ.ΕΛΛΑΔΑΣ",
+   "date": "2026-10-27",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020070238",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-28T10:02:00+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020072086",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΕΚΤΕΛΕΣΗ ΕΡΓΑΣΙΩΝ ΣΥΝΤΗΡΗΣΗΣ – ΕΠΙΣΚΕΥΗΣ ΗΛ. ΕΓΚΑΤΑΣΤΑΣΕΩΝ ΚΑΙ ΕΚΔΟΣΗ ΥΔΕ ΣΤΟ Κ.Λ.ΚΑΒΑΛΑΣ ΚΑΙ Λ/Φ ΕΛΕΥΘΕΡΩΝ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΝΑΥΤΙΛΙΑΣ ΚΑΙ ΝΗΣΙΩΤΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+   "date": "2026-10-27",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020072086",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-28T10:02:00+00:00"
+  },
+  {
+   "id": "diavgeia:9ΩΙΩΟΡΛΟ-ΜΔ4",
+   "source": "Διαύγεια",
+   "title": "Έγκριση Πρακτικού Διευκρινήσεων και Μετάθεσης Καταληκτικής Ημερομηνίας Κατάθεσης Προσφορών του ανοικτού διαγωνισμού άνω των ορίων ΤΔ-039/26 για την Προμήθεια και Εγκατάσταση Φωτοβολταϊκού Συστήματος με τη μορφή του Net Billing",
+   "org": "ΣΤΑΘΕΡΕΣ ΣΥΓΚΟΙΝΩΝΙΕΣ Α.Ε. (ΣΤΑΣΥ)",
+   "date": "2026-10-27",
+   "url": "https://diavgeia.gov.gr/doc/9ΩΙΩΟΡΛΟ-ΜΔ4",
+   "ref": "9ΩΙΩΟΡΛΟ-ΜΔ4",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-28T10:02:00+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020058486",
    "source": "ΚΗΜΔΗΣ",
