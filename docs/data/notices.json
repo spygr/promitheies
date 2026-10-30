@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T10:28:31+00:00",
+ "generated": "2026-10-30T14:17:11+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -202,8 +202,8 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 6,
-   "fetched": 82,
-   "sample": "{\"protocolNumber\": \"ΑΡΙΘΜΟΣ ΕΝΤΑΛΜΑΤΟΣ : 437\", \"adam\": null, \"subject\": \"ΕΞΟΦΛΗΣΗ ΠΑΡΑΒΟΛΟΥ ΓΙΑ ΕΚΔΟΣΗ\\nΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ\\n(ΠΕΑ) ΓΙΑ ΚΤΙΡΙΟ ΣΤΟ ΚΑΛΕΝΤΖΙ ΤΗΣ Δ.Ε.\\nΚΑΤΣΑΝΟΧΩΡΙΩΝ\", \"issueDate\": 1793232000000, \"organizationId\": \"6060\", \"signerIds\": [\"132126\"], \"unitIds\": [\"92599\"], \"decisionTypeId\": \"Α.2\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"fek\": {}, \"kanonistikipraxiaa\": null, \"kanonistikipraxitype\": null, \"co_competent\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\"}, \"privateData\": false, \"ada\": \"ΨΩΤΕΩ99-ΧΝΟ\", \"publishTimestamp\": 1793265176836, \"submissionTimestamp\": 1793265176836, \"versionId\": \"f5183a65-9dbe-4b63-a0a2-914fe7cf3b24\", \"status\": \"",
+   "fetched": 87,
+   "sample": "{\"protocolNumber\": \"42/29-10-2026 , 3.03\", \"adam\": null, \"subject\": \"1. Έγκριση Σχέδιου Σύμβασης\\n2. Έγκριση τεύχους Τεχνικών Προδιαγραφών\\nγια την \\\"Έκδοση Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ)\\nγια το κτίριο της Πλ. Συντάγματος συμπεριλαμβανομένων\\nτων ισογείων καταστημάτων του, καθώς και για το κτίριο\\nεπί των οδών Πανεπιστημίου 37 και Κοραή 2 στην Αθήνα\\nσυμπεριλαμβανομένων των ισογείων καταστημάτων του,\\nιδιοκτησίας Μ.Τ.Π.Υ\\\"\", \"issueDate\": 1793232000000, \"organizationId\": \"15\", \"signerIds\": [\"100095581\"], \"unitIds\": [\"73871\"], \"decisionTypeId\": \"Α.2\", \"thematicCategoryIds\": [\"16\"], \"extraFieldValues\": {\"fek\": {}, \"kanonistikipraxiaa\": null, \"kanonistikipraxitype\": \"Πράξη Οργάνου Δι",
    "keys": [
     "protocolNumber",
     "adam",
