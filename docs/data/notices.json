@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T14:26:55+00:00",
+ "generated": "2026-10-30T10:28:31+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,8 +12,8 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 5,
-   "fetched": 438,
+   "count": 7,
+   "fetched": 443,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
@@ -39,8 +39,8 @@
     },
     "notice/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-10-27",
-     "last": "2026-06-05"
+     "first": "2026-10-29",
+     "last": "2026-06-06"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -60,7 +60,7 @@
     },
     "notice/φωτοβολταϊκών": {
      "pages": 1,
-     "first": "2026-10-23",
+     "first": "2026-10-29",
      "last": "2026-05-07"
     },
     "auction/ΠΕΑ": {
@@ -85,7 +85,7 @@
     },
     "auction/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-10-27",
+     "first": "2026-10-29",
      "last": "2026-05-04"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
@@ -101,7 +101,7 @@
     },
     "auction/φωτοβολταϊκό": {
      "pages": 1,
-     "first": "2026-10-23",
+     "first": "2026-10-29",
      "last": "2026-05-08"
     },
     "auction/φωτοβολταϊκών": {
@@ -189,28 +189,113 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-10-27",
-   "not_found": 13,
+   "newest": "2026-10-29",
+   "not_found": 15,
    "rejected_recent": [
-    "ΠΡΟΣΚΛΗΣΗ ΥΠΟΒΟΛΗΣ ΠΡΟΣΦΟΡΑΣ ΜΕ ΤΙΤΛΟ:Συμβουλευτική υποστήριξη για την αδειοδότηση απομάκρυνσης υφισ",
     "Καταγραφή χώρων στάθμευσης και περιφράξεων στις εγκαταστάσεις του ΤΟΦΑΛΟΣ ΠΕΑΚ ΠΑΤΡΩΝ",
     "ΧΩΜΑΤΟΥΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ ΕΚΣΚΑΦΩΝ Δ.Ε. ΕΝΙΠΕΑ",
-    "Συνδρομή της Διεύθυνσης Διαχείρισης Μητροπολιτικών Υποδομών για περιοχές ΠΕΑΑ 13.10.2026 (ΚΑΚΟΚΑΙΡΙΑ"
+    "Απόφαση ανάθεσης για την  έγκριση δαπάνης, ψήφιση πίστωσης και τρόπος εκτέλεσης  για προμήθεια και χ",
+    "Απόφαση ανάθεσης παροχής υπηρεσιών Τεχνικού Ασφαλείας σε ετήσια βάση, για την κάλυψη των αναγκών λει"
    ]
   },
   {
    "name": "Διαύγεια",
    "ok": true,
    "count": 6,
-   "fetched": 103,
-   "sample": "{\"decisions\": [], \"info\": {\"query\": \"subject:\\\"ΠΕΑ\\\" AND q:\\\"ΠΕΑ\\\" AND submissionTimestamp:[DT(2026-10-26T00:00:00+02:00) TO DT(2026-10-29T16:30:30+02:00)] AND issueDate:[DT(2026-10-26T00:00:00+02:00) TO DT(2026-10-29T00:00:00+02:00)] AND status:\\\"Αναρτημένη\\\"\", \"page\": 0, \"size\": 100, \"actualSize\": 0, \"total\": 0, \"order\": \"recent\"}}",
+   "fetched": 82,
+   "sample": "{\"protocolNumber\": \"ΑΡΙΘΜΟΣ ΕΝΤΑΛΜΑΤΟΣ : 437\", \"adam\": null, \"subject\": \"ΕΞΟΦΛΗΣΗ ΠΑΡΑΒΟΛΟΥ ΓΙΑ ΕΚΔΟΣΗ\\nΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ\\n(ΠΕΑ) ΓΙΑ ΚΤΙΡΙΟ ΣΤΟ ΚΑΛΕΝΤΖΙ ΤΗΣ Δ.Ε.\\nΚΑΤΣΑΝΟΧΩΡΙΩΝ\", \"issueDate\": 1793232000000, \"organizationId\": \"6060\", \"signerIds\": [\"132126\"], \"unitIds\": [\"92599\"], \"decisionTypeId\": \"Α.2\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"fek\": {}, \"kanonistikipraxiaa\": null, \"kanonistikipraxitype\": null, \"co_competent\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\"}, \"privateData\": false, \"ada\": \"ΨΩΤΕΩ99-ΧΝΟ\", \"publishTimestamp\": 1793265176836, \"submissionTimestamp\": 1793265176836, \"versionId\": \"f5183a65-9dbe-4b63-a0a2-914fe7cf3b24\", \"status\": \"",
    "keys": [
-    "decisions",
-    "info"
+    "protocolNumber",
+    "adam",
+    "subject",
+    "issueDate",
+    "organizationId",
+    "signerIds",
+    "unitIds",
+    "decisionTypeId",
+    "thematicCategoryIds",
+    "extraFieldValues",
+    "privateData",
+    "ada",
+    "publishTimestamp",
+    "submissionTimestamp",
+    "versionId",
+    "status",
+    "url",
+    "documentUrl",
+    "documentChecksum",
+    "attachments",
+    "warnings",
+    "correctedVersionId"
    ]
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020083758",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Πρόσκληση υποβ. προσφοράς για την υλοποίηση της δημ. σύμβασης  «Υπηρεσίες πιστοποίησης, επαύξηση παροχών ΔΕΔΔΗΕ σύμφωνα με τη νέα ΥΔΕ κτιριακών εγκαταστάσεων Δ.Ε. Γλυκών Νερών»",
+   "org": "ΔΗΜΟΣ ΠΑΙΑΝΙΑΣ",
+   "date": "2026-10-29",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020083758",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-10-30T10:28:31+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020081550",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Eτήσια συντήρηση Φωτοβολταϊκών 4ου Γυμνασίου Τρίπολης και αντικατάσταση τριών παλαιών μονοφασικών αντιστροφέων, με έναν σύγχρονο τριφασικό αντιστροφέα",
+   "org": "ΔΗΜΟΣ ΤΡΙΠΟΛΗΣ",
+   "date": "2026-10-29",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020081550",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-30T10:28:31+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020081383",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Προμήθεια Φωτοβολταϊκού Συστήματος (επ’ ωφελεία ΔΙΚΑΦΚΑ)",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-10-29",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020081383",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-30T10:28:31+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020081067",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Προμήθεια Φωτοβολταϊκού Συστήματος (επ’ ωφελεία ΔΙΚΑΦΚΑ)",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-10-29",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020081067",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-30T10:28:31+00:00"
+  },
+  {
+   "id": "diavgeia:99ΚΗΩΞ7-136",
+   "source": "Διαύγεια",
+   "title": "Αποδοχή της Ένταξης της Πράξης «Φωτοβολταϊκό πάρκο 200 kw με αποθήκευση για τη λειτουργία της ΕΕΛ Δήμου Άργους Ορεστικού» στο «Εθνικό Πρόγραμμα Ανάπτυξης (ΕΠΑ)», καθορισμός του συστήματος δημοπράτησης του εν λόγω έργου και ορισμός της αντίστοιχης επιτροπής διενέργειας διαγωνισμού.",
+   "org": "ΔΗΜΟ ΑΡΓΟΥΣ ΟΡΕΣΤΙΚΟΥ",
+   "date": "2026-10-29",
+   "url": "https://diavgeia.gov.gr/doc/99ΚΗΩΞ7-136",
+   "ref": "99ΚΗΩΞ7-136",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-10-30T10:28:31+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020073567",
    "source": "ΚΗΜΔΗΣ",
