@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T13:42:31+00:00",
+ "generated": "2026-11-01T10:49:07+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -13,7 +13,7 @@
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
    "count": 8,
-   "fetched": 353,
+   "fetched": 352,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 1,
@@ -86,7 +86,7 @@
     "auction/ΥΔΕ": {
      "pages": 2,
      "first": "2026-10-30",
-     "last": "2026-05-04"
+     "last": "2026-05-06"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -200,7 +200,7 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 4,
-   "fetched": 71,
+   "fetched": 69,
    "sample": "{\"protocolNumber\": \"1409139/30-10-2026\", \"adam\": null, \"subject\": \"ΑΠΟΦΑΣΗ ΣΥΓΚΡΟΤΗΣΗΣ Δ.Μ.Ε ΠΕΑΑ ΝΟΕΜΒΡΙΟΣ 2026 ΑΠΟΓΕΥΜΑΤΙΝΑ, ΚΥΡΙΑΚΕΣ, ΝΥΧΤΕΡΙΝΑ ΚΙ ΕΞΑΙΡΕΣΙΜΑ\", \"issueDate\": 1793318400000, \"organizationId\": \"5002\", \"signerIds\": [\"100093356\"], \"unitIds\": [\"80886\"], \"decisionTypeId\": \"2.4.7.1\", \"thematicCategoryIds\": [\"48\"], \"extraFieldValues\": {\"kanonistikipraxitype\": \"Πράξη Οργάνου Διοίκησης ΟΤΑ Α’ και Β’ Βαθμού (και εποπτευόμενων φορέων τους)\", \"kanonistikiPraxiPublishMedium\": null, \"fek\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\", \"co_competent\": null}, \"privateData\": true, \"ada\": \"6ΧΘΑ7Λ7-ΔΑΕ\", \"publishTimestamp\": 1793364173547, \"submissionTimestamp\": 1793364173547, \"version",
    "keys": [
     "protocolNumber",
