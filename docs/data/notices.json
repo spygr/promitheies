@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T14:19:55+00:00",
+ "generated": "2026-11-02T11:42:09+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,7 +12,7 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 8,
+   "count": 4,
    "fetched": 352,
    "terms": {
     "notice/ΠΕΑ": {
@@ -190,18 +190,14 @@
     "exceptions"
    ],
    "newest": "2026-10-30",
-   "not_found": 16,
-   "rejected_recent": [
-    "Απόφαση ανάθεσης για την  έγκριση δαπάνης, ψήφιση πίστωσης και τρόπος εκτέλεσης  για προμήθεια και χ",
-    "Απόφαση ανάθεσης παροχής υπηρεσιών Τεχνικού Ασφαλείας σε ετήσια βάση, για την κάλυψη των αναγκών λει"
-   ]
+   "not_found": 14
   },
   {
    "name": "Διαύγεια",
    "ok": true,
    "count": 4,
-   "fetched": 69,
-   "sample": "{\"protocolNumber\": \"1409139/30-10-2026\", \"adam\": null, \"subject\": \"ΑΠΟΦΑΣΗ ΣΥΓΚΡΟΤΗΣΗΣ Δ.Μ.Ε ΠΕΑΑ ΝΟΕΜΒΡΙΟΣ 2026 ΑΠΟΓΕΥΜΑΤΙΝΑ, ΚΥΡΙΑΚΕΣ, ΝΥΧΤΕΡΙΝΑ ΚΙ ΕΞΑΙΡΕΣΙΜΑ\", \"issueDate\": 1793318400000, \"organizationId\": \"5002\", \"signerIds\": [\"100093356\"], \"unitIds\": [\"80886\"], \"decisionTypeId\": \"2.4.7.1\", \"thematicCategoryIds\": [\"48\"], \"extraFieldValues\": {\"kanonistikipraxitype\": \"Πράξη Οργάνου Διοίκησης ΟΤΑ Α’ και Β’ Βαθμού (και εποπτευόμενων φορέων τους)\", \"kanonistikiPraxiPublishMedium\": null, \"fek\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\", \"co_competent\": null}, \"privateData\": true, \"ada\": \"6ΧΘΑ7Λ7-ΔΑΕ\", \"publishTimestamp\": 1793364173547, \"submissionTimestamp\": 1793364173547, \"version",
+   "fetched": 52,
+   "sample": "{\"protocolNumber\": \"627\", \"adam\": null, \"subject\": \"ΜΕΛΕΤΗ  ΔΙΕΝΕΡΓΕΙΑΣ  ΕΛΕΓΧΟΥ  ΕΝΕΡΓΕΙΑΚΗΣ  ΑΠΟΔΟΣΗΣ  ΚΑΙ  ΕΚΔΟΣΗ  ΠΕΑ  ΣΕ  ΔΗΜΟΤΙΚΑ  ΚΤΙΡΙΑ ΤΟΥ  ΔΗΜΟΥ  ΚΕΡΑΤΣΙΝΙΟΥ - ΔΡΑΠΕΤΣΩΝΑΣ\", \"issueDate\": 1793318400000, \"organizationId\": \"6146\", \"signerIds\": [\"100038204\"], \"unitIds\": [\"79810\"], \"decisionTypeId\": \"Β.2.1\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afm\": \"997880950\", \"afmType\": \"EL\", \"enterName\": true, \"name\": \"ΔΗΜΟΣ ΚΕΡΑΤΣΙΝΙΟΥ-ΔΡΑΠΕΤΣΩΝΑΣ\"}, \"sponsor\": [{\"expenseAmount\": {\"amount\": 1000.0, \"currency\": \"EUR\"}, \"kae\": \"030.2420929.305\"}], \"relatedAnalipsiYpoxreosis\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": null, \"decisionDocumentHash\": null},",
    "keys": [
     "protocolNumber",
     "adam",
@@ -229,6 +225,19 @@
   }
  ],
  "notices": [
+  {
+   "id": "diavgeia:Ψ50846ΜΩΧΑ-ΕΥΣ",
+   "source": "Διαύγεια",
+   "title": "Έγκριση διενέργειας, έγκριση μελέτης, καθορισμός των όρων διακήρυξης και ορισμός επιτροπής διενέργειας & αξιολόγησης της δημόσιας σύμβασης με τίτλο «ΠΡΟΜΗΘΕΙΑ, ΕΓΚΑΤΑΣΤΑΣΗ ΚΑΙ ΘΕΣΗ ΣΕ ΛΕΙΤΟΥΡΓΙΑ ΦΩΤΟΒΟΛΤΑΪΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΣΤΗ ΓΕΩΤΡΗΣΗ ΘΕΩΡΙΝΗ ΤΟΥ ΔΗΜΟΥ ΓΑΥΔΟΥ»",
+   "org": "ΔΙΚΤΥΟ ΠΟΛΕΩΝ ΔΕΠΑΝ",
+   "date": "2026-10-30",
+   "url": "https://diavgeia.gov.gr/doc/Ψ50846ΜΩΧΑ-ΕΥΣ",
+   "ref": "Ψ50846ΜΩΧΑ-ΕΥΣ",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-02T11:42:09+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020090656",
    "source": "ΚΗΜΔΗΣ",
