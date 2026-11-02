@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T11:42:09+00:00",
+ "generated": "2026-11-02T17:10:46+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -196,7 +196,7 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 4,
-   "fetched": 52,
+   "fetched": 55,
    "sample": "{\"protocolNumber\": \"627\", \"adam\": null, \"subject\": \"ΜΕΛΕΤΗ  ΔΙΕΝΕΡΓΕΙΑΣ  ΕΛΕΓΧΟΥ  ΕΝΕΡΓΕΙΑΚΗΣ  ΑΠΟΔΟΣΗΣ  ΚΑΙ  ΕΚΔΟΣΗ  ΠΕΑ  ΣΕ  ΔΗΜΟΤΙΚΑ  ΚΤΙΡΙΑ ΤΟΥ  ΔΗΜΟΥ  ΚΕΡΑΤΣΙΝΙΟΥ - ΔΡΑΠΕΤΣΩΝΑΣ\", \"issueDate\": 1793318400000, \"organizationId\": \"6146\", \"signerIds\": [\"100038204\"], \"unitIds\": [\"79810\"], \"decisionTypeId\": \"Β.2.1\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afm\": \"997880950\", \"afmType\": \"EL\", \"enterName\": true, \"name\": \"ΔΗΜΟΣ ΚΕΡΑΤΣΙΝΙΟΥ-ΔΡΑΠΕΤΣΩΝΑΣ\"}, \"sponsor\": [{\"expenseAmount\": {\"amount\": 1000.0, \"currency\": \"EUR\"}, \"kae\": \"030.2420929.305\"}], \"relatedAnalipsiYpoxreosis\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": null, \"decisionDocumentHash\": null},",
    "keys": [
     "protocolNumber",
