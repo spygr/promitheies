@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T17:10:46+00:00",
+ "generated": "2026-11-03T11:22:26+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,8 +12,8 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 4,
-   "fetched": 352,
+   "count": 3,
+   "fetched": 355,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 1,
@@ -38,9 +38,9 @@
      "pages": 0
     },
     "notice/ΥΔΕ": {
-     "pages": 2,
+     "pages": 1,
      "first": "2026-10-30",
-     "last": "2026-06-08"
+     "last": "2026-07-29"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -55,7 +55,7 @@
     },
     "notice/φωτοβολταϊκό": {
      "pages": 1,
-     "first": "2026-10-30",
+     "first": "2026-11-02",
      "last": "2026-05-20"
     },
     "notice/φωτοβολταϊκών": {
@@ -64,9 +64,9 @@
      "last": "2026-05-07"
     },
     "auction/ΠΕΑ": {
-     "pages": 1,
-     "first": "2026-10-27",
-     "last": "2026-08-10"
+     "pages": 2,
+     "first": "2026-11-02",
+     "last": "2026-06-04"
     },
     "auction/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -85,8 +85,8 @@
     },
     "auction/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-10-30",
-     "last": "2026-05-06"
+     "first": "2026-11-02",
+     "last": "2026-05-08"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -101,7 +101,7 @@
     },
     "auction/φωτοβολταϊκό": {
      "pages": 1,
-     "first": "2026-10-29",
+     "first": "2026-11-02",
      "last": "2026-05-08"
     },
     "auction/φωτοβολταϊκών": {
@@ -189,15 +189,19 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-10-30",
-   "not_found": 14
+   "newest": "2026-11-02",
+   "not_found": 15,
+   "rejected_recent": [
+    "ΤΙΤΛΟΙ ΚΤΗΣΗΣ για περιστασιακές εργασίες καθώς και γραμματειακή υποστήριξη για την εύρυθμη λειτουργί",
+    "ΑΠΟΦΑΣΗ ΑΠΕΥΘΕΙΑΣ ΑΝΑΘΕΣΗΣ ΜΕ ΤΙΤΛΟ:Συμβουλευτική υποστήριξη για την αδειοδότηση απομάκρυνσης υφιστά"
+   ]
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 4,
-   "fetched": 55,
-   "sample": "{\"protocolNumber\": \"627\", \"adam\": null, \"subject\": \"ΜΕΛΕΤΗ  ΔΙΕΝΕΡΓΕΙΑΣ  ΕΛΕΓΧΟΥ  ΕΝΕΡΓΕΙΑΚΗΣ  ΑΠΟΔΟΣΗΣ  ΚΑΙ  ΕΚΔΟΣΗ  ΠΕΑ  ΣΕ  ΔΗΜΟΤΙΚΑ  ΚΤΙΡΙΑ ΤΟΥ  ΔΗΜΟΥ  ΚΕΡΑΤΣΙΝΙΟΥ - ΔΡΑΠΕΤΣΩΝΑΣ\", \"issueDate\": 1793318400000, \"organizationId\": \"6146\", \"signerIds\": [\"100038204\"], \"unitIds\": [\"79810\"], \"decisionTypeId\": \"Β.2.1\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afm\": \"997880950\", \"afmType\": \"EL\", \"enterName\": true, \"name\": \"ΔΗΜΟΣ ΚΕΡΑΤΣΙΝΙΟΥ-ΔΡΑΠΕΤΣΩΝΑΣ\"}, \"sponsor\": [{\"expenseAmount\": {\"amount\": 1000.0, \"currency\": \"EUR\"}, \"kae\": \"030.2420929.305\"}], \"relatedAnalipsiYpoxreosis\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": null, \"decisionDocumentHash\": null},",
+   "count": 1,
+   "fetched": 52,
+   "sample": "{\"protocolNumber\": \"1412248\", \"adam\": null, \"subject\": \"Αντιμετώπιση πυρκαγιάς στην περιοχή Γέφυρα Cosmote (ρεύμα προς Αεροδρόμιο) του Δήμου Παιανίας της ΠΕΑΑ\", \"issueDate\": 1793570400000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"52\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": null, \"partialead\": false, \"recalledExpenseDecision\": null, \"amountWithVAT\": {\"amount\": 595.2, \"currency\": \"EUR\"}, \"amountWithKae\": null, \"relatedPartialADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26REQ020111709\", \"decisionDocumentHash\": \"0206486bb6",
    "keys": [
     "protocolNumber",
     "adam",
@@ -225,6 +229,58 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020103651",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Φωτοβολταϊκό σύστημα (Φ/Β) και περιφερειακός εξοπλισμός για λειτουργία δορυφορικού internet σε περίπτωση έκτακτης ανάγκης – φυσικών καταστροφών Δ.Ε. Αχελώου",
+   "org": "ΔΗΜΟΣ ΑΡΓΙΘΕΑΣ",
+   "date": "2026-11-02",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020103651",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-03T11:22:26+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020099274",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Ανάθεση εργασιών της εκπόνησης ηλεκτρολογικής μελέτης ( ΥΔΕ ) για το κτίριο (πρώην τελωνείο) της Δ.Ε.Υ.Α.Κ, ώστε να εξυπηρετηθούν οι ανάγκες της Δ.Ε.Υ.Α.Κ.",
+   "org": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ ΑΠΟΧΕΤΕΥΣΗΣ ΚΑΡΔΙΤΣΑΣ",
+   "date": "2026-11-02",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020099274",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-03T11:22:26+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020101414",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Απόφαση ανάθεσης για προετοιμασία και τη σύνταξη των απαιτούμενων μελετών για την εγκατάσταση Φωτοβολταϊκού Σταθμο",
+   "org": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+   "date": "2026-11-02",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020101414",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-03T11:22:26+00:00"
+  },
+  {
+   "id": "diavgeia:99ΔΦ4690ΩΔ-7Τ0",
+   "source": "Διαύγεια",
+   "title": "Απόφαση Διοικητή για  τη σύσταση τριμελούς επιτροπής διενέργειας του υπ’ αριθμ. Δ92/2026 διαγωνισμού για την παροχή υπηρεσιών ελέγχου και έκδοσης Υπεύθυνης Δήλωσης Εγκαταστάτη (ΥΔΕ) ηλεκτρολογικής εγκατάστασης",
+   "org": "Π.Γ.Ν. «ΑΤΤΙΚΟΝ» - Γ.Ν.Δ.Α. «Η ΑΓΙΑ ΒΑΡΒΑΡΑ» ΟΡΓΑΝΙΚΗ ΜΟΝΑΔΑ ΕΔΡΑΣ Π.Γ.Ν. «ΑΤΤΙΚΟΝ»",
+   "date": "2026-11-02",
+   "url": "https://diavgeia.gov.gr/doc/99ΔΦ4690ΩΔ-7Τ0",
+   "ref": "99ΔΦ4690ΩΔ-7Τ0",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-03T11:22:26+00:00"
+  },
   {
    "id": "diavgeia:Ψ50846ΜΩΧΑ-ΕΥΣ",
    "source": "Διαύγεια",
