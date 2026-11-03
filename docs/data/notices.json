@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T11:22:26+00:00",
+ "generated": "2026-11-03T15:16:44+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -200,8 +200,8 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 1,
-   "fetched": 52,
-   "sample": "{\"protocolNumber\": \"1412248\", \"adam\": null, \"subject\": \"Αντιμετώπιση πυρκαγιάς στην περιοχή Γέφυρα Cosmote (ρεύμα προς Αεροδρόμιο) του Δήμου Παιανίας της ΠΕΑΑ\", \"issueDate\": 1793570400000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"52\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": null, \"partialead\": false, \"recalledExpenseDecision\": null, \"amountWithVAT\": {\"amount\": 595.2, \"currency\": \"EUR\"}, \"amountWithKae\": null, \"relatedPartialADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26REQ020111709\", \"decisionDocumentHash\": \"0206486bb6",
+   "fetched": 53,
+   "sample": "{\"protocolNumber\": \"1412267\", \"adam\": null, \"subject\": \"αντιμετώπιση δασικής πυρκαγιάς στην περιοχή Μαυροσουβάλα Δήμου Ωρωπού (Δ.Ε. Μαρκοπούλου) ΠΕΑΑ\", \"issueDate\": 1793570400000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"52\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": null, \"partialead\": false, \"recalledExpenseDecision\": null, \"amountWithVAT\": {\"amount\": 6405.22, \"currency\": \"EUR\"}, \"amountWithKae\": null, \"relatedPartialADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26REQ020112524\", \"decisionDocumentHash\": \"b068b1749c0f6c5bf",
    "keys": [
     "protocolNumber",
     "adam",
