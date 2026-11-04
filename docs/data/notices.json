@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T15:16:44+00:00",
+ "generated": "2026-11-04T11:36:18+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,13 +12,13 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 3,
-   "fetched": 355,
+   "count": 7,
+   "fetched": 448,
    "terms": {
     "notice/ΠΕΑ": {
-     "pages": 1,
-     "first": "2026-10-27",
-     "last": "2026-08-03"
+     "pages": 2,
+     "first": "2026-11-03",
+     "last": "2026-05-08"
     },
     "notice/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -38,9 +38,9 @@
      "pages": 0
     },
     "notice/ΥΔΕ": {
-     "pages": 1,
-     "first": "2026-10-30",
-     "last": "2026-07-29"
+     "pages": 2,
+     "first": "2026-11-03",
+     "last": "2026-06-09"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -61,7 +61,7 @@
     "notice/φωτοβολταϊκών": {
      "pages": 1,
      "first": "2026-10-29",
-     "last": "2026-05-07"
+     "last": "2026-05-11"
     },
     "auction/ΠΕΑ": {
      "pages": 2,
@@ -85,7 +85,7 @@
     },
     "auction/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-11-02",
+     "first": "2026-11-03",
      "last": "2026-05-08"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
@@ -110,7 +110,7 @@
      "last": "2026-05-11"
     }
    },
-   "sample": "{\"title\": \"94η Πρόσκληση Υποβολής Προσφοράς της 120 ΠΕΑ\", \"referenceNumber\": \"26PROC020073567\", \"signedDate\": \"2026-10-27T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-02T10:00:00\", \"submissionDate\": \"2026-10-27T13:41:15.115\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"13722\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\":",
+   "sample": "{\"title\": \"Προμήθεια ειδών πυροσβεστικού εξοπλισμού, εργασιών συντηρήσεις εξοπλισμού καθώς και έλεγχος συστημάτων κατάσβεσης, για τις ανάγκες λειτουργίας των εγκαταστάσεων του ΠΕΑΚ \", \"referenceNumber\": \"26PROC020113916\", \"signedDate\": \"2026-10-06T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-12T00:00:00\", \"submissionDate\": \"2026-11-03T15:25:52.125\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"887\", \"authorEmail\": null, \"aaht\": \"1020.E00763.0001\", \"biddingW",
    "keys": [
     "title",
     "referenceNumber",
@@ -189,19 +189,22 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-02",
-   "not_found": 15,
+   "newest": "2026-11-03",
    "rejected_recent": [
+    "Προμήθεια ειδών πυροσβεστικού εξοπλισμού, εργασιών συντηρήσεις εξοπλισμού καθώς και έλεγχος συστημάτ",
+    " Επισκευή  αναβάθμιση χημικής εξουδετέρωσης υγρών αποβλήτων του ΠΓΝΛ",
     "ΤΙΤΛΟΙ ΚΤΗΣΗΣ για περιστασιακές εργασίες καθώς και γραμματειακή υποστήριξη για την εύρυθμη λειτουργί",
+    "ΑΠΟΦΑΣΗ ΡAΑΕY ΥΠ’ ΑΡΙΘΜ. 518/2026: Απευθείας Ανάθεση με αντικείμενο: «Διεξαγωγή δράσεων εκπαιδευτικο",
     "ΑΠΟΦΑΣΗ ΑΠΕΥΘΕΙΑΣ ΑΝΑΘΕΣΗΣ ΜΕ ΤΙΤΛΟ:Συμβουλευτική υποστήριξη για την αδειοδότηση απομάκρυνσης υφιστά"
-   ]
+   ],
+   "not_found": 15
   },
   {
    "name": "Διαύγεια",
    "ok": true,
    "count": 1,
-   "fetched": 53,
-   "sample": "{\"protocolNumber\": \"1412267\", \"adam\": null, \"subject\": \"αντιμετώπιση δασικής πυρκαγιάς στην περιοχή Μαυροσουβάλα Δήμου Ωρωπού (Δ.Ε. Μαρκοπούλου) ΠΕΑΑ\", \"issueDate\": 1793570400000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"52\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": null, \"partialead\": false, \"recalledExpenseDecision\": null, \"amountWithVAT\": {\"amount\": 6405.22, \"currency\": \"EUR\"}, \"amountWithKae\": null, \"relatedPartialADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26REQ020112524\", \"decisionDocumentHash\": \"b068b1749c0f6c5bf",
+   "fetched": 97,
+   "sample": "{\"protocolNumber\": \"144616\", \"adam\": null, \"subject\": \"Ανάθεση υπηρεσιών ενεργειακών επιθεωρήσεων και έκδοση ΠΕΑ\", \"issueDate\": 1793743200000, \"organizationId\": \"6241\", \"signerIds\": [\"100002117\"], \"unitIds\": [\"90951\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"997992007\", \"afmCountry\": \"EL\", \"name\": \"ΚΛΑΟΥΔΑΤΟΣ ΟΘΩΝ ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ ΤΕΧΝΙΚΗ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 23560.0, \"currency\": \"EUR\"}, \"assignmentType\": \"Υπηρεσίες\", \"cpv\": [\"71314300-5\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020117351\", \"decisionDocumentHash\": \"dac6de92affc6a9f6f601f134749",
    "keys": [
     "protocolNumber",
     "adam",
@@ -229,6 +232,61 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020110090",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "«Έκδοση Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) για το κτήριο της Πλατείας Συντάγματος συμπεριλαμβανομένων των ισογείων καταστημάτων του, καθώς και για το κτήριο επί των οδών Πανεπιστημίου 37 και Κο",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΟΙΚΟΝΟΜΙΚΩΝ",
+   "date": "2026-11-03",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020110090",
+   "matched": [
+    "ΠΕΑ",
+    "πιστοποιητικ* ενεργειακ*"
+   ],
+   "first_seen": "2026-11-04T11:36:18+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020109998",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "«Έκδοση Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) για το κτήριο της Πλατείας Συντάγματος συμπεριλαμβανομένων των ισογείων καταστημάτων του, καθώς και για το κτήριο επί των οδών Πανεπιστημίου 37 και Κο",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΟΙΚΟΝΟΜΙΚΩΝ",
+   "date": "2026-11-03",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020109998",
+   "matched": [
+    "ΠΕΑ",
+    "πιστοποιητικ* ενεργειακ*"
+   ],
+   "first_seen": "2026-11-04T11:36:18+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020109905",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "«Έκδοση Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) για το κτήριο της Πλατείας Συντάγματος συμπεριλαμβανομένων των ισογείων καταστημάτων του, καθώς και για το κτήριο επί των οδών Πανεπιστημίου 37 και Κο",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΟΙΚΟΝΟΜΙΚΩΝ",
+   "date": "2026-11-03",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020109905",
+   "matched": [
+    "ΠΕΑ",
+    "πιστοποιητικ* ενεργειακ*"
+   ],
+   "first_seen": "2026-11-04T11:36:18+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020111541",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΑΠΟΦΑΣΗ ΑΝΑΘΕΣΗΣ ΓΙΑ ΤΗΝ  ΑΝΑΝΕΩΣΗ  ΠΙΣΤΟΠΟΙΗΤΙΚΩΝ ΥΔΕ ΣΕ ΤΕΣΣΕΡΕΙΣ [4] ΗΛΕΚΤΡΟΛΟΓΙΚΕΣ ΠΑΡΟΧΕΣ ΤΟΥ ΝΟΣΟΚΟΜΕΙΟΥ (CPV 79132000-8)",
+   "org": "ΕΙΔΙΚΟ ΝΟΣΟΚΟΜΕΙΟ ΟΦΘΑΛΜΙΑΤΡΕΙΟ ΑΘΗΝΩΝ",
+   "date": "2026-11-03",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020111541",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-04T11:36:18+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020103651",
    "source": "ΚΗΜΔΗΣ",
