@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T15:30:22+00:00",
+ "generated": "2026-11-05T11:33:04+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,17 +12,37 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": false,
-   "count": 3,
+   "count": 4,
    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "fetched": 50,
+   "fetched": 94,
    "terms": {
     "notice/ΠΕΑ": {
+     "pages": 2,
+     "first": "2026-11-04",
+     "last": "2026-05-10"
+    },
+    "notice/ενεργειακό πιστοποιητικό": {
+     "pages": 0
+    },
+    "notice/ενεργειακά πιστοποιητικά": {
+     "pages": 0
+    },
+    "notice/ενεργειακών πιστοποιητικών": {
      "pages": 1,
-     "first": "2026-11-03",
-     "last": "2026-08-07"
+     "first": "2026-09-11",
+     "last": "2026-09-11"
+    },
+    "notice/πιστοποιητικά ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "notice/πιστοποιητικό ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "notice/ΥΔΕ": {
+     "pages": 0
     }
    },
-   "sample": "{\"title\": \"Προμήθεια ειδών πυροσβεστικού εξοπλισμού, εργασιών συντηρήσεις εξοπλισμού καθώς και έλεγχος συστημάτων κατάσβεσης, για τις ανάγκες λειτουργίας των εγκαταστάσεων του ΠΕΑΚ \", \"referenceNumber\": \"26PROC020113916\", \"signedDate\": \"2026-10-06T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-12T00:00:00\", \"submissionDate\": \"2026-11-03T15:25:52.125\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"887\", \"authorEmail\": null, \"aaht\": \"1020.E00763.0001\", \"biddingW",
+   "sample": "{\"title\": \"98η Πρόσκληση Υποβολής Προσφοράς της 120 ΠΕΑ\", \"referenceNumber\": \"26PROC020123080\", \"signedDate\": \"2026-11-04T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-09T10:00:00\", \"submissionDate\": \"2026-11-04T14:35:08.634\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"14228\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\":",
    "keys": [
     "title",
     "referenceNumber",
@@ -101,17 +121,19 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-03",
+   "newest": "2026-11-04",
    "rejected_recent": [
+    "Πρόσκληση υποβολής προσφορών με αντικείμενο την προμήθεια/παροχή υπηρεσίας TRANSDUCER ΠΙΕΣΕΩΝ ΜΟΝΑ- ",
     "Προμήθεια ειδών πυροσβεστικού εξοπλισμού, εργασιών συντηρήσεις εξοπλισμού καθώς και έλεγχος συστημάτ"
-   ]
+   ],
+   "not_found": 4
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 1,
-   "fetched": 102,
-   "sample": "{\"protocolNumber\": \"144616\", \"adam\": null, \"subject\": \"Ανάθεση υπηρεσιών ενεργειακών επιθεωρήσεων και έκδοση ΠΕΑ\", \"issueDate\": 1793743200000, \"organizationId\": \"6241\", \"signerIds\": [\"100002117\"], \"unitIds\": [\"90951\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"997992007\", \"afmCountry\": \"EL\", \"name\": \"ΚΛΑΟΥΔΑΤΟΣ ΟΘΩΝ ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ ΤΕΧΝΙΚΗ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 23560.0, \"currency\": \"EUR\"}, \"assignmentType\": \"Υπηρεσίες\", \"cpv\": [\"71314300-5\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020117351\", \"decisionDocumentHash\": \"dac6de92affc6a9f6f601f134749",
+   "count": 4,
+   "fetched": 154,
+   "sample": "{\"protocolNumber\": \"19432/05-11-2026\", \"adam\": null, \"subject\": \"Απόφαση Δημάρχου ( 571 / 2026 ) Θέμα: Παροχή υπηρεσίας «Έκδοση δύο Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) στο Δημοτικό Κτήριο Τ.Κ. Χαλκίαδων »\", \"issueDate\": 1793829600000, \"organizationId\": \"6306\", \"signerIds\": [\"100048969\"], \"unitIds\": [\"82057\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"140131753\", \"afmCountry\": \"EL\", \"name\": \"ΜΠΕΗΣ ΑΡΓΥΡΙΟΣ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 620.0, \"currency\": \"EUR\"}, \"assignmentType\": \"Υπηρεσίες\", \"cpv\": [\"71314300-5\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020126607",
    "keys": [
     "protocolNumber",
     "adam",
@@ -139,6 +161,32 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020123080",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "98η Πρόσκληση Υποβολής Προσφοράς της 120 ΠΕΑ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-11-04",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020123080",
+   "matched": [
+    "ΠΕΑ"
+   ],
+   "first_seen": "2026-11-05T11:33:04+00:00"
+  },
+  {
+   "id": "diavgeia:97Β1ΩΡ7-ΒΗΨ",
+   "source": "Διαύγεια",
+   "title": "Συγκρότηση τριμελούς Επιτροπής Διερεύνησης Τιμών για το Υποέργο 2 «Φωτοβολταϊκό με Σύστημα Αποθήκευσης και Διαχείρισης Ενέργειας και Πλατφόρμα Διαχείρισης 200KW», στο πλαίσιο του Προγράμματος «ΑΝΤΩΝΗΣ ΤΡΙΤΣΗΣ» – Πρόσκληση ΑΤ12.",
+   "org": "ΔΗΜΟΣ ΕΛΛΗΝΙΚΟΥ - ΑΡΓΥΡΟΥΠΟΛΗΣ",
+   "date": "2026-11-04",
+   "url": "https://diavgeia.gov.gr/doc/97Β1ΩΡ7-ΒΗΨ",
+   "ref": "97Β1ΩΡ7-ΒΗΨ",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-05T11:33:04+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020110090",
    "source": "ΚΗΜΔΗΣ",
