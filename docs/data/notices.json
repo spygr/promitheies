@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T15:34:32+00:00",
+ "generated": "2026-11-06T11:31:38+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -14,24 +14,15 @@
    "ok": false,
    "count": 4,
    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "fetched": 93,
+   "fetched": 50,
    "terms": {
     "notice/ΠΕΑ": {
-     "pages": 2,
-     "first": "2026-11-04",
-     "last": "2026-05-10"
-    },
-    "notice/ενεργειακό πιστοποιητικό": {
-     "pages": 0
-    },
-    "notice/ενεργειακά πιστοποιητικά": {
-     "pages": 0
-    },
-    "notice/ενεργειακών πιστοποιητικών": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-11-05",
+     "last": "2026-08-12"
     }
    },
-   "sample": "{\"title\": \"98η Πρόσκληση Υποβολής Προσφοράς της 120 ΠΕΑ\", \"referenceNumber\": \"26PROC020123080\", \"signedDate\": \"2026-11-04T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-09T10:00:00\", \"submissionDate\": \"2026-11-04T14:35:08.634\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"14228\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\":",
+   "sample": "{\"title\": \"Καθαρισμός και απομάκρυνση μπαζών, κλαδιών και φερτών υλικών από τις εγκαταστάσεις του ΠΕΑΚ ΠΑΤΡΩΝ\", \"referenceNumber\": \"26PROC020134361\", \"signedDate\": \"2026-10-06T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-10-11T00:00:00\", \"submissionDate\": \"2026-11-05T16:14:49.384\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"890\", \"authorEmail\": null, \"aaht\": \"1020.E00763.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"099517192\", \"greekOrganizationV",
    "keys": [
     "title",
     "referenceNumber",
@@ -110,19 +101,19 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-04",
+   "newest": "2026-11-05",
    "rejected_recent": [
+    "Καθαρισμός και απομάκρυνση μπαζών, κλαδιών και φερτών υλικών από τις εγκαταστάσεις του ΠΕΑΚ ΠΑΤΡΩΝ",
     "Πρόσκληση υποβολής προσφορών με αντικείμενο την προμήθεια/παροχή υπηρεσίας TRANSDUCER ΠΙΕΣΕΩΝ ΜΟΝΑ- ",
     "Προμήθεια ειδών πυροσβεστικού εξοπλισμού, εργασιών συντηρήσεις εξοπλισμού καθώς και έλεγχος συστημάτ"
-   ],
-   "not_found": 2
+   ]
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 4,
-   "fetched": 154,
-   "sample": "{\"protocolNumber\": \"19432/05-11-2026\", \"adam\": null, \"subject\": \"Απόφαση Δημάρχου ( 571 / 2026 ) Θέμα: Παροχή υπηρεσίας «Έκδοση δύο Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) στο Δημοτικό Κτήριο Τ.Κ. Χαλκίαδων »\", \"issueDate\": 1793829600000, \"organizationId\": \"6306\", \"signerIds\": [\"100048969\"], \"unitIds\": [\"82057\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"140131753\", \"afmCountry\": \"EL\", \"name\": \"ΜΠΕΗΣ ΑΡΓΥΡΙΟΣ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 620.0, \"currency\": \"EUR\"}, \"assignmentType\": \"Υπηρεσίες\", \"cpv\": [\"71314300-5\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020126607",
+   "count": 9,
+   "fetched": 159,
+   "sample": "{\"protocolNumber\": \"501360\", \"adam\": null, \"subject\": \"Ματαίωση της διαδικασίας της απευθείας ανάθεσης μετά από έρευνα αγοράς για την «Παροχή υπηρεσιών ενεργειακής επιθεώρησης και την έκδοση Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο του Αρχαιολογικού Μουσείου Μεσαράς» (ΑΔΑΜ Πρόσκλησης: 26PROC020016982).\", \"issueDate\": 1793836800000, \"organizationId\": \"100081912\", \"signerIds\": [\"100106564\"], \"unitIds\": [\"100003650\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"person\": [], \"awardAmount\": null, \"assignmentType\": \"Υπηρεσίες\", \"cpv\": [], \"textRelatedADA\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\", \"adam\": null, \"decisionDocumentHash\": n",
    "keys": [
     "protocolNumber",
     "adam",
@@ -150,6 +141,33 @@
   }
  ],
  "notices": [
+  {
+   "id": "diavgeia:6ΤΠ746ΝΚΟΤ-ΟΧ4",
+   "source": "Διαύγεια",
+   "title": "Ματαίωση της διαδικασίας της απευθείας ανάθεσης μετά από έρευνα αγοράς για την «Παροχή υπηρεσιών ενεργειακής επιθεώρησης και την έκδοση Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο του Αρχαιολογικού Μουσείου Μεσαράς» (ΑΔΑΜ Πρόσκλησης: 26PROC020016982).",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΠΟΛΙΤΙΣΜΟΥ",
+   "date": "2026-11-05",
+   "url": "https://diavgeia.gov.gr/doc/6ΤΠ746ΝΚΟΤ-ΟΧ4",
+   "ref": "6ΤΠ746ΝΚΟΤ-ΟΧ4",
+   "matched": [
+    "ΠΕΑ",
+    "πιστοποιητικ* ενεργειακ*"
+   ],
+   "first_seen": "2026-11-06T11:31:38+00:00"
+  },
+  {
+   "id": "diavgeia:9ΜΑΒΟΡΛΟ-ΝΞΝ",
+   "source": "Διαύγεια",
+   "title": "Έγκριση Πρακτικού Διευκρινήσεων του ανοικτού διαγωνισμού άνω των ορίων ΤΔ-039/26 για την Προμήθεια και Εγκατάσταση Φωτοβολταϊκού Συστήματος με τη μορφή του Net Billing",
+   "org": "ΣΤΑΘΕΡΕΣ ΣΥΓΚΟΙΝΩΝΙΕΣ Α.Ε. (ΣΤΑΣΥ)",
+   "date": "2026-11-05",
+   "url": "https://diavgeia.gov.gr/doc/9ΜΑΒΟΡΛΟ-ΝΞΝ",
+   "ref": "9ΜΑΒΟΡΛΟ-ΝΞΝ",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-06T11:31:38+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020123080",
    "source": "ΚΗΜΔΗΣ",
