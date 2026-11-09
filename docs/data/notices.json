@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T14:21:17+00:00",
+ "generated": "2026-11-09T12:09:55+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,13 +12,13 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 6,
-   "fetched": 400,
+   "count": 2,
+   "fetched": 348,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
      "first": "2026-11-06",
-     "last": "2026-05-12"
+     "last": "2026-05-13"
     },
     "notice/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -64,9 +64,9 @@
      "last": "2026-05-15"
     },
     "auction/ΠΕΑ": {
-     "pages": 2,
+     "pages": 1,
      "first": "2026-11-05",
-     "last": "2026-06-17"
+     "last": "2026-08-18"
     },
     "auction/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -107,7 +107,7 @@
     "auction/φωτοβολταϊκών": {
      "pages": 1,
      "first": "2026-11-04",
-     "last": "2026-05-12"
+     "last": "2026-05-26"
     }
    },
    "sample": "{\"title\": \"99η Πρόσκληση Υποβολής Προσφοράς της 120ΠΕΑ\", \"referenceNumber\": \"26PROC020141601\", \"signedDate\": \"2026-11-06T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-10T10:00:00\", \"submissionDate\": \"2026-11-06T13:40:59.516\", \"lastUpdateDate\": \"2026-11-06T00:00:00\", \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"14400\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null,",
@@ -192,19 +192,16 @@
    "newest": "2026-11-06",
    "rejected_recent": [
     "99η Πρόσκληση Υποβολής Προσφοράς της 120ΠΕΑ",
-    "Καθαρισμός και απομάκρυνση μπαζών, κλαδιών και φερτών υλικών από τις εγκαταστάσεις του ΠΕΑΚ ΠΑΤΡΩΝ",
-    "Καθαρισμός και απομάκρυνση μπαζών, κλαδιών και φερτών υλικών από τις εγκαταστάσεις του ΠΕΑΚ ΠΑΤΡΩΝ ",
-    "90η Απόφαση Απευθείας Ανάθεσης της 120ΠΕΑ",
     "Αντικατάσταση αγωγών ουδετέρων UPS, Σύνδεση Πυρανίχνευσης με BMS και Αναβάθμιση Συστήματος Επιτήρηση"
    ],
-   "not_found": 15
+   "not_found": 14
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 11,
-   "fetched": 110,
-   "sample": "{\"protocolNumber\": \"501360\", \"adam\": null, \"subject\": \"Ματαίωση της διαδικασίας της απευθείας ανάθεσης μετά από έρευνα αγοράς για την «Παροχή υπηρεσιών ενεργειακής επιθεώρησης και την έκδοση Πιστοποιητικού Ενεργειακής Απόδοσης (ΠΕΑ) για το κτίριο του Αρχαιολογικού Μουσείου Μεσαράς» (ΑΔΑΜ Πρόσκλησης: 26PROC020016982).\", \"issueDate\": 1793836800000, \"organizationId\": \"100081912\", \"signerIds\": [\"100106564\"], \"unitIds\": [\"100003650\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"person\": [], \"awardAmount\": null, \"assignmentType\": \"Υπηρεσίες\", \"cpv\": [], \"textRelatedADA\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\", \"adam\": null, \"decisionDocumentHash\": n",
+   "count": 5,
+   "fetched": 78,
+   "sample": "{\"protocolNumber\": \"1440992\", \"adam\": null, \"subject\": \"έκδοσης Χρηματικού Εντάλματος Προπληρωμής για την επαναφόρτιση 15 συσκευών e-pass που χρησιμοποιούνται\\nγια τη διέλευση των 15 υπηρεσιακών οχημάτων της ΠΕΑΑ , ώστε να γίνεται ταχύτερη εξυπηρέτηση των αναγκών της\\nυπηρεσίας για το έτος 2026, στο όνομα του μονίμου υπαλλήλου Πρωτονοταρίου Στυλιανού του Μιχαήλ , κλάδου ΠΕ\\nΔιοικητικού – Οικονομικού με βαθμό Α’ , ως υπόλογου, με ημερομηνία απόδοσης του ΧΕΠ έως 31/12/2026\", \"issueDate\": 1793923200000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τ",
    "keys": [
     "protocolNumber",
     "adam",
