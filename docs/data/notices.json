@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T11:48:30+00:00",
+ "generated": "2026-11-10T15:39:02+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -11,15 +11,191 @@
  "sources": [
   {
    "name": "ΚΗΜΔΗΣ",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "fetched": 0,
+   "ok": true,
+   "count": 5,
+   "fetched": 409,
    "terms": {
     "notice/ΠΕΑ": {
+     "pages": 1,
+     "first": "2026-11-06",
+     "last": "2026-08-17"
+    },
+    "notice/ενεργειακό πιστοποιητικό": {
      "pages": 0
+    },
+    "notice/ενεργειακά πιστοποιητικά": {
+     "pages": 0
+    },
+    "notice/ενεργειακών πιστοποιητικών": {
+     "pages": 1,
+     "first": "2026-09-11",
+     "last": "2026-09-11"
+    },
+    "notice/πιστοποιητικά ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "notice/πιστοποιητικό ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "notice/ΥΔΕ": {
+     "pages": 2,
+     "first": "2026-11-09",
+     "last": "2026-06-12"
+    },
+    "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "notice/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "notice/φωτοβολταϊκά": {
+     "pages": 1,
+     "first": "2026-08-11",
+     "last": "2026-07-13"
+    },
+    "notice/φωτοβολταϊκό": {
+     "pages": 1,
+     "first": "2026-11-09",
+     "last": "2026-05-20"
+    },
+    "notice/φωτοβολταϊκών": {
+     "pages": 1,
+     "first": "2026-11-05",
+     "last": "2026-05-15"
+    },
+    "auction/ΠΕΑ": {
+     "pages": 2,
+     "first": "2026-11-09",
+     "last": "2026-06-24"
+    },
+    "auction/ενεργειακό πιστοποιητικό": {
+     "pages": 0
+    },
+    "auction/ενεργειακά πιστοποιητικά": {
+     "pages": 0
+    },
+    "auction/ενεργειακών πιστοποιητικών": {
+     "pages": 0
+    },
+    "auction/πιστοποιητικά ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "auction/πιστοποιητικό ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "auction/ΥΔΕ": {
+     "pages": 2,
+     "first": "2026-11-09",
+     "last": "2026-05-18"
+    },
+    "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "auction/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "auction/φωτοβολταϊκά": {
+     "pages": 1,
+     "first": "2026-09-01",
+     "last": "2026-07-21"
+    },
+    "auction/φωτοβολταϊκό": {
+     "pages": 1,
+     "first": "2026-11-09",
+     "last": "2026-05-26"
+    },
+    "auction/φωτοβολταϊκών": {
+     "pages": 1,
+     "first": "2026-11-04",
+     "last": "2026-05-26"
     }
-   }
+   },
+   "sample": "{\"title\": \"99η Πρόσκληση Υποβολής Προσφοράς της 120ΠΕΑ\", \"referenceNumber\": \"26PROC020141601\", \"signedDate\": \"2026-11-06T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-10T10:00:00\", \"submissionDate\": \"2026-11-06T13:40:59.516\", \"lastUpdateDate\": \"2026-11-06T00:00:00\", \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"14400\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null,",
+   "keys": [
+    "title",
+    "referenceNumber",
+    "signedDate",
+    "publishedDate",
+    "finalSubmissionDate",
+    "submissionDate",
+    "lastUpdateDate",
+    "cancelled",
+    "cancellationDate",
+    "cancellationType",
+    "cancellationReason",
+    "cancellationADA",
+    "amendPreviousNotice",
+    "amendedNoticeADAM",
+    "frameworkAgreementNoticeADAM",
+    "protocolNumber",
+    "authorEmail",
+    "aaht",
+    "biddingWebsite",
+    "organizationVatNumber",
+    "greekOrganizationVatNumber",
+    "budget",
+    "commitmentNo",
+    "relatedNoticeADAM",
+    "numberOfSections",
+    "nutsCode",
+    "nutsCity",
+    "nutsPostalCode",
+    "nutsCountry",
+    "assignedContract",
+    "socialContract",
+    "centralGovernmentAuthority",
+    "contractingData",
+    "fundingDetails",
+    "systemicNumbers",
+    "approvedRequests",
+    "contractingAuthorities",
+    "nutsCodes",
+    "organization",
+    "typeOfProcedure",
+    "contractType",
+    "awardProcedure",
+    "centralizedMarkets",
+    "legalContext",
+    "conductingProceedings",
+    "digitalPlatform",
+    "criteriaCode",
+    "classificationOfPublicLawOrganization",
+    "noticeType",
+    "contractingAuthorityActivity",
+    "contractDuration",
+    "contractDurationUnitOfMeasure",
+    "totalCostWithVAT",
+    "totalCostWithoutVAT",
+    "objectDetails",
+    "additionalContractTypes",
+    "mixedContract",
+    "offersValidTime",
+    "offersValidTimeUnitOfMeasure",
+    "maxNumberOfContractors",
+    "optionRight",
+    "optionRightDescription",
+    "abortReason",
+    "auctionRefNo",
+    "amendsNoticeRefNo",
+    "ada",
+    "diavgeiaLink",
+    "documentLink",
+    "thematicCategory",
+    "revoked",
+    "revocationReason",
+    "version",
+    "diavgeiaErrorCode",
+    "diavgeiaErrorMessage",
+    "revocationStatus",
+    "exceptions"
+   ],
+   "newest": "2026-11-09",
+   "not_found": 15,
+   "rejected_recent": [
+    "Απόφαση Απευθείας Ανάθεσης της 120ΠΕΑ Υπ΄αρίθμ. 95/26",
+    "Απόφαση Απευθείας Ανάθεσης της 120ΠΕΑ Υπ΄αρίθμ. 93/26",
+    "Δαπάνες Προμηθειών (Απόφαση Απευθείας Ανάθεσης για την Προμήθεια Ιματισμού Προσωπικού της 120ΠΕΑ Υπ΄"
+   ]
   },
   {
    "name": "Διαύγεια",
@@ -54,6 +230,71 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020149197",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Υπηρεσία ελέγχου-επανελέγχου αποκατάστασης βλαβών και έκδοσης ΥΔΕ των εσωτερικών ηλεκτρικών εγκαταστάσεων Δημοτικών κτιρίων",
+   "org": "ΔΗΜΟΣ ΔΡΑΜΑΣ",
+   "date": "2026-11-09",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020149197",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-10T15:39:02+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020146759",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Ασφάλιση  Φωτοβολταϊκού  Πάρκου της ΔΕΥΑ Κιλελέρ",
+   "org": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ &  ΑΠΟΧΕΤΕΥΣΗΣ ΚΙΛΕΛΕΡ",
+   "date": "2026-11-09",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020146759",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-10T15:39:02+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020153437",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "697-2026- Αποφ. Δημάρχου_Απευθείας ανάθεση της δημόσιας σύμβασης  παροχής υπηρ. με τίτλο\"Υπηρεσίες πιστοποίησης, επαύξηση παροχών ΔΕΔΔΗΕ σύμφωνα με τη νέα ΥΔΕ κτιριακών εγκατ/εων Δ.Ε. Γλυκών Νερώνν¨ ",
+   "org": "ΔΗΜΟΣ ΠΑΙΑΝΙΑΣ",
+   "date": "2026-11-09",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020153437",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-10T15:39:02+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020152225",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ ΓΙΑ ΤΗΝ ΕΚΔΟΣΗ ΥΠΕΥΘΥΝΗΣ ΔΗΛΩΣΗΣ ΕΓΚΑΤΑΣΤΑΤΗ (ΥΔΕ) ΓΙΑ ΤΟ ΚΤΗΡΙΟ ΔΙΟΙΚΗΣΗΣ ΤΗΣ ΕΥΑΘ ΑΕ",
+   "org": "ΕΤΑΙΡΕΙΑ ΥΔΡΕΥΣΗΣ ΑΠΟΧΕΤΕΥΣΗΣ ΘΕΣΣΑΛΟΝΙΚΗΣ (ΕΥΑΘ ΑΕ)",
+   "date": "2026-11-09",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020152225",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-10T15:39:02+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020151874",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΑΠΕΥΘΕΙΑΣ ΑΝΑΘΕΣΗ ΥΠΗΡΕΣΙΑΣ ΠΑΡΟΧΗ ΣΥΜΒΟΥΛΕΥΤΙΚΩΝ ΥΠΗΡΕΣΙΩΝ ΓΙΑ ΤΟ ΣΧΕΔΙΑΣΜΟ ΦΩΤΟΒΟΛΤΑΙΚΟΥ ΣΤΑΘΜΟΥ ΣΥΜΨΗΦΙΣΜΟΥ ΕΝΕΡΓΕΙΑΣ ΜΕ ΑΠΟΘΗΚΕΥΣΗ ΓΙΑ ΤΗΝ ΕΝΕΡΓΕΙΑΚΗ ΑΝΑΒΑΘΜΙΣΗ ΤΟΥ ΚΛΕΙΣΤΟΥ ΓΥΜΝΑΣΤΗΡΙΟΥ ΛΙΤΟΧΩΡΟΥ",
+   "org": "ΔΗΜΟΣ ΔΙΟΥ - ΟΛΥΜΠΟΥ",
+   "date": "2026-11-09",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020151874",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-10T15:39:02+00:00"
+  },
   {
    "id": "diavgeia:9ΦΒΠ46Μ8Ξ6-ΧΗΞ",
    "source": "Διαύγεια",
