@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T17:37:28+00:00",
+ "generated": "2026-11-10T11:48:30+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -11,197 +11,22 @@
  "sources": [
   {
    "name": "ΚΗΜΔΗΣ",
-   "ok": true,
-   "count": 2,
-   "fetched": 348,
+   "ok": false,
+   "count": 0,
+   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "fetched": 0,
    "terms": {
     "notice/ΠΕΑ": {
-     "pages": 2,
-     "first": "2026-11-06",
-     "last": "2026-05-13"
-    },
-    "notice/ενεργειακό πιστοποιητικό": {
      "pages": 0
-    },
-    "notice/ενεργειακά πιστοποιητικά": {
-     "pages": 0
-    },
-    "notice/ενεργειακών πιστοποιητικών": {
-     "pages": 1,
-     "first": "2026-09-11",
-     "last": "2026-09-11"
-    },
-    "notice/πιστοποιητικά ενεργειακής απόδοσης": {
-     "pages": 0
-    },
-    "notice/πιστοποιητικό ενεργειακής απόδοσης": {
-     "pages": 0
-    },
-    "notice/ΥΔΕ": {
-     "pages": 1,
-     "first": "2026-11-04",
-     "last": "2026-07-29"
-    },
-    "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
-     "pages": 0
-    },
-    "notice/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
-     "pages": 0
-    },
-    "notice/φωτοβολταϊκά": {
-     "pages": 1,
-     "first": "2026-08-11",
-     "last": "2026-07-13"
-    },
-    "notice/φωτοβολταϊκό": {
-     "pages": 1,
-     "first": "2026-11-02",
-     "last": "2026-05-20"
-    },
-    "notice/φωτοβολταϊκών": {
-     "pages": 1,
-     "first": "2026-11-05",
-     "last": "2026-05-15"
-    },
-    "auction/ΠΕΑ": {
-     "pages": 1,
-     "first": "2026-11-05",
-     "last": "2026-08-18"
-    },
-    "auction/ενεργειακό πιστοποιητικό": {
-     "pages": 0
-    },
-    "auction/ενεργειακά πιστοποιητικά": {
-     "pages": 0
-    },
-    "auction/ενεργειακών πιστοποιητικών": {
-     "pages": 0
-    },
-    "auction/πιστοποιητικά ενεργειακής απόδοσης": {
-     "pages": 0
-    },
-    "auction/πιστοποιητικό ενεργειακής απόδοσης": {
-     "pages": 0
-    },
-    "auction/ΥΔΕ": {
-     "pages": 2,
-     "first": "2026-11-06",
-     "last": "2026-05-18"
-    },
-    "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
-     "pages": 0
-    },
-    "auction/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
-     "pages": 0
-    },
-    "auction/φωτοβολταϊκά": {
-     "pages": 1,
-     "first": "2026-09-01",
-     "last": "2026-07-21"
-    },
-    "auction/φωτοβολταϊκό": {
-     "pages": 1,
-     "first": "2026-11-06",
-     "last": "2026-05-26"
-    },
-    "auction/φωτοβολταϊκών": {
-     "pages": 1,
-     "first": "2026-11-04",
-     "last": "2026-05-26"
     }
-   },
-   "sample": "{\"title\": \"99η Πρόσκληση Υποβολής Προσφοράς της 120ΠΕΑ\", \"referenceNumber\": \"26PROC020141601\", \"signedDate\": \"2026-11-06T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-10T10:00:00\", \"submissionDate\": \"2026-11-06T13:40:59.516\", \"lastUpdateDate\": \"2026-11-06T00:00:00\", \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"14400\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null,",
-   "keys": [
-    "title",
-    "referenceNumber",
-    "signedDate",
-    "publishedDate",
-    "finalSubmissionDate",
-    "submissionDate",
-    "lastUpdateDate",
-    "cancelled",
-    "cancellationDate",
-    "cancellationType",
-    "cancellationReason",
-    "cancellationADA",
-    "amendPreviousNotice",
-    "amendedNoticeADAM",
-    "frameworkAgreementNoticeADAM",
-    "protocolNumber",
-    "authorEmail",
-    "aaht",
-    "biddingWebsite",
-    "organizationVatNumber",
-    "greekOrganizationVatNumber",
-    "budget",
-    "commitmentNo",
-    "relatedNoticeADAM",
-    "numberOfSections",
-    "nutsCode",
-    "nutsCity",
-    "nutsPostalCode",
-    "nutsCountry",
-    "assignedContract",
-    "socialContract",
-    "centralGovernmentAuthority",
-    "contractingData",
-    "fundingDetails",
-    "systemicNumbers",
-    "approvedRequests",
-    "contractingAuthorities",
-    "nutsCodes",
-    "organization",
-    "typeOfProcedure",
-    "contractType",
-    "awardProcedure",
-    "centralizedMarkets",
-    "legalContext",
-    "conductingProceedings",
-    "digitalPlatform",
-    "criteriaCode",
-    "classificationOfPublicLawOrganization",
-    "noticeType",
-    "contractingAuthorityActivity",
-    "contractDuration",
-    "contractDurationUnitOfMeasure",
-    "totalCostWithVAT",
-    "totalCostWithoutVAT",
-    "objectDetails",
-    "additionalContractTypes",
-    "mixedContract",
-    "offersValidTime",
-    "offersValidTimeUnitOfMeasure",
-    "maxNumberOfContractors",
-    "optionRight",
-    "optionRightDescription",
-    "abortReason",
-    "auctionRefNo",
-    "amendsNoticeRefNo",
-    "ada",
-    "diavgeiaLink",
-    "documentLink",
-    "thematicCategory",
-    "revoked",
-    "revocationReason",
-    "version",
-    "diavgeiaErrorCode",
-    "diavgeiaErrorMessage",
-    "revocationStatus",
-    "exceptions"
-   ],
-   "newest": "2026-11-06",
-   "rejected_recent": [
-    "99η Πρόσκληση Υποβολής Προσφοράς της 120ΠΕΑ",
-    "Αντικατάσταση αγωγών ουδετέρων UPS, Σύνδεση Πυρανίχνευσης με BMS και Αναβάθμιση Συστήματος Επιτήρηση"
-   ],
-   "not_found": 14
+   }
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 5,
-   "fetched": 79,
-   "sample": "{\"protocolNumber\": \"1440992\", \"adam\": null, \"subject\": \"έκδοσης Χρηματικού Εντάλματος Προπληρωμής για την επαναφόρτιση 15 συσκευών e-pass που χρησιμοποιούνται\\nγια τη διέλευση των 15 υπηρεσιακών οχημάτων της ΠΕΑΑ , ώστε να γίνεται ταχύτερη εξυπηρέτηση των αναγκών της\\nυπηρεσίας για το έτος 2026, στο όνομα του μονίμου υπαλλήλου Πρωτονοταρίου Στυλιανού του Μιχαήλ , κλάδου ΠΕ\\nΔιοικητικού – Οικονομικού με βαθμό Α’ , ως υπόλογου, με ημερομηνία απόδοσης του ΧΕΠ έως 31/12/2026\", \"issueDate\": 1793923200000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τ",
+   "count": 3,
+   "fetched": 72,
+   "sample": "{\"protocolNumber\": \"80/26\", \"adam\": null, \"subject\": \"80η Απόφαση Απευθείας Ανάθεσης της 120 ΠΕΑ\", \"issueDate\": 1794261600000, \"organizationId\": \"6\", \"signerIds\": [\"100097336\"], \"unitIds\": [\"87471\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"998995228\", \"afmCountry\": \"EL\", \"name\": \"Ι. ΑΛΑΠΑΝΤΑ – ΚΑΡΟΥΤΑΣ ΟΕ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 4964.96, \"currency\": \"EUR\"}, \"assignmentType\": \"Προμήθειες\", \"cpv\": [\"39515100-6\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020160829\", \"decisionDocumentHash\": \"7261c71858adefbd7d108f122b65f6a5bc72e7405d0724a6623bbcc821a57f76\"}, \"privateDa",
    "keys": [
     "protocolNumber",
     "adam",
@@ -229,6 +54,19 @@
   }
  ],
  "notices": [
+  {
+   "id": "diavgeia:9ΦΒΠ46Μ8Ξ6-ΧΗΞ",
+   "source": "Διαύγεια",
+   "title": "Έγκριση 2ου Πρακτικού ελέγχου δικαιολογητικών κατακύρωσης της Επιτροπής Διαγωνισμού και κατακύρωση του αποτελέσματος του Ανοικτού Ηλεκτρονικού Διαγωνισμού για την ανάθεση της σύμβασης «Προμήθεια & Εγκατάσταση Φωτοβολταϊκού Σταθμού συνολικής εγκατεστημένης ισχύος 699,84 kWp στις εγκαταστάσεις του Ε.Λ.Γ.Ο. ΔΗΜΗΤΡΑ στο Αγρόκτημα Θέρμης».",
+   "org": "ΑΝΑΠΤΥΞΙΑΚΗ ΝΟΜΟΥ ΘΕΣΣΑΛΟΝΙΚΗΣ ΑΕ ΑΝΑΠΤΥΞΙΑΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΤΟΠΙΚΗΣ ΑΥΤΟΔΙΟΙΚΗΣΗΣ",
+   "date": "2026-11-09",
+   "url": "https://diavgeia.gov.gr/doc/9ΦΒΠ46Μ8Ξ6-ΧΗΞ",
+   "ref": "9ΦΒΠ46Μ8Ξ6-ΧΗΞ",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-10T11:48:30+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020139682",
    "source": "ΚΗΜΔΗΣ",
