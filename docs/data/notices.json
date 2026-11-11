@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T15:39:02+00:00",
+ "generated": "2026-11-11T11:27:53+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,13 +12,13 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 5,
-   "fetched": 409,
+   "count": 9,
+   "fetched": 451,
    "terms": {
     "notice/ΠΕΑ": {
-     "pages": 1,
-     "first": "2026-11-06",
-     "last": "2026-08-17"
+     "pages": 2,
+     "first": "2026-11-10",
+     "last": "2026-05-15"
     },
     "notice/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -65,8 +65,8 @@
     },
     "auction/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-11-09",
-     "last": "2026-06-24"
+     "first": "2026-11-10",
+     "last": "2026-07-01"
     },
     "auction/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -110,7 +110,7 @@
      "last": "2026-05-26"
     }
    },
-   "sample": "{\"title\": \"99η Πρόσκληση Υποβολής Προσφοράς της 120ΠΕΑ\", \"referenceNumber\": \"26PROC020141601\", \"signedDate\": \"2026-11-06T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-10T10:00:00\", \"submissionDate\": \"2026-11-06T13:40:59.516\", \"lastUpdateDate\": \"2026-11-06T00:00:00\", \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"14400\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null,",
+   "sample": "{\"title\": \"100η Πρόσκληση Υποβολής Προσφοράς της 120ΠΕΑ\", \"referenceNumber\": \"26PROC020161120\", \"signedDate\": \"2026-11-10T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-16T10:00:00\", \"submissionDate\": \"2026-11-10T13:07:45.918\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"14512\", \"authorEmail\": null, \"aaht\": \"1011.2040000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"commitmentNo\":",
    "keys": [
     "title",
     "referenceNumber",
@@ -189,19 +189,21 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-09",
-   "not_found": 15,
+   "newest": "2026-11-10",
    "rejected_recent": [
+    "100η Πρόσκληση Υποβολής Προσφοράς της 120ΠΕΑ",
+    "Απόφαση Απευθείας Ανάθεσης της 120ΠΕΑ Υπ΄αρίθμ. 84/26",
     "Απόφαση Απευθείας Ανάθεσης της 120ΠΕΑ Υπ΄αρίθμ. 95/26",
     "Απόφαση Απευθείας Ανάθεσης της 120ΠΕΑ Υπ΄αρίθμ. 93/26",
     "Δαπάνες Προμηθειών (Απόφαση Απευθείας Ανάθεσης για την Προμήθεια Ιματισμού Προσωπικού της 120ΠΕΑ Υπ΄"
-   ]
+   ],
+   "not_found": 15
   },
   {
    "name": "Διαύγεια",
    "ok": true,
    "count": 3,
-   "fetched": 72,
+   "fetched": 119,
    "sample": "{\"protocolNumber\": \"80/26\", \"adam\": null, \"subject\": \"80η Απόφαση Απευθείας Ανάθεσης της 120 ΠΕΑ\", \"issueDate\": 1794261600000, \"organizationId\": \"6\", \"signerIds\": [\"100097336\"], \"unitIds\": [\"87471\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"998995228\", \"afmCountry\": \"EL\", \"name\": \"Ι. ΑΛΑΠΑΝΤΑ – ΚΑΡΟΥΤΑΣ ΟΕ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 4964.96, \"currency\": \"EUR\"}, \"assignmentType\": \"Προμήθειες\", \"cpv\": [\"39515100-6\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020160829\", \"decisionDocumentHash\": \"7261c71858adefbd7d108f122b65f6a5bc72e7405d0724a6623bbcc821a57f76\"}, \"privateDa",
    "keys": [
     "protocolNumber",
@@ -230,6 +232,59 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:auction:26AWRD020160829",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "80η Απόφαση Απευθείας Ανάθεσης της 120 ΠΕΑ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-11-10",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020160829",
+   "matched": [
+    "ΠΕΑ"
+   ],
+   "first_seen": "2026-11-11T11:27:53+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020160546",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "97η Απόφαση Απευθείας Ανάθεσης της 120 ΠΕΑ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-11-10",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020160546",
+   "matched": [
+    "ΠΕΑ"
+   ],
+   "first_seen": "2026-11-11T11:27:53+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020160440",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "96η Απόφαση Απευθείας Ανάθεσης της 120 ΠΕΑ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-11-10",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020160440",
+   "matched": [
+    "ΠΕΑ"
+   ],
+   "first_seen": "2026-11-11T11:27:53+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020154316",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "«Έκδοση Πιστοποιητικών Ενεργειακής Απόδοσης (ΠΕΑ) για το κτήριο της Πλατείας Συντάγματος συμπεριλαμβανομένων των ισογείων καταστημάτων του, καθώς και για το κτήριο επί των οδών Πανεπιστημίου 37 και Κο",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΟΙΚΟΝΟΜΙΚΩΝ",
+   "date": "2026-11-10",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020154316",
+   "matched": [
+    "ΠΕΑ",
+    "πιστοποιητικ* ενεργειακ*"
+   ],
+   "first_seen": "2026-11-11T11:27:53+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020149197",
    "source": "ΚΗΜΔΗΣ",
