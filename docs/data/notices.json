@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T15:28:06+00:00",
+ "generated": "2026-11-14T10:58:22+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,8 +12,8 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 9,
-   "fetched": 454,
+   "count": 7,
+   "fetched": 456,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
@@ -85,7 +85,7 @@
     },
     "auction/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-11-12",
+     "first": "2026-11-13",
      "last": "2026-05-18"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
@@ -189,12 +189,10 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-12",
+   "newest": "2026-11-13",
    "rejected_recent": [
     "ΠΡΟΜΗΘΕΙΑ ΕΛΕΓΚΤΗ-ΜΕΤΑΤΡΟΠΕΑ ΣΗΜΑΤΟΣ ΣΤΑΘΜΗΣ ΣΥΓΚΡΟΤΗΜΑΤΟΣ ΑΠΟΦΡΑΚΤΙΚΩΝ ΕΕΛ ΛΑΡΙΣΑΣ",
-    "100η Πρόσκληση Υποβολής Προσφοράς της 120ΠΕΑ",
     "«ΑΠΟΚΑΤΑΣΤΑΣΗ ΠΡΑΝΩΝ ΚΑΙ ΚΑΘΑΡΙΣΜΟΣ ΚΟΙΤΗΣ ΡΕΜΑΤΩΝ ΑΡΜΟΔΙΟΤΗΤΑΣ ΔΤΕ ΠΕΡΙΦΕΡΕΙΑΣ ΘΕΣΣΑΛΙΑΣ» Υποέργο 1",
-    "Απόφαση Απευθείας Ανάθεσης της 120ΠΕΑ Υπ΄αρίθμ. 84/26",
     "ΠΡΟΜΗΘΕΙΑ ΑΝΤΑΛΛΑΚΤΙΚΩΝ ΓΙΑ ΤΗΝ ΕΠΙΣΚΕΥΗ ΤΟΥ ΑΝΕΛΚΥΣΤΗΡΑ ΠΡΟΣΩΠΩΝ ΣΤΟ ΝΙΚΟΛΟΥΔΕΙΟ",
     "ΑΝΑΘΕΣΗ 2554 ΕΝΕΡΓΑ ΔΙΚΤΥΑ ΓΟΥΔΕΒΕΝΟΥ"
    ],
@@ -204,7 +202,7 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 3,
-   "fetched": 234,
+   "fetched": 246,
    "sample": "{\"protocolNumber\": \"11117\", \"adam\": null, \"subject\": \"120 ΠΕΑ/ΑΑΥ 11117/ΑΛΕ 2410202001 /ΕΦ10112040000000/ΠΟΣΟ: 0,48€ /ΑΝΑΚΛΗΣΗ ΠΟΣΟΥ\", \"issueDate\": 1794441600000, \"organizationId\": \"6\", \"signerIds\": [\"100097336\"], \"unitIds\": [\"87471\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"11117\", \"partialead\": false, \"recalledExpenseDecision\": true, \"amountWithVAT\": {\"amount\": 0.48, \"currency\": \"EUR\"}, \"amountWithKae\": [], \"relatedPartialADA\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\", \"adam\": null, \"decisionDocumentHash\": null}, \"privateData\": false, \"ada\": \"9ΩΗ06-ΝΧ9\", \"publ",
    "keys": [
     "protocolNumber",
@@ -233,6 +231,32 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:auction:26AWRD020192289",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Υπηρεσία ελέγχου-επανελέγχου αποκατάστασης βλαβών και έκδοσης ΥΔΕ των εσωτερικών ηλεκτρικών εγκαταστάσεων Δημοτικών κτιρίων",
+   "org": "ΔΗΜΟΣ ΔΡΑΜΑΣ",
+   "date": "2026-11-13",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020192289",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-14T10:58:22+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020189602",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΑΠΟΦΑΣΗ ΑΝΑΘΕΣΗΣ ΥΔΕ ΤΕΛΩΝΕΙΟΥ ΡΟΔΟΥ",
+   "org": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΑΑΔΕ",
+   "date": "2026-11-13",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020189602",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-14T10:58:22+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020184683",
    "source": "ΚΗΜΔΗΣ",
