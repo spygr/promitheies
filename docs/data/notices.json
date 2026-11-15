@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T14:15:20+00:00",
+ "generated": "2026-11-15T11:31:40+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,12 +12,12 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 7,
+   "count": 5,
    "fetched": 456,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-11-12",
+     "first": "2026-11-14",
      "last": "2026-05-21"
     },
     "notice/ενεργειακό πιστοποιητικό": {
@@ -86,7 +86,7 @@
     "auction/ΥΔΕ": {
      "pages": 2,
      "first": "2026-11-13",
-     "last": "2026-05-18"
+     "last": "2026-05-20"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -110,7 +110,7 @@
      "last": "2026-05-26"
     }
    },
-   "sample": "{\"title\": \"ΠΡΟΜΗΘΕΙΑ ΕΛΕΓΚΤΗ-ΜΕΤΑΤΡΟΠΕΑ ΣΗΜΑΤΟΣ ΣΤΑΘΜΗΣ ΣΥΓΚΡΟΤΗΜΑΤΟΣ ΑΠΟΦΡΑΚΤΙΚΩΝ ΕΕΛ ΛΑΡΙΣΑΣ\", \"referenceNumber\": \"26PROC020183871\", \"signedDate\": \"2026-11-12T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-20T10:00:00\", \"submissionDate\": \"2026-11-12T14:21:24.328\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"11526\", \"authorEmail\": null, \"aaht\": \"1007.F00066.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090262997\", \"greekOrganizationVatNumber\": nu",
+   "sample": "{\"title\": \"Προμήθεια ηλεκτρολογικών ειδών συντήρησης του κτιρίου των θαλάμων του ΛΔ/ΤΔ 41 Μ/Κ ΣΠ και της 172 ΠΕΑ/ΑΠ\", \"referenceNumber\": \"26PROC020195647\", \"signedDate\": \"2026-11-13T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-13T00:00:00\", \"submissionDate\": \"2026-11-14T10:23:23.949\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"1743\", \"authorEmail\": null, \"aaht\": \"1011.2020000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOr",
    "keys": [
     "title",
     "referenceNumber",
@@ -189,20 +189,19 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-13",
+   "newest": "2026-11-14",
    "rejected_recent": [
     "ΠΡΟΜΗΘΕΙΑ ΕΛΕΓΚΤΗ-ΜΕΤΑΤΡΟΠΕΑ ΣΗΜΑΤΟΣ ΣΤΑΘΜΗΣ ΣΥΓΚΡΟΤΗΜΑΤΟΣ ΑΠΟΦΡΑΚΤΙΚΩΝ ΕΕΛ ΛΑΡΙΣΑΣ",
     "«ΑΠΟΚΑΤΑΣΤΑΣΗ ΠΡΑΝΩΝ ΚΑΙ ΚΑΘΑΡΙΣΜΟΣ ΚΟΙΤΗΣ ΡΕΜΑΤΩΝ ΑΡΜΟΔΙΟΤΗΤΑΣ ΔΤΕ ΠΕΡΙΦΕΡΕΙΑΣ ΘΕΣΣΑΛΙΑΣ» Υποέργο 1",
-    "ΠΡΟΜΗΘΕΙΑ ΑΝΤΑΛΛΑΚΤΙΚΩΝ ΓΙΑ ΤΗΝ ΕΠΙΣΚΕΥΗ ΤΟΥ ΑΝΕΛΚΥΣΤΗΡΑ ΠΡΟΣΩΠΩΝ ΣΤΟ ΝΙΚΟΛΟΥΔΕΙΟ",
-    "ΑΝΑΘΕΣΗ 2554 ΕΝΕΡΓΑ ΔΙΚΤΥΑ ΓΟΥΔΕΒΕΝΟΥ"
+    "ΠΡΟΜΗΘΕΙΑ ΑΝΤΑΛΛΑΚΤΙΚΩΝ ΓΙΑ ΤΗΝ ΕΠΙΣΚΕΥΗ ΤΟΥ ΑΝΕΛΚΥΣΤΗΡΑ ΠΡΟΣΩΠΩΝ ΣΤΟ ΝΙΚΟΛΟΥΔΕΙΟ"
    ],
-   "not_found": 14
+   "not_found": 13
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 3,
-   "fetched": 246,
+   "count": 0,
+   "fetched": 139,
    "sample": "{\"protocolNumber\": \"11117\", \"adam\": null, \"subject\": \"120 ΠΕΑ/ΑΑΥ 11117/ΑΛΕ 2410202001 /ΕΦ10112040000000/ΠΟΣΟ: 0,48€ /ΑΝΑΚΛΗΣΗ ΠΟΣΟΥ\", \"issueDate\": 1794441600000, \"organizationId\": \"6\", \"signerIds\": [\"100097336\"], \"unitIds\": [\"87471\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"11117\", \"partialead\": false, \"recalledExpenseDecision\": true, \"amountWithVAT\": {\"amount\": 0.48, \"currency\": \"EUR\"}, \"amountWithKae\": [], \"relatedPartialADA\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\", \"adam\": null, \"decisionDocumentHash\": null}, \"privateData\": false, \"ada\": \"9ΩΗ06-ΝΧ9\", \"publ",
    "keys": [
     "protocolNumber",
@@ -231,6 +230,19 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020195647",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Προμήθεια ηλεκτρολογικών ειδών συντήρησης του κτιρίου των θαλάμων του ΛΔ/ΤΔ 41 Μ/Κ ΣΠ και της 172 ΠΕΑ/ΑΠ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-11-14",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020195647",
+   "matched": [
+    "ΠΕΑ"
+   ],
+   "first_seen": "2026-11-15T11:31:40+00:00"
+  },
   {
    "id": "kimdis:auction:26AWRD020192289",
    "source": "ΚΗΜΔΗΣ",
