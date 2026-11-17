@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T17:08:02+00:00",
+ "generated": "2026-11-17T12:29:46+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -11,10 +11,9 @@
  "sources": [
   {
    "name": "ΚΗΜΔΗΣ",
-   "ok": false,
-   "count": 3,
-   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "fetched": 325,
+   "ok": true,
+   "count": 2,
+   "fetched": 318,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
@@ -57,7 +56,7 @@
     "notice/φωτοβολταϊκό": {
      "pages": 1,
      "first": "2026-11-09",
-     "last": "2026-05-20"
+     "last": "2026-06-02"
     },
     "notice/φωτοβολταϊκών": {
      "pages": 1,
@@ -85,9 +84,9 @@
      "pages": 0
     },
     "auction/ΥΔΕ": {
-     "pages": 2,
+     "pages": 1,
      "first": "2026-11-13",
-     "last": "2026-05-20"
+     "last": "2026-07-23"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -101,7 +100,14 @@
      "last": "2026-07-21"
     },
     "auction/φωτοβολταϊκό": {
-     "pages": 0
+     "pages": 1,
+     "first": "2026-11-09",
+     "last": "2026-05-26"
+    },
+    "auction/φωτοβολταϊκών": {
+     "pages": 1,
+     "first": "2026-11-16",
+     "last": "2026-05-26"
     }
    },
    "sample": "{\"title\": \"Προμήθεια ηλεκτρολογικών ειδών συντήρησης του κτιρίου των θαλάμων του ΛΔ/ΤΔ 41 Μ/Κ ΣΠ και της 172 ΠΕΑ/ΑΠ\", \"referenceNumber\": \"26PROC020195647\", \"signedDate\": \"2026-11-13T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-13T00:00:00\", \"submissionDate\": \"2026-11-14T10:23:23.949\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"1743\", \"authorEmail\": null, \"aaht\": \"1011.2020000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOr",
@@ -183,15 +189,15 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-14",
-   "not_found": 13
+   "newest": "2026-11-16",
+   "not_found": 14
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 0,
-   "fetched": 81,
-   "sample": "{\"protocolNumber\": \"1481968\", \"adam\": null, \"subject\": \"Απόφαση Ανάληψης Υποχρέωσης για προμήθεια Μέσων ατομικής Προστασίας ΠΕΑΑ\", \"issueDate\": 1794520800000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": null, \"partialead\": false, \"recalledExpenseDecision\": null, \"amountWithVAT\": {\"amount\": 71735.36, \"currency\": \"EUR\"}, \"amountWithKae\": null, \"relatedPartialADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26REQ020202849\", \"decisionDocumentHash\": \"37a63c525ffceed853ee2030d127c46fbe586",
+   "count": 1,
+   "fetched": 54,
+   "sample": "{\"protocolNumber\": \"ΑΑΔ.1046.2026\", \"adam\": null, \"subject\": \"ΕΚΔΟΣΗ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ ( ΠΕΑ ) ΓΙΑ ΣΧΟΛΙΚΗ ΜΟΝΑΔΑ ΔΗΜΟΥ ΕΟΡΔΑΙΑΣ\", \"issueDate\": 1794787200000, \"organizationId\": \"6092\", \"signerIds\": [\"100078133\"], \"unitIds\": [\"78106\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": null, \"partialead\": false, \"recalledExpenseDecision\": null, \"amountWithVAT\": null, \"amountWithKae\": [{\"kae\": \"000.2420989000\", \"amountWithVAT\": 500.0}], \"relatedPartialADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": null, \"decisionDocumentHash\": null}, \"privateData\"",
    "keys": [
     "protocolNumber",
     "adam",
@@ -219,6 +225,32 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:auction:26AWRD020204395",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Αγορά υλικών για τη συντήρηση - επισκευή βάθρων φωτοβολταϊκών στην μ/ν ΚΑΛΟΛΙΜΝΟ",
+   "org": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+   "date": "2026-11-16",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020204395",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-17T12:29:46+00:00"
+  },
+  {
+   "id": "diavgeia:ΨΨΘΨΩ10-11Μ",
+   "source": "Διαύγεια",
+   "title": "ΜΕΤΑΘΕΣΗ ΔΙΑΓΩΝΙΣΜΟΥ ΥΔΕ ΣΧΟΛ ΜΟΝΑΔΩΝ ",
+   "org": "ΔΗΜΟΣ ΣΕΡΡΩΝ",
+   "date": "2026-11-16",
+   "url": "https://diavgeia.gov.gr/doc/ΨΨΘΨΩ10-11Μ",
+   "ref": "ΨΨΘΨΩ10-11Μ",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-17T12:29:46+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020195647",
    "source": "ΚΗΜΔΗΣ",
