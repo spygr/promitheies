@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T16:56:10+00:00",
+ "generated": "2026-11-18T12:16:36+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -12,13 +12,13 @@
   {
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
-   "count": 2,
-   "fetched": 318,
+   "count": 4,
+   "fetched": 364,
    "terms": {
     "notice/ΠΕΑ": {
-     "pages": 2,
+     "pages": 1,
      "first": "2026-11-14",
-     "last": "2026-05-21"
+     "last": "2026-08-27"
     },
     "notice/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -38,9 +38,9 @@
      "pages": 0
     },
     "notice/ΥΔΕ": {
-     "pages": 1,
-     "first": "2026-11-12",
-     "last": "2026-08-05"
+     "pages": 2,
+     "first": "2026-11-17",
+     "last": "2026-06-15"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -84,9 +84,9 @@
      "pages": 0
     },
     "auction/ΥΔΕ": {
-     "pages": 1,
-     "first": "2026-11-13",
-     "last": "2026-07-23"
+     "pages": 2,
+     "first": "2026-11-17",
+     "last": "2026-05-22"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -101,7 +101,7 @@
     },
     "auction/φωτοβολταϊκό": {
      "pages": 1,
-     "first": "2026-11-09",
+     "first": "2026-11-17",
      "last": "2026-05-26"
     },
     "auction/φωτοβολταϊκών": {
@@ -189,15 +189,19 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-16",
-   "not_found": 14
+   "newest": "2026-11-17",
+   "not_found": 15,
+   "rejected_recent": [
+    "Προμήθεια οικοδομικών υλικών για την επισκευή και συντήρηση φθορών σε Κοινόχρηστους χώρους Δ.Ε. Καπα",
+    "Απόφαση ανάθεσης και έγκριση δαπάνης για την παροχή υπηρεσιών διαχείρισης δεδομένων των έργων του ΤΑ"
+   ]
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 1,
-   "fetched": 54,
-   "sample": "{\"protocolNumber\": \"ΑΑΔ.1046.2026\", \"adam\": null, \"subject\": \"ΕΚΔΟΣΗ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ ( ΠΕΑ ) ΓΙΑ ΣΧΟΛΙΚΗ ΜΟΝΑΔΑ ΔΗΜΟΥ ΕΟΡΔΑΙΑΣ\", \"issueDate\": 1794787200000, \"organizationId\": \"6092\", \"signerIds\": [\"100078133\"], \"unitIds\": [\"78106\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": null, \"partialead\": false, \"recalledExpenseDecision\": null, \"amountWithVAT\": null, \"amountWithKae\": [{\"kae\": \"000.2420989000\", \"amountWithVAT\": 500.0}], \"relatedPartialADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": null, \"decisionDocumentHash\": null}, \"privateData\"",
+   "count": 4,
+   "fetched": 132,
+   "sample": "{\"protocolNumber\": \"1511Β\", \"adam\": null, \"subject\": \"ΛΟΙΠΟΙ ΦΟΡΟΙ ΤΕΛΗ/ΠΑΡΑΒΟΛΟ ΕΚΔΟΣΗΣ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ (ΠΕΑ) ΚΗΦΗ ΣΥΚΕΩΝ-ΠΑΠΑΔΟΠΟΥΛΟΥ 4/ΧΡΗΜΑΤΟΔΟΤΗΣΗ ΠΕΠ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ -ΠΡΟΓΡΑΜΜΑ ΛΕΙΤΟΥΡΓΕΙΑΣ ΚΗΦΗ\", \"issueDate\": 1794866400000, \"organizationId\": \"54985\", \"signerIds\": [\"100009251\"], \"unitIds\": [\"91426\"], \"decisionTypeId\": \"Β.2.2\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afmType\": \"EL\", \"afmCountry\": \"EL\", \"name\": \"ΚΟΙΝΩΦΕΛΗΣ ΕΠΙΧΕΙΡΙΣΗ ΥΠΗΡΕΣΙΩΝ ΝΕΑΠΟΛΗΣ ΣΥΚΕΩΝ\", \"afm\": \"998502383\"}, \"skipVatReason\": null, \"sponsor\": [{\"expenseAmount\": {\"amount\": 10.0, \"currency\": \"EUR\"}, \"sponsorAFMName\": {\"afmType\": \"EL\", \"name\": \"ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΝΕΡΓΕΙΑΣ & ΚΛ",
    "keys": [
     "protocolNumber",
     "adam",
@@ -225,6 +229,58 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020212412",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΜΕΤΑΘΕΣΗ ΔΙΑΓΩΝΙΣΜΟΥ ΥΔΕ ΣΧΟΛ ΜΟΝΑΔΩΝ ",
+   "org": "ΔΗΜΟΣ ΣΕΡΡΩΝ",
+   "date": "2026-11-17",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020212412",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-18T12:16:36+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020207414",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΠΡΑΓΜΑΤΟΠΟΙΗΣΗ ΔΙΟΡΘΩΤΙΚΩΝ ΕΝΕΡΓΕΙΩΝ ΓΙΑ ΤΗΝ ΕΚΔΟΣΗ ΥΠΕΥΘΥΝΗΣ ΔΗΛΩΣΗΣ ΕΓΚΑΤΑΣΤΑΤΗ (ΥΔΕ) ΚΑΙ ΤΗΝ ΠΙΣΤΟΠΟΙΗΣΗ ΤΩΝ ΗΛΕΚΤΡΟΛΟΓΙΚΩΝ ΕΓΚΑΤΑΣΤΑΣΕΩΝ ΤΗΣ ΒΑΣΗΣ ΑΕΡΟΔΙΑΚΟΜΙΔΩΝ ΤΟΥ ΕΚΑΒ ΣΤΗΝ ΕΛΕΥΣΙΝΑ",
+   "org": "ΕΘΝΙΚΟ ΚΕΝΤΡΟ ΑΜΕΣΗΣ ΒΟΗΘΕΙΑΣ (ΕΚΑΒ)",
+   "date": "2026-11-17",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020207414",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-18T12:16:36+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020214393",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Εγκατάσταση φωτοβολταϊκού σταθμού",
+   "org": "ΚΑΥΤΑΝΤΖΟΓΛΕΙΟ ΕΘΝΙΚΟ ΣΤΑΔΙΟ",
+   "date": "2026-11-17",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020214393",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-18T12:16:36+00:00"
+  },
+  {
+   "id": "diavgeia:ΕΩΕΝΩΕΓ-ΕΨΝ",
+   "source": "Διαύγεια",
+   "title": "Παράταση καταληκτικής ημερομηνίας υποβολής προσφορών καθώς και το σύνολο των ημερομηνιών της διακήρυξης για την «Προμήθεια εγκατάσταση, θέση σε λειτουργία φωτοβολταϊκών σταθμών συνολικής ισχύος 5.999,4kWp με εικονικό ενεργειακό συμψηφισμό (virtual net metering) στη θέση Νεραϊδοβούνι του Δήμου Καρπενησίου»",
+   "org": "ΔΗΜΟΣ ΚΑΡΠΕΝΗΣΙΟΥ",
+   "date": "2026-11-17",
+   "url": "https://diavgeia.gov.gr/doc/ΕΩΕΝΩΕΓ-ΕΨΝ",
+   "ref": "ΕΩΕΝΩΕΓ-ΕΨΝ",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-18T12:16:36+00:00"
+  },
   {
    "id": "kimdis:auction:26AWRD020204395",
    "source": "ΚΗΜΔΗΣ",
