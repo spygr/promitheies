@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T16:31:25+00:00",
+ "generated": "2026-11-19T12:10:51+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -11,10 +11,9 @@
  "sources": [
   {
    "name": "ΚΗΜΔΗΣ",
-   "ok": false,
-   "count": 3,
-   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "fetched": 348,
+   "ok": true,
+   "count": 6,
+   "fetched": 364,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 1,
@@ -87,7 +86,7 @@
     "auction/ΥΔΕ": {
      "pages": 2,
      "first": "2026-11-17",
-     "last": "2026-05-22"
+     "last": "2026-05-26"
     },
     "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -103,6 +102,11 @@
     "auction/φωτοβολταϊκό": {
      "pages": 1,
      "first": "2026-11-17",
+     "last": "2026-05-26"
+    },
+    "auction/φωτοβολταϊκών": {
+     "pages": 1,
+     "first": "2026-11-18",
      "last": "2026-05-26"
     }
    },
@@ -185,8 +189,8 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-17",
-   "not_found": 13,
+   "newest": "2026-11-18",
+   "not_found": 15,
    "rejected_recent": [
     "Προμήθεια οικοδομικών υλικών για την επισκευή και συντήρηση φθορών σε Κοινόχρηστους χώρους Δ.Ε. Καπα",
     "Απόφαση ανάθεσης και έγκριση δαπάνης για την παροχή υπηρεσιών διαχείρισης δεδομένων των έργων του ΤΑ"
@@ -196,8 +200,8 @@
    "name": "Διαύγεια",
    "ok": true,
    "count": 4,
-   "fetched": 134,
-   "sample": "{\"protocolNumber\": \"1511Β\", \"adam\": null, \"subject\": \"ΛΟΙΠΟΙ ΦΟΡΟΙ ΤΕΛΗ/ΠΑΡΑΒΟΛΟ ΕΚΔΟΣΗΣ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ (ΠΕΑ) ΚΗΦΗ ΣΥΚΕΩΝ-ΠΑΠΑΔΟΠΟΥΛΟΥ 4/ΧΡΗΜΑΤΟΔΟΤΗΣΗ ΠΕΠ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ -ΠΡΟΓΡΑΜΜΑ ΛΕΙΤΟΥΡΓΕΙΑΣ ΚΗΦΗ\", \"issueDate\": 1794866400000, \"organizationId\": \"54985\", \"signerIds\": [\"100009251\"], \"unitIds\": [\"91426\"], \"decisionTypeId\": \"Β.2.2\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": {\"afmType\": \"EL\", \"afmCountry\": \"EL\", \"name\": \"ΚΟΙΝΩΦΕΛΗΣ ΕΠΙΧΕΙΡΙΣΗ ΥΠΗΡΕΣΙΩΝ ΝΕΑΠΟΛΗΣ ΣΥΚΕΩΝ\", \"afm\": \"998502383\"}, \"skipVatReason\": null, \"sponsor\": [{\"expenseAmount\": {\"amount\": 10.0, \"currency\": \"EUR\"}, \"sponsorAFMName\": {\"afmType\": \"EL\", \"name\": \"ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΝΕΡΓΕΙΑΣ & ΚΛ",
+   "fetched": 176,
+   "sample": "{\"protocolNumber\": \"1491563\", \"adam\": null, \"subject\": \"Ανάκληση και επαναδέσμευση της ΑΑΥ με τροποποίηση σύμφωνα με την 196/2026 (ΨΘΧΞ7Λ7-Λ79) ΠΣ & το 1384299/26-10-2026 Διεύθυνσης Αναπτυξιακού Προγρ/σμού με συνημμένα. (ΣΧΕΤ.: 1477697/13-11-2026 Δ/νσης Οικ/κών ΠΕΑΑ)\", \"issueDate\": 1794873600000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"758\", \"partialead\": false, \"recalledExpenseDecision\": true, \"amountWithVAT\": {\"currency\": \"EUR\"}, \"amountWithKae\": [], \"relatedPartialADA\": null, \"relatedDecisions\": [",
    "keys": [
     "protocolNumber",
     "adam",
@@ -225,6 +229,32 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:auction:26AWRD020216980",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Aπ΄ ευθείας ανάθεση παροχή υπηρεσιών με τίτλο: «Υπηρεσία Ελέγχου και Συντήρησης φωτοβολταϊκών συστημάτων σχολικών κτηρίων Α/θμιας & Β/βάθμιας εκπαίδευσης, ποσού 23.100,00€ χωρίς ΦΠΑ & 28.644,00€»",
+   "org": "ΔΗΜΟΣ ΣΕΡΡΩΝ",
+   "date": "2026-11-18",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020216980",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-19T12:10:51+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020216625",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΕΛΕΓΧΟΣ ΓΙΑ ΕΓΚΑΤΑΣΤΑΣΗ ΦΩΤΟΒΟΛΤΑΙΚΩΝ ΣΕ ΣΧΟΛΕΙΑ",
+   "org": "ΔΗΜΟΣ ΕΛΛΗΝΙΚΟΥ - ΑΡΓΥΡΟΥΠΟΛΗΣ",
+   "date": "2026-11-18",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020216625",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-19T12:10:51+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020212412",
    "source": "ΚΗΜΔΗΣ",
