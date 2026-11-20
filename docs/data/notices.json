@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T16:37:41+00:00",
+ "generated": "2026-11-20T12:12:37+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -11,14 +11,15 @@
  "sources": [
   {
    "name": "ΚΗΜΔΗΣ",
-   "ok": true,
-   "count": 6,
-   "fetched": 364,
+   "ok": false,
+   "count": 3,
+   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "fetched": 145,
    "terms": {
     "notice/ΠΕΑ": {
-     "pages": 1,
-     "first": "2026-11-14",
-     "last": "2026-08-27"
+     "pages": 2,
+     "first": "2026-11-19",
+     "last": "2026-05-25"
     },
     "notice/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -38,79 +39,12 @@
      "pages": 0
     },
     "notice/ΥΔΕ": {
-     "pages": 2,
-     "first": "2026-11-17",
-     "last": "2026-06-15"
-    },
-    "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
-     "pages": 0
-    },
-    "notice/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
-     "pages": 0
-    },
-    "notice/φωτοβολταϊκά": {
      "pages": 1,
-     "first": "2026-08-11",
-     "last": "2026-07-13"
-    },
-    "notice/φωτοβολταϊκό": {
-     "pages": 1,
-     "first": "2026-11-09",
-     "last": "2026-06-02"
-    },
-    "notice/φωτοβολταϊκών": {
-     "pages": 1,
-     "first": "2026-11-11",
-     "last": "2026-05-29"
-    },
-    "auction/ΠΕΑ": {
-     "pages": 1,
-     "first": "2026-11-12",
-     "last": "2026-08-25"
-    },
-    "auction/ενεργειακό πιστοποιητικό": {
-     "pages": 0
-    },
-    "auction/ενεργειακά πιστοποιητικά": {
-     "pages": 0
-    },
-    "auction/ενεργειακών πιστοποιητικών": {
-     "pages": 0
-    },
-    "auction/πιστοποιητικά ενεργειακής απόδοσης": {
-     "pages": 0
-    },
-    "auction/πιστοποιητικό ενεργειακής απόδοσης": {
-     "pages": 0
-    },
-    "auction/ΥΔΕ": {
-     "pages": 2,
-     "first": "2026-11-17",
-     "last": "2026-05-26"
-    },
-    "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
-     "pages": 0
-    },
-    "auction/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
-     "pages": 0
-    },
-    "auction/φωτοβολταϊκά": {
-     "pages": 1,
-     "first": "2026-09-01",
-     "last": "2026-07-21"
-    },
-    "auction/φωτοβολταϊκό": {
-     "pages": 1,
-     "first": "2026-11-17",
-     "last": "2026-05-26"
-    },
-    "auction/φωτοβολταϊκών": {
-     "pages": 1,
-     "first": "2026-11-18",
-     "last": "2026-05-26"
+     "first": "2026-11-19",
+     "last": "2026-08-12"
     }
    },
-   "sample": "{\"title\": \"Προμήθεια ηλεκτρολογικών ειδών συντήρησης του κτιρίου των θαλάμων του ΛΔ/ΤΔ 41 Μ/Κ ΣΠ και της 172 ΠΕΑ/ΑΠ\", \"referenceNumber\": \"26PROC020195647\", \"signedDate\": \"2026-11-13T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-11-13T00:00:00\", \"submissionDate\": \"2026-11-14T10:23:23.949\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"1743\", \"authorEmail\": null, \"aaht\": \"1011.2020000000.0009\", \"biddingWebsite\": null, \"organizationVatNumber\": \"090153025\", \"greekOr",
+   "sample": "{\"title\": \"Παροχή υπηρεσιών ασφάλειας και φύλαξης των αθλητικών εγκαταστάσεων του ΠΕΑΚ Πάτρας, για το 2026 \", \"referenceNumber\": \"26PROC020233996\", \"signedDate\": \"2026-05-15T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-05-22T00:00:00\", \"submissionDate\": \"2026-11-19T12:44:32.946\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"428\", \"authorEmail\": null, \"aaht\": \"1020.E00763.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"099517192\", \"greekOrganizationVat",
    "keys": [
     "title",
     "referenceNumber",
@@ -189,19 +123,21 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-18",
-   "not_found": 15,
+   "newest": "2026-11-19",
    "rejected_recent": [
-    "Προμήθεια οικοδομικών υλικών για την επισκευή και συντήρηση φθορών σε Κοινόχρηστους χώρους Δ.Ε. Καπα",
-    "Απόφαση ανάθεσης και έγκριση δαπάνης για την παροχή υπηρεσιών διαχείρισης δεδομένων των έργων του ΤΑ"
-   ]
+    "Παροχή υπηρεσιών ασφάλειας και φύλαξης των αθλητικών εγκαταστάσεων του ΠΕΑΚ Πάτρας, για το 2026 ",
+    "Δαπάνες Προμηθειών (Πρόσκληση Υποβολής Προσφοράς 103/26 για την Προμήθεια Οργάνων Γυμναστηρίου της 1",
+    "«ΑΝΑΠΛΑΣΗ ΚΟΙΝΟΧΡΗΣΤΩΝ ΧΩΡΩΝ ΕΝΑΝΤΙ ΑΛΣΟΥΣ ΓΟΥΔΕ-Β ΦΑΣΗ",
+    "Προμήθεια οικοδομικών υλικών για την επισκευή και συντήρηση φθορών σε Κοινόχρηστους χώρους Δ.Ε. Καπα"
+   ],
+   "not_found": 4
   },
   {
    "name": "Διαύγεια",
    "ok": true,
    "count": 4,
-   "fetched": 176,
-   "sample": "{\"protocolNumber\": \"1491563\", \"adam\": null, \"subject\": \"Ανάκληση και επαναδέσμευση της ΑΑΥ με τροποποίηση σύμφωνα με την 196/2026 (ΨΘΧΞ7Λ7-Λ79) ΠΣ & το 1384299/26-10-2026 Διεύθυνσης Αναπτυξιακού Προγρ/σμού με συνημμένα. (ΣΧΕΤ.: 1477697/13-11-2026 Δ/νσης Οικ/κών ΠΕΑΑ)\", \"issueDate\": 1794873600000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": \"758\", \"partialead\": false, \"recalledExpenseDecision\": true, \"amountWithVAT\": {\"currency\": \"EUR\"}, \"amountWithKae\": [], \"relatedPartialADA\": null, \"relatedDecisions\": [",
+   "fetched": 164,
+   "sample": "{\"protocolNumber\": \"1772\", \"adam\": null, \"subject\": \"Προμήθεια ηλεκτρολογικών ειδών συντήρησης του κτιρίου των θαλάμων του ΛΔ/ΤΔ 41 Μ/Κ ΣΠ και της 172 ΠΕΑ/ΑΠ\", \"issueDate\": 1795125600000, \"organizationId\": \"6\", \"signerIds\": [\"100106753\"], \"unitIds\": [\"100083406\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"035986390\", \"afmCountry\": \"EL\", \"name\": \"ΚΟΥΡΔΟΓΛΟΥ Ι ΣΤΑΥΡΟΣ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 1000.0, \"currency\": \"EUR\"}, \"assignmentType\": \"Προμήθειες\", \"cpv\": [\"31524120-2\", \"31500000-1\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020241351\", \"decisionDocumentHash\": \"cd",
    "keys": [
     "protocolNumber",
     "adam",
@@ -229,6 +165,19 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020229916",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Πρόσκληση για προμήθεια υλικών-εκτέλεση εργασιών συμμόρφωσης των ηλεκτρ/ικών εγκατ. των ΔΔΘ για έκδοση ΥΔΕ",
+   "org": "ΔΙΟΙΚΗΤΙΚΟ  ΕΦΕΤΕΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+   "date": "2026-11-19",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020229916",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-20T12:12:37+00:00"
+  },
   {
    "id": "kimdis:auction:26AWRD020216980",
    "source": "ΚΗΜΔΗΣ",
