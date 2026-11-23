@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T13:41:14+00:00",
+ "generated": "2026-11-23T19:18:17+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -14,7 +14,7 @@
    "ok": false,
    "count": 0,
    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "fetched": 50,
+   "fetched": 51,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 1,
@@ -28,6 +28,17 @@
      "pages": 0
     },
     "notice/ενεργειακών πιστοποιητικών": {
+     "pages": 1,
+     "first": "2026-09-11",
+     "last": "2026-09-11"
+    },
+    "notice/πιστοποιητικά ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "notice/πιστοποιητικό ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "notice/ΥΔΕ": {
      "pages": 0
     }
    },
@@ -111,7 +122,7 @@
     "exceptions"
    ],
    "newest": "2026-11-19",
-   "not_found": 2
+   "not_found": 4
   },
   {
    "name": "Διαύγεια",
