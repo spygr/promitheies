@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T19:18:17+00:00",
+ "generated": "2026-11-24T14:18:16+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -11,15 +11,14 @@
  "sources": [
   {
    "name": "ΚΗΜΔΗΣ",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "fetched": 51,
+   "ok": true,
+   "count": 6,
+   "fetched": 461,
    "terms": {
     "notice/ΠΕΑ": {
-     "pages": 1,
-     "first": "2026-11-19",
-     "last": "2026-09-09"
+     "pages": 2,
+     "first": "2026-11-23",
+     "last": "2026-05-29"
     },
     "notice/ενεργειακό πιστοποιητικό": {
      "pages": 0
@@ -39,10 +38,79 @@
      "pages": 0
     },
     "notice/ΥΔΕ": {
+     "pages": 2,
+     "first": "2026-11-23",
+     "last": "2026-06-24"
+    },
+    "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
+    },
+    "notice/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "notice/φωτοβολταϊκά": {
+     "pages": 1,
+     "first": "2026-11-20",
+     "last": "2026-07-13"
+    },
+    "notice/φωτοβολταϊκό": {
+     "pages": 1,
+     "first": "2026-11-23",
+     "last": "2026-06-02"
+    },
+    "notice/φωτοβολταϊκών": {
+     "pages": 1,
+     "first": "2026-11-11",
+     "last": "2026-05-29"
+    },
+    "auction/ΠΕΑ": {
+     "pages": 2,
+     "first": "2026-11-23",
+     "last": "2026-07-03"
+    },
+    "auction/ενεργειακό πιστοποιητικό": {
+     "pages": 0
+    },
+    "auction/ενεργειακά πιστοποιητικά": {
+     "pages": 0
+    },
+    "auction/ενεργειακών πιστοποιητικών": {
+     "pages": 0
+    },
+    "auction/πιστοποιητικά ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "auction/πιστοποιητικό ενεργειακής απόδοσης": {
+     "pages": 0
+    },
+    "auction/ΥΔΕ": {
+     "pages": 2,
+     "first": "2026-11-23",
+     "last": "2026-06-03"
+    },
+    "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "auction/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "auction/φωτοβολταϊκά": {
+     "pages": 1,
+     "first": "2026-09-01",
+     "last": "2026-07-21"
+    },
+    "auction/φωτοβολταϊκό": {
+     "pages": 1,
+     "first": "2026-11-23",
+     "last": "2026-06-30"
+    },
+    "auction/φωτοβολταϊκών": {
+     "pages": 1,
+     "first": "2026-11-20",
+     "last": "2026-06-11"
     }
    },
-   "sample": "{\"title\": \"Παροχή υπηρεσιών ασφάλειας και φύλαξης των αθλητικών εγκαταστάσεων του ΠΕΑΚ Πάτρας, για το 2026 \", \"referenceNumber\": \"26PROC020233996\", \"signedDate\": \"2026-05-15T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-05-22T00:00:00\", \"submissionDate\": \"2026-11-19T12:44:32.946\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"428\", \"authorEmail\": null, \"aaht\": \"1020.E00763.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"099517192\", \"greekOrganizationVat",
+   "sample": "{\"title\": \"Προμήθεια ειδών καθαριότητας για τις ανάγκες του ΠΕΑΚ ΠΑΤΡΑΣ\", \"referenceNumber\": \"26PROC020261260\", \"signedDate\": \"2026-05-28T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-06-05T00:00:00\", \"submissionDate\": \"2026-11-23T15:18:18.142\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"474\", \"authorEmail\": null, \"aaht\": \"1020.E00763.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"099517192\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"comm",
    "keys": [
     "title",
     "referenceNumber",
@@ -121,15 +189,20 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-19",
-   "not_found": 4
+   "newest": "2026-11-23",
+   "rejected_recent": [
+    "Προμήθεια ειδών καθαριότητας για τις ανάγκες του ΠΕΑΚ ΠΑΤΡΑΣ",
+    "ΥΠΟΣΤΗΡΙΚΤΙΚΕΣ ΕΡΓΑΣΙΕΣ ΟΙΚΟΝ. ΕΞΥΠΗΡΕΤΗΣΗΣ ΕΠΕΑ ΚΑΙ ΔΑΣΙΚΩΝ ΥΠΗΡΕΣΙΩΝ ΥΠΕΝ - ΧΠ ΠΡΟΣΤΑΣΙΑ & ΑΝΑΒΑΘΜ",
+    "ΑΠΟΦΑΣΗ ΚΑΤΑΚΥΡΩΣΗΣ ΤΟΥ ΑΝΟΙΚΤΟΥ ΔΙΑΓΩΝΙΣΜΟΥ ΜΕ ΤΙΤΛΟ: «ΓΕΝΙΚΗ ΥΠΗΡΕΣΙΑ ΓΙΑ ΤΗΝ ΕΚΠΟΝΗΣΗ ΕΠΕΝΔΥΤΙΚΟΥ"
+   ],
+   "not_found": 15
   },
   {
    "name": "Διαύγεια",
    "ok": true,
-   "count": 3,
-   "fetched": 102,
-   "sample": "{\"protocolNumber\": \"1514507\", \"adam\": null, \"subject\": \"της ετήσια συντήρησης (μικρό service) βάσει προβλέψιμων αναγκών και εργασιών σύμφωνα με το\\nαπό 03/11/2026 Πρακτικό της αρμόδιας Επιτροπής για τον Τεχνικό Έλεγχο & την Παραλαβή Εργασιών και Υλικών των\\nΥπηρεσιακών Οχημάτων της ΠΕΑΑ για τα ακόλουθα δέκα (10) υπηρεσιακά οχήματα: ΚΗΗ-2235, ΚΗΗ-2236, ΚΗΗ-2237,\\nΚΗΟ-5424, ΚΗΗ-2182, ΚΗΗ-2183, ΚΗΗ-2184, ΚΗΙ-7333, ΚΗΙ-7335, ΚΗΙ-7288\\\"\", \"issueDate\": 1795132800000, \"organizationId\": \"5002\", \"signerIds\": [\"100100014\"], \"unitIds\": [\"79010\"], \"decisionTypeId\": \"Β.1.3\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"financialYear\": 2026, \"budgettype\": \"Τακτικός Προϋπολογισμός\", \"entryNumber\": ",
+   "count": 0,
+   "fetched": 79,
+   "sample": "{\"protocolNumber\": \"1143/2026\", \"adam\": null, \"subject\": \"υπηρεσίας για την έκδοση τελικού πιστοποιητικού ενεργειακής απόδοσης (ΠΕΑ) στο πλαίσιο του έργου «ΕΝΕΡΓΕΙΑΚΗ ΑΝΑΒΑΘΜΙΣΗ ΣΧΟΛΙΚΩΝ ΚΤΙΡΙΩΝ ΑΙΓΙΝΑΣ»\", \"issueDate\": 1795471200000, \"organizationId\": \"6016\", \"signerIds\": [\"100048673\"], \"unitIds\": [\"81655\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"801840688\", \"afmCountry\": \"EL\", \"name\": \"«ΚΚ ENGINEERING SERVICES Ι.Κ.Ε.\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 1240.0, \"currency\": \"EUR\"}, \"assignmentType\": \"Υπηρεσίες\", \"cpv\": [\"71314300-5\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD0",
    "keys": [
     "protocolNumber",
     "adam",
@@ -157,6 +230,84 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020260200",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΕΛΕΓΧΟΣ ΗΛΕΚΤΡΟΛΟΓΙΚΩΝ ΕΓΚΑΤΑΣΤΑΣΕΩΝ ΚΑΙ ΕΚΔΟΣΗ ΥΔΕ ΓΙΑ ΤΟ ΚΤΙΡΙΟ ΑΓΟΡΑΣ ΤΟΥ ΔΗΜΟΥ ΛΟΚΡΩΝ ",
+   "org": "ΔΗΜΟΣ ΛΟΚΡΩΝ",
+   "date": "2026-11-23",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020260200",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-24T14:18:16+00:00"
+  },
+  {
+   "id": "kimdis:notice:26PROC020261992",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Πρωτογενές αίτημα για την «Προμήθεια και εγκατάσταση αυτόνομου φωτοβολταϊκού συστήματος για την ενεργειακή υποστήριξη κρίσιμων υποδομών πολιτικής προστασίας",
+   "org": "ΔΗΜΟΣ ΠΡΕΣΠΩΝ",
+   "date": "2026-11-23",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020261992",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-24T14:18:16+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020259762",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Ανάθεση της σύμβασης παροχής υπηρεσιών «Εκπόνηση Υπευθύνων  Δηλώσεων Εγκαταστάτη (ΥΔΕ)» ",
+   "org": "ΜΟΝΑΔΑ ΟΡΓΑΝΩΣΗΣ ΤΗΣ ΔΙΑΧΕΙΡΙΣΗΣ ΑΝΑΠΤΥΞΙΑΚΩΝ ΠΡΟΓΡΑΜΜΑΤΩΝ (ΜΟΔ Α.Ε)",
+   "date": "2026-11-23",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020259762",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-24T14:18:16+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020259457",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Υπηρεσίες έκδοσης υπεύθυνης δήλωσης ηλεκτρολόγου εγκαταστάτη (ΥΔΕ) περί ελέγχου ηλεκτρολογικών εγκαταστάσεων Νέου Ψυχικού",
+   "org": "ΔΗΜΟΣ ΦΙΛΟΘΕΗΣ - ΨΥΧΙΚΟΥ",
+   "date": "2026-11-23",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020259457",
+   "matched": [
+    "ΥΔΕ"
+   ],
+   "first_seen": "2026-11-24T14:18:16+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020257047",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Ασφάλιση  Φωτοβολταϊκού  Πάρκου της ΔΕΥΑ Κιλελέρ",
+   "org": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ &  ΑΠΟΧΕΤΕΥΣΗΣ ΚΙΛΕΛΕΡ",
+   "date": "2026-11-23",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020257047",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-24T14:18:16+00:00"
+  },
+  {
+   "id": "kimdis:auction:26AWRD020254811",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "Απευθείας ανάθεση  για την προμήθεια συστήματος Τηλε-Εποπτείας και Τηλε-Ελέγχου Φωτοβολταϊκού Σταθμού στο αγροτεμάχιο 1082 της Δ.Κ.  Ν.Ποτίδεας (σύμφωνα με τις απαιτήσεις του ΔΕΔΔΗΕ) ",
+   "org": "ΔΗΜΟΣ ΝΕΑΣ ΠΡΟΠΟΝΤΙΔΑΣ",
+   "date": "2026-11-23",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020254811",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-24T14:18:16+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020247906",
    "source": "ΚΗΜΔΗΣ",
