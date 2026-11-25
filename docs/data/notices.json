@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T18:56:43+00:00",
+ "generated": "2026-11-25T13:32:04+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -11,10 +11,9 @@
  "sources": [
   {
    "name": "ΚΗΜΔΗΣ",
-   "ok": false,
-   "count": 4,
-   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "fetched": 386,
+   "ok": true,
+   "count": 7,
+   "fetched": 462,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 2,
@@ -40,8 +39,8 @@
     },
     "notice/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-11-23",
-     "last": "2026-06-24"
+     "first": "2026-11-24",
+     "last": "2026-06-26"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -66,7 +65,7 @@
     },
     "auction/ΠΕΑ": {
      "pages": 2,
-     "first": "2026-11-23",
+     "first": "2026-11-24",
      "last": "2026-07-03"
     },
     "auction/ενεργειακό πιστοποιητικό": {
@@ -85,9 +84,30 @@
      "pages": 0
     },
     "auction/ΥΔΕ": {
+     "pages": 2,
+     "first": "2026-11-24",
+     "last": "2026-06-03"
+    },
+    "auction/υπεύθυνη δήλωση ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "auction/υπεύθυνες δηλώσεις ηλεκτρολόγου": {
+     "pages": 0
+    },
+    "auction/φωτοβολταϊκά": {
+     "pages": 1,
+     "first": "2026-09-01",
+     "last": "2026-07-21"
+    },
+    "auction/φωτοβολταϊκό": {
      "pages": 1,
      "first": "2026-11-23",
-     "last": "2026-08-10"
+     "last": "2026-06-30"
+    },
+    "auction/φωτοβολταϊκών": {
+     "pages": 1,
+     "first": "2026-11-20",
+     "last": "2026-06-11"
     }
    },
    "sample": "{\"title\": \"Προμήθεια ειδών καθαριότητας για τις ανάγκες του ΠΕΑΚ ΠΑΤΡΑΣ\", \"referenceNumber\": \"26PROC020261260\", \"signedDate\": \"2026-05-28T00:00:00\", \"publishedDate\": null, \"finalSubmissionDate\": \"2026-06-05T00:00:00\", \"submissionDate\": \"2026-11-23T15:18:18.142\", \"lastUpdateDate\": null, \"cancelled\": false, \"cancellationDate\": null, \"cancellationType\": null, \"cancellationReason\": null, \"cancellationADA\": null, \"amendPreviousNotice\": false, \"amendedNoticeADAM\": null, \"frameworkAgreementNoticeADAM\": null, \"protocolNumber\": \"474\", \"authorEmail\": null, \"aaht\": \"1020.E00763.0001\", \"biddingWebsite\": null, \"organizationVatNumber\": \"099517192\", \"greekOrganizationVatNumber\": null, \"budget\": null, \"comm",
@@ -169,20 +189,24 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-23",
+   "newest": "2026-11-24",
    "rejected_recent": [
     "Προμήθεια ειδών καθαριότητας για τις ανάγκες του ΠΕΑΚ ΠΑΤΡΑΣ",
     "ΥΠΟΣΤΗΡΙΚΤΙΚΕΣ ΕΡΓΑΣΙΕΣ ΟΙΚΟΝ. ΕΞΥΠΗΡΕΤΗΣΗΣ ΕΠΕΑ ΚΑΙ ΔΑΣΙΚΩΝ ΥΠΗΡΕΣΙΩΝ ΥΠΕΝ - ΧΠ ΠΡΟΣΤΑΣΙΑ & ΑΝΑΒΑΘΜ",
+    "ΠΡΟΣΚΛΗΣΗ ΕΚΔΗΛΩΣΗΣ ΕΝΔΙΑΦΕΡΟΝΤΟΣ ΚΑΤΑΘΕΣΗΣ ΠΡΟΣΦΟΡΑΣ ΓΙΑ ΠΑΓΙΔΕΣ ΓΙΑ ΑΛΕΠΟΥΔΕΣ ΚΑΙ ΓΙΑ ΑΠΟΧΕΣ ΓΙΑ Τ",
+    "Ανάθεση υπηρεσιών ενοικίασης εξοπλισμού για την υποστήριξη των Εργαστηριακών Θεματικών Ενοτήτων (Ε.Θ",
+    "Δαπάνες Προμηθειών (Απόφαση Απευθείας Ανάθεσης για την Προμήθεια Οργάνων Γυμναστηρίου της 120ΠΕΑ Υπ΄",
+    "ΠΡΟΜΗΘΕΙΑ ΟΙΚΟΔΟΜΙΚΩΝ ΥΛΙΚΩΝ ΓΙΑ ΤΗΝ ΕΠΙΣΚΕΥΗ ΚΑΙ ΣΥΝΤΗΡΗΣΗ ΦΘΟΡΩΝ ΣΕ ΚΟΙΝΟΧΡΗΣΤΟΥΣ ΧΩΡΟΥΣ Δ.Ε. ΚΑΠΑ",
     "ΑΠΟΦΑΣΗ ΚΑΤΑΚΥΡΩΣΗΣ ΤΟΥ ΑΝΟΙΚΤΟΥ ΔΙΑΓΩΝΙΣΜΟΥ ΜΕ ΤΙΤΛΟ: «ΓΕΝΙΚΗ ΥΠΗΡΕΣΙΑ ΓΙΑ ΤΗΝ ΕΚΠΟΝΗΣΗ ΕΠΕΝΔΥΤΙΚΟΥ"
    ],
-   "not_found": 12
+   "not_found": 15
   },
   {
    "name": "Διαύγεια",
    "ok": true,
    "count": 0,
-   "fetched": 79,
-   "sample": "{\"protocolNumber\": \"1143/2026\", \"adam\": null, \"subject\": \"υπηρεσίας για την έκδοση τελικού πιστοποιητικού ενεργειακής απόδοσης (ΠΕΑ) στο πλαίσιο του έργου «ΕΝΕΡΓΕΙΑΚΗ ΑΝΑΒΑΘΜΙΣΗ ΣΧΟΛΙΚΩΝ ΚΤΙΡΙΩΝ ΑΙΓΙΝΑΣ»\", \"issueDate\": 1795471200000, \"organizationId\": \"6016\", \"signerIds\": [\"100048673\"], \"unitIds\": [\"81655\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"24\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"801840688\", \"afmCountry\": \"EL\", \"name\": \"«ΚΚ ENGINEERING SERVICES Ι.Κ.Ε.\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 1240.0, \"currency\": \"EUR\"}, \"assignmentType\": \"Υπηρεσίες\", \"cpv\": [\"71314300-5\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD0",
+   "fetched": 110,
+   "sample": "{\"protocolNumber\": \"1615\", \"adam\": null, \"subject\": \"ΔΑΠΑΝΗ ΠΑΝ.ΠΑΤΡΩΝ ΓΙΑ ΜΕΛΕΤΗ ΕΝΕΡΓΕΙΑΚΗΣ ΕΠΙΘΕΩΡΗΣΗΣ ΚΑΙ ΕΚΔΟΣΗ 1ΟΥ ΠΕΑ ΓΙΑ ΤΟ ΚΤΙΡΙΟ ΤΗς Φ.Ε. ΤΟΥ Π.Π. ΣΤΟ ΚΟΥΚΟΥΛΙ\", \"issueDate\": 1795557600000, \"organizationId\": \"99206920\", \"signerIds\": [\"100106638\"], \"unitIds\": [\"74044\"], \"decisionTypeId\": \"Β.2.2\", \"thematicCategoryIds\": [\"20\"], \"extraFieldValues\": {\"org\": null, \"skipVatReason\": null, \"sponsor\": [{\"expenseAmount\": {\"amount\": 1984.0, \"currency\": \"EUR\"}, \"sponsorAFMName\": {\"afm\": \"079980253\", \"afmType\": \"EL\", \"afmCountry\": \"\", \"name\": \"ΤΖΙΝΗΣ ΧΡΗΣΤΟΣ\", \"noVATOrg\": null}}], \"relatedEkgrisiDapanis\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26PAY020280157\", \"decisi",
    "keys": [
     "protocolNumber",
     "adam",
@@ -210,6 +234,20 @@
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:auction:26AWRD020268019",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "υπηρεσίας για την έκδοση τελικού πιστοποιητικού ενεργειακής απόδοσης (ΠΕΑ) στο πλαίσιο του έργου «ΕΝΕΡΓΕΙΑΚΗ ΑΝΑΒΑΘΜΙΣΗ ΣΧΟΛΙΚΩΝ ΚΤΙΡΙΩΝ ΑΙΓΙΝΑΣ»",
+   "org": "ΔΗΜΟΣ ΑΙΓΙΝΑΣ",
+   "date": "2026-11-24",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26AWRD020268019",
+   "matched": [
+    "ΠΕΑ",
+    "πιστοποιητικ* ενεργειακ*"
+   ],
+   "first_seen": "2026-11-25T13:32:04+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020260200",
    "source": "ΚΗΜΔΗΣ",
