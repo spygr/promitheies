@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T13:09:15+00:00",
+ "generated": "2026-11-27T17:30:18+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -203,34 +203,9 @@
   },
   {
    "name": "Διαύγεια",
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "fetched": 138,
-   "sample": "{\"protocolNumber\": \"44347\", \"adam\": null, \"subject\": \"ΜΕΛΕΤΗ ΔΙΕΝΕΡΓΕΙΑΣ ΕΛΕΓΧΟΥ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ ΚΑΙ ΕΚΔΟΣΗ ΠΕΑ ΣΕ ΔΗΜ ΚΤΙΡΙΑ\", \"issueDate\": 1795644000000, \"organizationId\": \"6146\", \"signerIds\": [\"100027996\"], \"unitIds\": [\"79774\"], \"decisionTypeId\": \"Δ.1\", \"thematicCategoryIds\": [\"04\"], \"extraFieldValues\": {\"person\": [{\"afm\": \"801863801\", \"afmCountry\": \"EL\", \"name\": \"ALDES ΣΥΜΒΟΥΛΟΙ ΜΗΧΑΝΙΚΟΙ ΙΚΕ\", \"afmType\": \"EL\"}], \"awardAmount\": {\"amount\": 36638.28, \"currency\": \"EUR\"}, \"assignmentType\": \"Μελέτες\", \"cpv\": [\"71315400-3\"], \"textRelatedADA\": null, \"relatedDecisions\": null, \"documentType\": \"ΠΡΑΞΗ\", \"adam\": \"26AWRD020293481\", \"decisionDocumentHash\": \"106c1291f192005c75b85948409cc467766f940",
-   "keys": [
-    "protocolNumber",
-    "adam",
-    "subject",
-    "issueDate",
-    "organizationId",
-    "signerIds",
-    "unitIds",
-    "decisionTypeId",
-    "thematicCategoryIds",
-    "extraFieldValues",
-    "privateData",
-    "ada",
-    "publishTimestamp",
-    "submissionTimestamp",
-    "versionId",
-    "status",
-    "url",
-    "documentUrl",
-    "documentChecksum",
-    "attachments",
-    "warnings",
-    "correctedVersionId"
-   ]
+   "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://diavgeia.gov.gr/opendata/search.json?q=%CE%A0%CE%95%CE%91&term=%CE%A0%CE%95%CE%91&subject=%CE%A0%CE%95%CE%91&from_issue_date=2026-11-24&to_issue_date=2026-11-27&size=100&page=0"
   }
  ],
  "notices": [
