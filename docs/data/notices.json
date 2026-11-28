@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T17:30:18+00:00",
+ "generated": "2026-11-28T12:25:25+00:00",
  "keywords": [
   "ΠΕΑ",
   "ενεργειακ* πιστοποιητικ*",
@@ -13,7 +13,7 @@
    "name": "ΚΗΜΔΗΣ",
    "ok": true,
    "count": 8,
-   "fetched": 426,
+   "fetched": 427,
    "terms": {
     "notice/ΠΕΑ": {
      "pages": 1,
@@ -39,8 +39,8 @@
     },
     "notice/ΥΔΕ": {
      "pages": 2,
-     "first": "2026-11-26",
-     "last": "2026-06-26"
+     "first": "2026-11-27",
+     "last": "2026-06-29"
     },
     "notice/υπεύθυνη δήλωση ηλεκτρολόγου": {
      "pages": 0
@@ -60,7 +60,7 @@
     },
     "notice/φωτοβολταϊκών": {
      "pages": 1,
-     "first": "2026-11-11",
+     "first": "2026-11-27",
      "last": "2026-07-29"
     },
     "auction/ΠΕΑ": {
@@ -189,26 +189,62 @@
     "revocationStatus",
     "exceptions"
    ],
-   "newest": "2026-11-26",
-   "not_found": 13,
+   "newest": "2026-11-27",
+   "not_found": 14,
    "rejected_recent": [
-    "ΠΡΟΣΚΛΗΣΗ ΕΚΔΗΛΩΣΗΣ ΕΝΔΙΑΦΕΡΟΝΤΟΣ ΚΑΤΑΘΕΣΗΣ ΠΡΟΣΦΟΡΑΣ ΓΙΑ ΠΑΓΙΔΕΣ ΓΙΑ ΑΛΕΠΟΥΔΕΣ ΚΑΙ ΓΙΑ ΑΠΟΧΕΣ ΓΙΑ Τ",
-    "Ανάθεση υπηρεσιών ενοικίασης εξοπλισμού για την υποστήριξη των Εργαστηριακών Θεματικών Ενοτήτων (Ε.Θ",
+    "«ΠΡΟΜΗΘΕΙΑ ΧΡΩΜΑΤΩΝ, ΣΙΔΗΡΙΚΩΝ ΚΑΙ ΛΟΙΠΩΝ ΕΞΑΡΤΗΜΑΤΩΝ Δ.Ε. ΚΑΠΑΝΔΡΙΤΙΟΥ, Δ.Ε. ΠΟΛΥΔΕΝΔΡΙΟΥ, Δ.Ε. ΑΦΙ",
     "Προμήθεια καυσίμων θέρμανσης για τις ανάγκες του ΠΕΑΚ ΠΑΤΡΩΝ ετών 2026 – 2027”, με δικαίωμα προαίρεσ",
-    "Δαπάνες Προμηθειών (Απόφαση Απευθείας Ανάθεσης για την Προμήθεια Οργάνων Γυμναστηρίου της 120ΠΕΑ Υπ΄",
+    "Ανάθεση υπηρεσιών ενοικίασης εξοπλισμού για την υποστήριξη των Εργαστηριακών Θεματικών Ενοτήτων (Ε.Θ",
     "ΕΠΙΣΚΕΥΗ ΚΑΤΑΣΚΕΥΗ ΟΔΟΥ ΤΣΟΥΔΕΡΟΥ  ΜΕ ΚΥΒΟΛΙΘΟΥΣ ",
-    "Ανάθεση σύμβασης παροχής προμηθειών  με τίτλο «Προμήθεια υδραυλικών ειδών & εξαρτημάτων ύδρευσης Δ.Ε",
-    "ΠΡΟΜΗΘΕΙΑ ΟΙΚΟΔΟΜΙΚΩΝ ΥΛΙΚΩΝ ΓΙΑ ΤΗΝ ΕΠΙΣΚΕΥΗ ΚΑΙ ΣΥΝΤΗΡΗΣΗ ΦΘΟΡΩΝ ΣΕ ΚΟΙΝΟΧΡΗΣΤΟΥΣ ΧΩΡΟΥΣ Δ.Ε. ΚΑΠΑ"
+    "Ανάθεση σύμβασης παροχής προμηθειών  με τίτλο «Προμήθεια υδραυλικών ειδών & εξαρτημάτων ύδρευσης Δ.Ε"
    ]
   },
   {
    "name": "Διαύγεια",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://diavgeia.gov.gr/opendata/search.json?q=%CE%A0%CE%95%CE%91&term=%CE%A0%CE%95%CE%91&subject=%CE%A0%CE%95%CE%91&from_issue_date=2026-11-24&to_issue_date=2026-11-27&size=100&page=0"
+   "fetched": 144,
+   "sample": "{\"protocolNumber\": \"25506\", \"adam\": null, \"subject\": \"ΠΑΡΑΚΟΛΟΥΘΗΣΗ ΣΥΜΒΑΣΗΣ ΕΡΓΑΣΙΑΣ – ΟΡΙΣΜΟΣ ΕΠΟΠΤΗ ΥΠΗΡΕΣΙΕΣ ΣΥΜΒΟΥΛΟΥ ΕΚΔΟΣΗΣ ΠΙΣΤΟΠΟΙΗΤΙΚΩΝ ΕΝΕΡΓΕΙΑΚΗΣ ΑΠΟΔΟΣΗΣ (ΠΕΑ) ΔΗΜΟΤΙΚΩΝ ΚΤΙΡΙΩΝ ΔΗΜΟΥ ΝΑΥΠΑΚΤΙΑΣ\", \"issueDate\": 1795737600000, \"organizationId\": \"6205\", \"signerIds\": [\"100098376\"], \"unitIds\": [\"78813\"], \"decisionTypeId\": \"2.4.7.1\", \"thematicCategoryIds\": [\"10004\"], \"extraFieldValues\": {\"kanonistikipraxitype\": \"Πράξη Οργάνου Διοίκησης ΟΤΑ Α’ και Β’ Βαθμού (και εποπτευόμενων φορέων τους)\", \"kanonistikiPraxiPublishMedium\": \"στο κατάστημα της υπηρεσίας\", \"fek\": null, \"relatedDecisions\": [], \"documentType\": \"ΠΡΑΞΗ\", \"co_competent\": null}, \"privateData\": true, \"ada\": \"65ΟΥΩΚΓ-ΙΚΓ\", \"publi",
+   "keys": [
+    "protocolNumber",
+    "adam",
+    "subject",
+    "issueDate",
+    "organizationId",
+    "signerIds",
+    "unitIds",
+    "decisionTypeId",
+    "thematicCategoryIds",
+    "extraFieldValues",
+    "privateData",
+    "ada",
+    "publishTimestamp",
+    "submissionTimestamp",
+    "versionId",
+    "status",
+    "url",
+    "documentUrl",
+    "documentChecksum",
+    "attachments",
+    "warnings",
+    "correctedVersionId"
+   ]
   }
  ],
  "notices": [
+  {
+   "id": "kimdis:notice:26PROC020303229",
+   "source": "ΚΗΜΔΗΣ",
+   "title": "ΠΡΟΣΚΛΗΣΗ ΥΠΟΒΟΛΗΣ ΠΡΟΣΦΟΡΑΣ ΓΙΑ ΠΡΟΜΗΘΕΙΑ ΠΑΝΕΛ ΦΩΤΟΒΟΛΤΑΙΚΩΝ",
+   "org": "ΔΗΜΟΣ ΑΜΑΡΟΥΣΙΟΥ",
+   "date": "2026-11-27",
+   "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml",
+   "ref": "26PROC020303229",
+   "matched": [
+    "φωτοβολταϊκ*"
+   ],
+   "first_seen": "2026-11-28T12:25:25+00:00"
+  },
   {
    "id": "kimdis:notice:26PROC020293739",
    "source": "ΚΗΜΔΗΣ",
